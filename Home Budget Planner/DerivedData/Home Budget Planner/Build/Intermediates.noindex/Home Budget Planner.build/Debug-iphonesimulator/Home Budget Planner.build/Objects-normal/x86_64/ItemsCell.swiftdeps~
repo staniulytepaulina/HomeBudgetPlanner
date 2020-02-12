@@ -1,0 +1,1027 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ItemsCell"
+provides-nominal:
+- "19Home_Budget_Planner9ItemsCellC"
+provides-member:
+- ["19Home_Budget_Planner9ItemsCellC", ""]
+provides-dynamic-lookup:
+- "addImageButton"
+- "awakeFromNib"
+- "itemImage"
+- "itemLabel"
+- "numberOfComponents"
+- "pickImage"
+- "picker"
+- "pickerView"
+- "setSelected"
+depends-top-level:
+- "AssignmentPrecedence"
+- "Bool"
+- !private "FloatLiteralType"
+- "ImagePickerDelegate"
+- "Int"
+- !private "IntegerLiteralType"
+- "ItemsCell"
+- "NSAttributedString"
+- "String"
+- !private "StringLiteralType"
+- "UIButton"
+- !private "UIColor"
+- !private "UIFont"
+- "UIImage"
+- "UIImageView"
+- "UILabel"
+- "UIPickerView"
+- "UIPickerViewDataSource"
+- "UIPickerViewDelegate"
+- "UITableViewCell"
+- !private "UnicodeScalarType"
+depends-member:
+- !private ["Sa", "count"]
+- ["Sa", "init"]
+- !private ["Sa", "subscript"]
+- !private ["SK", "count"]
+- ["SK", "init"]
+- !private ["SK", "subscript"]
+- !private ["So7CALayerC", "cornerRadius"]
+- !private ["So15CALayerDelegateP", "NSAttributedString"]
+- ["So15CALayerDelegateP", "String"]
+- !private ["So15CALayerDelegateP", "UIColor"]
+- !private ["So15CALayerDelegateP", "UIFont"]
+- ["So15CALayerDelegateP", ""]
+- !private ["So15CALayerDelegateP", "addImageButton"]
+- !private ["So15CALayerDelegateP", "awakeFromNib"]
+- !private ["So15CALayerDelegateP", "dataSource"]
+- !private ["So15CALayerDelegateP", "delegate"]
+- !private ["So15CALayerDelegateP", "init"]
+- !private ["So15CALayerDelegateP", "itemImage"]
+- !private ["So15CALayerDelegateP", "layer"]
+- ["So15CALayerDelegateP", "numberOfComponents"]
+- ["So15CALayerDelegateP", "numberOfComponentsInPickerView"]
+- !private ["So15CALayerDelegateP", "onImageSelect"]
+- !private ["So15CALayerDelegateP", "picker"]
+- !private ["So15CALayerDelegateP", "pickerData"]
+- ["So15CALayerDelegateP", "pickerView"]
+- !private ["So15CALayerDelegateP", "setSelected"]
+- !private ["So13CAMediaTimingP", "cornerRadius"]
+- !private ["s7CVarArgP", "NSAttributedString"]
+- ["s7CVarArgP", "String"]
+- !private ["s7CVarArgP", "UIColor"]
+- !private ["s7CVarArgP", "UIFont"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "addImageButton"]
+- !private ["s7CVarArgP", "awakeFromNib"]
+- !private ["s7CVarArgP", "cornerRadius"]
+- !private ["s7CVarArgP", "count"]
+- !private ["s7CVarArgP", "dataSource"]
+- !private ["s7CVarArgP", "delegate"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "itemImage"]
+- !private ["s7CVarArgP", "layer"]
+- ["s7CVarArgP", "numberOfComponents"]
+- ["s7CVarArgP", "numberOfComponentsInPickerView"]
+- !private ["s7CVarArgP", "onImageSelect"]
+- !private ["s7CVarArgP", "picker"]
+- !private ["s7CVarArgP", "pickerData"]
+- ["s7CVarArgP", "pickerView"]
+- !private ["s7CVarArgP", "setSelected"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["s7CVarArgP", "white"]
+- !private ["Sl", "count"]
+- ["Sl", "init"]
+- !private ["Sl", "subscript"]
+- !private ["10Foundation15ContiguousBytesP", "count"]
+- ["10Foundation15ContiguousBytesP", "init"]
+- !private ["10Foundation15ContiguousBytesP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "NSAttributedString"]
+- ["s28CustomDebugStringConvertibleP", "String"]
+- !private ["s28CustomDebugStringConvertibleP", "UIColor"]
+- !private ["s28CustomDebugStringConvertibleP", "UIFont"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "addImageButton"]
+- !private ["s28CustomDebugStringConvertibleP", "awakeFromNib"]
+- !private ["s28CustomDebugStringConvertibleP", "cornerRadius"]
+- !private ["s28CustomDebugStringConvertibleP", "count"]
+- !private ["s28CustomDebugStringConvertibleP", "dataSource"]
+- !private ["s28CustomDebugStringConvertibleP", "delegate"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "itemImage"]
+- !private ["s28CustomDebugStringConvertibleP", "layer"]
+- ["s28CustomDebugStringConvertibleP", "numberOfComponents"]
+- ["s28CustomDebugStringConvertibleP", "numberOfComponentsInPickerView"]
+- !private ["s28CustomDebugStringConvertibleP", "onImageSelect"]
+- !private ["s28CustomDebugStringConvertibleP", "picker"]
+- !private ["s28CustomDebugStringConvertibleP", "pickerData"]
+- ["s28CustomDebugStringConvertibleP", "pickerView"]
+- !private ["s28CustomDebugStringConvertibleP", "setSelected"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "white"]
+- !private ["10RealmSwift26CustomObjectiveCBridgeableP", "dataSource"]
+- !private ["10RealmSwift26CustomObjectiveCBridgeableP", "delegate"]
+- !private ["10RealmSwift26CustomObjectiveCBridgeableP", "layer"]
+- !private ["s17CustomReflectableP", "count"]
+- !private ["s17CustomReflectableP", "dataSource"]
+- !private ["s17CustomReflectableP", "delegate"]
+- ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "layer"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "NSAttributedString"]
+- ["s23CustomStringConvertibleP", "String"]
+- !private ["s23CustomStringConvertibleP", "UIColor"]
+- !private ["s23CustomStringConvertibleP", "UIFont"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "addImageButton"]
+- !private ["s23CustomStringConvertibleP", "awakeFromNib"]
+- !private ["s23CustomStringConvertibleP", "cornerRadius"]
+- !private ["s23CustomStringConvertibleP", "count"]
+- !private ["s23CustomStringConvertibleP", "dataSource"]
+- !private ["s23CustomStringConvertibleP", "delegate"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "itemImage"]
+- !private ["s23CustomStringConvertibleP", "layer"]
+- ["s23CustomStringConvertibleP", "numberOfComponents"]
+- ["s23CustomStringConvertibleP", "numberOfComponentsInPickerView"]
+- !private ["s23CustomStringConvertibleP", "onImageSelect"]
+- !private ["s23CustomStringConvertibleP", "picker"]
+- !private ["s23CustomStringConvertibleP", "pickerData"]
+- ["s23CustomStringConvertibleP", "pickerView"]
+- !private ["s23CustomStringConvertibleP", "setSelected"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "white"]
+- !private ["10Foundation12DataProtocolP", "count"]
+- ["10Foundation12DataProtocolP", "init"]
+- !private ["10Foundation12DataProtocolP", "subscript"]
+- !private ["Se", "count"]
+- !private ["Se", "dataSource"]
+- !private ["Se", "delegate"]
+- ["Se", "init"]
+- !private ["Se", "layer"]
+- !private ["Se", "subscript"]
+- !private ["SE", "count"]
+- !private ["SE", "dataSource"]
+- !private ["SE", "delegate"]
+- ["SE", "init"]
+- !private ["SE", "layer"]
+- !private ["SE", "subscript"]
+- !private ["SQ", "NSAttributedString"]
+- ["SQ", "String"]
+- !private ["SQ", "UIColor"]
+- !private ["SQ", "UIFont"]
+- ["SQ", ""]
+- !private ["SQ", "addImageButton"]
+- !private ["SQ", "awakeFromNib"]
+- !private ["SQ", "cornerRadius"]
+- !private ["SQ", "count"]
+- !private ["SQ", "dataSource"]
+- !private ["SQ", "delegate"]
+- !private ["SQ", "font"]
+- !private ["SQ", "foregroundColor"]
+- ["SQ", "init"]
+- !private ["SQ", "itemImage"]
+- !private ["SQ", "layer"]
+- ["SQ", "numberOfComponents"]
+- ["SQ", "numberOfComponentsInPickerView"]
+- !private ["SQ", "onImageSelect"]
+- !private ["SQ", "picker"]
+- !private ["SQ", "pickerData"]
+- ["SQ", "pickerView"]
+- !private ["SQ", "setSelected"]
+- !private ["SQ", "subscript"]
+- !private ["SQ", "white"]
+- !private ["s25ExpressibleByArrayLiteralP", "count"]
+- ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s25ExpressibleByArrayLiteralP", "subscript"]
+- !private ["s23ExpressibleByNilLiteralP", "dataSource"]
+- !private ["s23ExpressibleByNilLiteralP", "delegate"]
+- !private ["s23ExpressibleByNilLiteralP", "layer"]
+- !private ["SH", "NSAttributedString"]
+- ["SH", "String"]
+- !private ["SH", "UIColor"]
+- !private ["SH", "UIFont"]
+- ["SH", ""]
+- !private ["SH", "addImageButton"]
+- !private ["SH", "awakeFromNib"]
+- !private ["SH", "cornerRadius"]
+- !private ["SH", "count"]
+- !private ["SH", "dataSource"]
+- !private ["SH", "delegate"]
+- !private ["SH", "font"]
+- !private ["SH", "foregroundColor"]
+- ["SH", "init"]
+- !private ["SH", "itemImage"]
+- !private ["SH", "layer"]
+- ["SH", "numberOfComponents"]
+- ["SH", "numberOfComponentsInPickerView"]
+- !private ["SH", "onImageSelect"]
+- !private ["SH", "picker"]
+- !private ["SH", "pickerData"]
+- ["SH", "pickerView"]
+- !private ["SH", "setSelected"]
+- !private ["SH", "subscript"]
+- !private ["SH", "white"]
+- !private ["19Home_Budget_Planner19ImagePickerDelegateP", "pickImage"]
+- ["19Home_Budget_Planner9ItemsCellC", "Bool"]
+- ["19Home_Budget_Planner9ItemsCellC", "ImagePickerDelegate"]
+- ["19Home_Budget_Planner9ItemsCellC", "Int"]
+- ["19Home_Budget_Planner9ItemsCellC", "NSAttributedString"]
+- ["19Home_Budget_Planner9ItemsCellC", "String"]
+- ["19Home_Budget_Planner9ItemsCellC", "UIButton"]
+- !private ["19Home_Budget_Planner9ItemsCellC", "UIColor"]
+- !private ["19Home_Budget_Planner9ItemsCellC", "UIFont"]
+- ["19Home_Budget_Planner9ItemsCellC", "UIImage"]
+- ["19Home_Budget_Planner9ItemsCellC", "UIImageView"]
+- ["19Home_Budget_Planner9ItemsCellC", "UILabel"]
+- ["19Home_Budget_Planner9ItemsCellC", "UIPickerView"]
+- ["19Home_Budget_Planner9ItemsCellC", "addImageButton"]
+- ["19Home_Budget_Planner9ItemsCellC", "awakeFromNib"]
+- ["19Home_Budget_Planner9ItemsCellC", "deinit"]
+- ["19Home_Budget_Planner9ItemsCellC", "delegate"]
+- ["19Home_Budget_Planner9ItemsCellC", "init"]
+- ["19Home_Budget_Planner9ItemsCellC", "itemImage"]
+- ["19Home_Budget_Planner9ItemsCellC", "itemLabel"]
+- ["19Home_Budget_Planner9ItemsCellC", "numberOfComponents"]
+- ["19Home_Budget_Planner9ItemsCellC", "numberOfComponentsInPickerView"]
+- ["19Home_Budget_Planner9ItemsCellC", "onImageSelect"]
+- ["19Home_Budget_Planner9ItemsCellC", "pickImage"]
+- ["19Home_Budget_Planner9ItemsCellC", "picker"]
+- ["19Home_Budget_Planner9ItemsCellC", "pickerData"]
+- ["19Home_Budget_Planner9ItemsCellC", "pickerView"]
+- ["19Home_Budget_Planner9ItemsCellC", "setSelected"]
+- !private ["So21NSAttributedStringKeya", "font"]
+- !private ["So21NSAttributedStringKeya", "foregroundColor"]
+- !private ["SM", "count"]
+- ["SM", "init"]
+- !private ["SM", "subscript"]
+- !private ["10Foundation19MutableDataProtocolP", "count"]
+- ["10Foundation19MutableDataProtocolP", "init"]
+- !private ["10Foundation19MutableDataProtocolP", "subscript"]
+- !private ["So18NSAttributedStringC", "init"]
+- !private ["So8NSCodingP", "NSAttributedString"]
+- ["So8NSCodingP", "String"]
+- !private ["So8NSCodingP", "UIColor"]
+- !private ["So8NSCodingP", "UIFont"]
+- ["So8NSCodingP", ""]
+- !private ["So8NSCodingP", "addImageButton"]
+- !private ["So8NSCodingP", "awakeFromNib"]
+- !private ["So8NSCodingP", "cornerRadius"]
+- !private ["So8NSCodingP", "dataSource"]
+- !private ["So8NSCodingP", "delegate"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "itemImage"]
+- !private ["So8NSCodingP", "layer"]
+- ["So8NSCodingP", "numberOfComponents"]
+- ["So8NSCodingP", "numberOfComponentsInPickerView"]
+- !private ["So8NSCodingP", "onImageSelect"]
+- !private ["So8NSCodingP", "picker"]
+- !private ["So8NSCodingP", "pickerData"]
+- ["So8NSCodingP", "pickerView"]
+- !private ["So8NSCodingP", "setSelected"]
+- !private ["So8NSCodingP", "white"]
+- !private ["So9NSCopyingP", "init"]
+- !private ["So9NSCopyingP", "white"]
+- !private ["So21NSItemProviderReadingP", "init"]
+- !private ["So21NSItemProviderReadingP", "white"]
+- !private ["So21NSItemProviderWritingP", "init"]
+- !private ["So21NSItemProviderWritingP", "white"]
+- !private ["So16NSMutableCopyingP", "init"]
+- ["So8NSObjectC", "Bool"]
+- ["So8NSObjectC", "ImagePickerDelegate"]
+- ["So8NSObjectC", "Int"]
+- ["So8NSObjectC", "NSAttributedString"]
+- ["So8NSObjectC", "String"]
+- ["So8NSObjectC", "UIButton"]
+- !private ["So8NSObjectC", "UIColor"]
+- !private ["So8NSObjectC", "UIFont"]
+- ["So8NSObjectC", "UIImage"]
+- ["So8NSObjectC", "UIImageView"]
+- ["So8NSObjectC", "UILabel"]
+- ["So8NSObjectC", "UIPickerView"]
+- ["So8NSObjectC", "addImageButton"]
+- ["So8NSObjectC", "awakeFromNib"]
+- !private ["So8NSObjectC", "cornerRadius"]
+- !private ["So8NSObjectC", "dataSource"]
+- ["So8NSObjectC", "delegate"]
+- ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "itemImage"]
+- ["So8NSObjectC", "itemLabel"]
+- !private ["So8NSObjectC", "layer"]
+- ["So8NSObjectC", "numberOfComponents"]
+- ["So8NSObjectC", "numberOfComponentsInPickerView"]
+- ["So8NSObjectC", "onImageSelect"]
+- ["So8NSObjectC", "pickImage"]
+- ["So8NSObjectC", "picker"]
+- ["So8NSObjectC", "pickerData"]
+- ["So8NSObjectC", "pickerView"]
+- ["So8NSObjectC", "setSelected"]
+- !private ["So8NSObjectC", "white"]
+- !private ["So8NSObjectP", "NSAttributedString"]
+- ["So8NSObjectP", "String"]
+- !private ["So8NSObjectP", "UIColor"]
+- !private ["So8NSObjectP", "UIFont"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "addImageButton"]
+- !private ["So8NSObjectP", "awakeFromNib"]
+- !private ["So8NSObjectP", "cornerRadius"]
+- !private ["So8NSObjectP", "dataSource"]
+- !private ["So8NSObjectP", "delegate"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "itemImage"]
+- !private ["So8NSObjectP", "layer"]
+- ["So8NSObjectP", "numberOfComponents"]
+- ["So8NSObjectP", "numberOfComponentsInPickerView"]
+- !private ["So8NSObjectP", "onImageSelect"]
+- !private ["So8NSObjectP", "picker"]
+- !private ["So8NSObjectP", "pickerData"]
+- ["So8NSObjectP", "pickerView"]
+- !private ["So8NSObjectP", "setSelected"]
+- !private ["So8NSObjectP", "white"]
+- !private ["So14NSSecureCodingP", "cornerRadius"]
+- !private ["So14NSSecureCodingP", "init"]
+- !private ["So14NSSecureCodingP", "white"]
+- !private ["Sq", "dataSource"]
+- !private ["Sq", "delegate"]
+- !private ["Sq", "layer"]
+- !private ["10RealmSwift16OptionalProtocolP", "dataSource"]
+- !private ["10RealmSwift16OptionalProtocolP", "delegate"]
+- !private ["10RealmSwift16OptionalProtocolP", "layer"]
+- !private ["Sk", "count"]
+- ["Sk", "init"]
+- !private ["Sk", "subscript"]
+- !private ["Sm", "count"]
+- ["Sm", "init"]
+- !private ["Sm", "subscript"]
+- !private ["SY", "font"]
+- !private ["SY", "foregroundColor"]
+- !private ["10RealmSwift0A15CollectionValueP", "dataSource"]
+- !private ["10RealmSwift0A15CollectionValueP", "delegate"]
+- !private ["10RealmSwift0A15CollectionValueP", "layer"]
+- !private ["ST", "count"]
+- ["ST", "init"]
+- !private ["ST", "subscript"]
+- !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "layer"]
+- !private ["So29UIAccessibilityIdentificationP", "NSAttributedString"]
+- ["So29UIAccessibilityIdentificationP", "String"]
+- !private ["So29UIAccessibilityIdentificationP", "UIColor"]
+- !private ["So29UIAccessibilityIdentificationP", "UIFont"]
+- ["So29UIAccessibilityIdentificationP", ""]
+- !private ["So29UIAccessibilityIdentificationP", "addImageButton"]
+- !private ["So29UIAccessibilityIdentificationP", "awakeFromNib"]
+- !private ["So29UIAccessibilityIdentificationP", "dataSource"]
+- !private ["So29UIAccessibilityIdentificationP", "delegate"]
+- !private ["So29UIAccessibilityIdentificationP", "init"]
+- !private ["So29UIAccessibilityIdentificationP", "itemImage"]
+- !private ["So29UIAccessibilityIdentificationP", "layer"]
+- ["So29UIAccessibilityIdentificationP", "numberOfComponents"]
+- ["So29UIAccessibilityIdentificationP", "numberOfComponentsInPickerView"]
+- !private ["So29UIAccessibilityIdentificationP", "onImageSelect"]
+- !private ["So29UIAccessibilityIdentificationP", "picker"]
+- !private ["So29UIAccessibilityIdentificationP", "pickerData"]
+- ["So29UIAccessibilityIdentificationP", "pickerView"]
+- !private ["So29UIAccessibilityIdentificationP", "setSelected"]
+- !private ["So12UIAppearanceP", "NSAttributedString"]
+- ["So12UIAppearanceP", "String"]
+- !private ["So12UIAppearanceP", "UIColor"]
+- !private ["So12UIAppearanceP", "UIFont"]
+- ["So12UIAppearanceP", ""]
+- !private ["So12UIAppearanceP", "addImageButton"]
+- !private ["So12UIAppearanceP", "awakeFromNib"]
+- !private ["So12UIAppearanceP", "dataSource"]
+- !private ["So12UIAppearanceP", "delegate"]
+- !private ["So12UIAppearanceP", "init"]
+- !private ["So12UIAppearanceP", "itemImage"]
+- !private ["So12UIAppearanceP", "layer"]
+- ["So12UIAppearanceP", "numberOfComponents"]
+- ["So12UIAppearanceP", "numberOfComponentsInPickerView"]
+- !private ["So12UIAppearanceP", "onImageSelect"]
+- !private ["So12UIAppearanceP", "picker"]
+- !private ["So12UIAppearanceP", "pickerData"]
+- ["So12UIAppearanceP", "pickerView"]
+- !private ["So12UIAppearanceP", "setSelected"]
+- !private ["So21UIAppearanceContainerP", "NSAttributedString"]
+- ["So21UIAppearanceContainerP", "String"]
+- !private ["So21UIAppearanceContainerP", "UIColor"]
+- !private ["So21UIAppearanceContainerP", "UIFont"]
+- ["So21UIAppearanceContainerP", ""]
+- !private ["So21UIAppearanceContainerP", "addImageButton"]
+- !private ["So21UIAppearanceContainerP", "awakeFromNib"]
+- !private ["So21UIAppearanceContainerP", "dataSource"]
+- !private ["So21UIAppearanceContainerP", "delegate"]
+- !private ["So21UIAppearanceContainerP", "init"]
+- !private ["So21UIAppearanceContainerP", "itemImage"]
+- !private ["So21UIAppearanceContainerP", "layer"]
+- ["So21UIAppearanceContainerP", "numberOfComponents"]
+- ["So21UIAppearanceContainerP", "numberOfComponentsInPickerView"]
+- !private ["So21UIAppearanceContainerP", "onImageSelect"]
+- !private ["So21UIAppearanceContainerP", "picker"]
+- !private ["So21UIAppearanceContainerP", "pickerData"]
+- ["So21UIAppearanceContainerP", "pickerView"]
+- !private ["So21UIAppearanceContainerP", "setSelected"]
+- !private ["So8UIButtonC", "layer"]
+- !private ["So7UIColorC", "white"]
+- !private ["So9UIControlC", "layer"]
+- !private ["So17UICoordinateSpaceP", "NSAttributedString"]
+- ["So17UICoordinateSpaceP", "String"]
+- !private ["So17UICoordinateSpaceP", "UIColor"]
+- !private ["So17UICoordinateSpaceP", "UIFont"]
+- ["So17UICoordinateSpaceP", ""]
+- !private ["So17UICoordinateSpaceP", "addImageButton"]
+- !private ["So17UICoordinateSpaceP", "awakeFromNib"]
+- !private ["So17UICoordinateSpaceP", "dataSource"]
+- !private ["So17UICoordinateSpaceP", "delegate"]
+- !private ["So17UICoordinateSpaceP", "init"]
+- !private ["So17UICoordinateSpaceP", "itemImage"]
+- !private ["So17UICoordinateSpaceP", "layer"]
+- ["So17UICoordinateSpaceP", "numberOfComponents"]
+- ["So17UICoordinateSpaceP", "numberOfComponentsInPickerView"]
+- !private ["So17UICoordinateSpaceP", "onImageSelect"]
+- !private ["So17UICoordinateSpaceP", "picker"]
+- !private ["So17UICoordinateSpaceP", "pickerData"]
+- ["So17UICoordinateSpaceP", "pickerView"]
+- !private ["So17UICoordinateSpaceP", "setSelected"]
+- !private ["So13UIDynamicItemP", "NSAttributedString"]
+- ["So13UIDynamicItemP", "String"]
+- !private ["So13UIDynamicItemP", "UIColor"]
+- !private ["So13UIDynamicItemP", "UIFont"]
+- ["So13UIDynamicItemP", ""]
+- !private ["So13UIDynamicItemP", "addImageButton"]
+- !private ["So13UIDynamicItemP", "awakeFromNib"]
+- !private ["So13UIDynamicItemP", "dataSource"]
+- !private ["So13UIDynamicItemP", "delegate"]
+- !private ["So13UIDynamicItemP", "init"]
+- !private ["So13UIDynamicItemP", "itemImage"]
+- !private ["So13UIDynamicItemP", "layer"]
+- ["So13UIDynamicItemP", "numberOfComponents"]
+- ["So13UIDynamicItemP", "numberOfComponentsInPickerView"]
+- !private ["So13UIDynamicItemP", "onImageSelect"]
+- !private ["So13UIDynamicItemP", "picker"]
+- !private ["So13UIDynamicItemP", "pickerData"]
+- ["So13UIDynamicItemP", "pickerView"]
+- !private ["So13UIDynamicItemP", "setSelected"]
+- !private ["So18UIFocusEnvironmentP", "NSAttributedString"]
+- ["So18UIFocusEnvironmentP", "String"]
+- !private ["So18UIFocusEnvironmentP", "UIColor"]
+- !private ["So18UIFocusEnvironmentP", "UIFont"]
+- ["So18UIFocusEnvironmentP", ""]
+- !private ["So18UIFocusEnvironmentP", "addImageButton"]
+- !private ["So18UIFocusEnvironmentP", "awakeFromNib"]
+- !private ["So18UIFocusEnvironmentP", "dataSource"]
+- !private ["So18UIFocusEnvironmentP", "delegate"]
+- !private ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "itemImage"]
+- !private ["So18UIFocusEnvironmentP", "layer"]
+- ["So18UIFocusEnvironmentP", "numberOfComponents"]
+- ["So18UIFocusEnvironmentP", "numberOfComponentsInPickerView"]
+- !private ["So18UIFocusEnvironmentP", "onImageSelect"]
+- !private ["So18UIFocusEnvironmentP", "picker"]
+- !private ["So18UIFocusEnvironmentP", "pickerData"]
+- ["So18UIFocusEnvironmentP", "pickerView"]
+- !private ["So18UIFocusEnvironmentP", "setSelected"]
+- !private ["So11UIFocusItemP", "NSAttributedString"]
+- ["So11UIFocusItemP", "String"]
+- !private ["So11UIFocusItemP", "UIColor"]
+- !private ["So11UIFocusItemP", "UIFont"]
+- ["So11UIFocusItemP", ""]
+- !private ["So11UIFocusItemP", "addImageButton"]
+- !private ["So11UIFocusItemP", "awakeFromNib"]
+- !private ["So11UIFocusItemP", "dataSource"]
+- !private ["So11UIFocusItemP", "delegate"]
+- !private ["So11UIFocusItemP", "init"]
+- !private ["So11UIFocusItemP", "itemImage"]
+- !private ["So11UIFocusItemP", "layer"]
+- ["So11UIFocusItemP", "numberOfComponents"]
+- ["So11UIFocusItemP", "numberOfComponentsInPickerView"]
+- !private ["So11UIFocusItemP", "onImageSelect"]
+- !private ["So11UIFocusItemP", "picker"]
+- !private ["So11UIFocusItemP", "pickerData"]
+- ["So11UIFocusItemP", "pickerView"]
+- !private ["So11UIFocusItemP", "setSelected"]
+- !private ["So20UIFocusItemContainerP", "NSAttributedString"]
+- ["So20UIFocusItemContainerP", "String"]
+- !private ["So20UIFocusItemContainerP", "UIColor"]
+- !private ["So20UIFocusItemContainerP", "UIFont"]
+- ["So20UIFocusItemContainerP", ""]
+- !private ["So20UIFocusItemContainerP", "addImageButton"]
+- !private ["So20UIFocusItemContainerP", "awakeFromNib"]
+- !private ["So20UIFocusItemContainerP", "dataSource"]
+- !private ["So20UIFocusItemContainerP", "delegate"]
+- !private ["So20UIFocusItemContainerP", "init"]
+- !private ["So20UIFocusItemContainerP", "itemImage"]
+- !private ["So20UIFocusItemContainerP", "layer"]
+- ["So20UIFocusItemContainerP", "numberOfComponents"]
+- ["So20UIFocusItemContainerP", "numberOfComponentsInPickerView"]
+- !private ["So20UIFocusItemContainerP", "onImageSelect"]
+- !private ["So20UIFocusItemContainerP", "picker"]
+- !private ["So20UIFocusItemContainerP", "pickerData"]
+- ["So20UIFocusItemContainerP", "pickerView"]
+- !private ["So20UIFocusItemContainerP", "setSelected"]
+- !private ["So6UIFontC", "init"]
+- !private ["So27UIGestureRecognizerDelegateP", "NSAttributedString"]
+- ["So27UIGestureRecognizerDelegateP", "String"]
+- !private ["So27UIGestureRecognizerDelegateP", "UIColor"]
+- !private ["So27UIGestureRecognizerDelegateP", "UIFont"]
+- ["So27UIGestureRecognizerDelegateP", ""]
+- !private ["So27UIGestureRecognizerDelegateP", "addImageButton"]
+- !private ["So27UIGestureRecognizerDelegateP", "awakeFromNib"]
+- !private ["So27UIGestureRecognizerDelegateP", "delegate"]
+- !private ["So27UIGestureRecognizerDelegateP", "init"]
+- !private ["So27UIGestureRecognizerDelegateP", "itemImage"]
+- ["So27UIGestureRecognizerDelegateP", "numberOfComponents"]
+- ["So27UIGestureRecognizerDelegateP", "numberOfComponentsInPickerView"]
+- !private ["So27UIGestureRecognizerDelegateP", "onImageSelect"]
+- !private ["So27UIGestureRecognizerDelegateP", "picker"]
+- !private ["So27UIGestureRecognizerDelegateP", "pickerData"]
+- ["So27UIGestureRecognizerDelegateP", "pickerView"]
+- !private ["So27UIGestureRecognizerDelegateP", "setSelected"]
+- !private ["So11UIImageViewC", "layer"]
+- !private ["So24UILargeContentViewerItemP", "NSAttributedString"]
+- ["So24UILargeContentViewerItemP", "String"]
+- !private ["So24UILargeContentViewerItemP", "UIColor"]
+- !private ["So24UILargeContentViewerItemP", "UIFont"]
+- ["So24UILargeContentViewerItemP", ""]
+- !private ["So24UILargeContentViewerItemP", "addImageButton"]
+- !private ["So24UILargeContentViewerItemP", "awakeFromNib"]
+- !private ["So24UILargeContentViewerItemP", "dataSource"]
+- !private ["So24UILargeContentViewerItemP", "delegate"]
+- !private ["So24UILargeContentViewerItemP", "init"]
+- !private ["So24UILargeContentViewerItemP", "itemImage"]
+- !private ["So24UILargeContentViewerItemP", "layer"]
+- ["So24UILargeContentViewerItemP", "numberOfComponents"]
+- ["So24UILargeContentViewerItemP", "numberOfComponentsInPickerView"]
+- !private ["So24UILargeContentViewerItemP", "onImageSelect"]
+- !private ["So24UILargeContentViewerItemP", "picker"]
+- !private ["So24UILargeContentViewerItemP", "pickerData"]
+- ["So24UILargeContentViewerItemP", "pickerView"]
+- !private ["So24UILargeContentViewerItemP", "setSelected"]
+- !private ["So30UIPasteConfigurationSupportingP", "NSAttributedString"]
+- ["So30UIPasteConfigurationSupportingP", "String"]
+- !private ["So30UIPasteConfigurationSupportingP", "UIColor"]
+- !private ["So30UIPasteConfigurationSupportingP", "UIFont"]
+- ["So30UIPasteConfigurationSupportingP", ""]
+- !private ["So30UIPasteConfigurationSupportingP", "addImageButton"]
+- !private ["So30UIPasteConfigurationSupportingP", "awakeFromNib"]
+- !private ["So30UIPasteConfigurationSupportingP", "dataSource"]
+- !private ["So30UIPasteConfigurationSupportingP", "delegate"]
+- !private ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "itemImage"]
+- !private ["So30UIPasteConfigurationSupportingP", "layer"]
+- ["So30UIPasteConfigurationSupportingP", "numberOfComponents"]
+- ["So30UIPasteConfigurationSupportingP", "numberOfComponentsInPickerView"]
+- !private ["So30UIPasteConfigurationSupportingP", "onImageSelect"]
+- !private ["So30UIPasteConfigurationSupportingP", "picker"]
+- !private ["So30UIPasteConfigurationSupportingP", "pickerData"]
+- ["So30UIPasteConfigurationSupportingP", "pickerView"]
+- !private ["So30UIPasteConfigurationSupportingP", "setSelected"]
+- !private ["So12UIPickerViewC", "dataSource"]
+- !private ["So12UIPickerViewC", "delegate"]
+- !private ["So22UIPickerViewDataSourceP", "NSAttributedString"]
+- ["So22UIPickerViewDataSourceP", "String"]
+- !private ["So22UIPickerViewDataSourceP", "UIColor"]
+- !private ["So22UIPickerViewDataSourceP", "UIFont"]
+- ["So22UIPickerViewDataSourceP", ""]
+- !private ["So22UIPickerViewDataSourceP", "addImageButton"]
+- !private ["So22UIPickerViewDataSourceP", "delegate"]
+- !private ["So22UIPickerViewDataSourceP", "itemImage"]
+- ["So22UIPickerViewDataSourceP", "numberOfComponents"]
+- ["So22UIPickerViewDataSourceP", "numberOfComponentsInPickerView"]
+- !private ["So22UIPickerViewDataSourceP", "onImageSelect"]
+- !private ["So22UIPickerViewDataSourceP", "picker"]
+- !private ["So22UIPickerViewDataSourceP", "pickerData"]
+- ["So22UIPickerViewDataSourceP", "pickerView"]
+- !private ["So20UIPickerViewDelegateP", "NSAttributedString"]
+- ["So20UIPickerViewDelegateP", "String"]
+- !private ["So20UIPickerViewDelegateP", "UIColor"]
+- !private ["So20UIPickerViewDelegateP", "UIFont"]
+- ["So20UIPickerViewDelegateP", ""]
+- !private ["So20UIPickerViewDelegateP", "addImageButton"]
+- !private ["So20UIPickerViewDelegateP", "delegate"]
+- !private ["So20UIPickerViewDelegateP", "itemImage"]
+- ["So20UIPickerViewDelegateP", "numberOfComponents"]
+- ["So20UIPickerViewDelegateP", "numberOfComponentsInPickerView"]
+- !private ["So20UIPickerViewDelegateP", "onImageSelect"]
+- !private ["So20UIPickerViewDelegateP", "picker"]
+- !private ["So20UIPickerViewDelegateP", "pickerData"]
+- ["So20UIPickerViewDelegateP", "pickerView"]
+- ["So11UIResponderC", "Bool"]
+- ["So11UIResponderC", "ImagePickerDelegate"]
+- ["So11UIResponderC", "Int"]
+- ["So11UIResponderC", "NSAttributedString"]
+- ["So11UIResponderC", "String"]
+- ["So11UIResponderC", "UIButton"]
+- !private ["So11UIResponderC", "UIColor"]
+- !private ["So11UIResponderC", "UIFont"]
+- ["So11UIResponderC", "UIImage"]
+- ["So11UIResponderC", "UIImageView"]
+- ["So11UIResponderC", "UILabel"]
+- ["So11UIResponderC", "UIPickerView"]
+- ["So11UIResponderC", "addImageButton"]
+- ["So11UIResponderC", "awakeFromNib"]
+- !private ["So11UIResponderC", "dataSource"]
+- ["So11UIResponderC", "delegate"]
+- ["So11UIResponderC", "init"]
+- ["So11UIResponderC", "itemImage"]
+- ["So11UIResponderC", "itemLabel"]
+- !private ["So11UIResponderC", "layer"]
+- ["So11UIResponderC", "numberOfComponents"]
+- ["So11UIResponderC", "numberOfComponentsInPickerView"]
+- ["So11UIResponderC", "onImageSelect"]
+- ["So11UIResponderC", "pickImage"]
+- ["So11UIResponderC", "picker"]
+- ["So11UIResponderC", "pickerData"]
+- ["So11UIResponderC", "pickerView"]
+- ["So11UIResponderC", "setSelected"]
+- !private ["So30UIResponderStandardEditActionsP", "NSAttributedString"]
+- ["So30UIResponderStandardEditActionsP", "String"]
+- !private ["So30UIResponderStandardEditActionsP", "UIColor"]
+- !private ["So30UIResponderStandardEditActionsP", "UIFont"]
+- ["So30UIResponderStandardEditActionsP", ""]
+- !private ["So30UIResponderStandardEditActionsP", "addImageButton"]
+- !private ["So30UIResponderStandardEditActionsP", "awakeFromNib"]
+- !private ["So30UIResponderStandardEditActionsP", "dataSource"]
+- !private ["So30UIResponderStandardEditActionsP", "delegate"]
+- !private ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "itemImage"]
+- !private ["So30UIResponderStandardEditActionsP", "layer"]
+- ["So30UIResponderStandardEditActionsP", "numberOfComponents"]
+- ["So30UIResponderStandardEditActionsP", "numberOfComponentsInPickerView"]
+- !private ["So30UIResponderStandardEditActionsP", "onImageSelect"]
+- !private ["So30UIResponderStandardEditActionsP", "picker"]
+- !private ["So30UIResponderStandardEditActionsP", "pickerData"]
+- ["So30UIResponderStandardEditActionsP", "pickerView"]
+- !private ["So30UIResponderStandardEditActionsP", "setSelected"]
+- !private ["So35UISpringLoadedInteractionSupportingP", "layer"]
+- ["So15UITableViewCellC", "Bool"]
+- ["So15UITableViewCellC", "ImagePickerDelegate"]
+- ["So15UITableViewCellC", "Int"]
+- ["So15UITableViewCellC", "NSAttributedString"]
+- ["So15UITableViewCellC", "String"]
+- ["So15UITableViewCellC", "UIButton"]
+- !private ["So15UITableViewCellC", "UIColor"]
+- !private ["So15UITableViewCellC", "UIFont"]
+- ["So15UITableViewCellC", "UIImage"]
+- ["So15UITableViewCellC", "UIImageView"]
+- ["So15UITableViewCellC", "UILabel"]
+- ["So15UITableViewCellC", "UIPickerView"]
+- ["So15UITableViewCellC", ""]
+- ["So15UITableViewCellC", "addImageButton"]
+- ["So15UITableViewCellC", "awakeFromNib"]
+- ["So15UITableViewCellC", "delegate"]
+- ["So15UITableViewCellC", "init"]
+- ["So15UITableViewCellC", "itemImage"]
+- ["So15UITableViewCellC", "itemLabel"]
+- ["So15UITableViewCellC", "numberOfComponents"]
+- ["So15UITableViewCellC", "numberOfComponentsInPickerView"]
+- ["So15UITableViewCellC", "onImageSelect"]
+- ["So15UITableViewCellC", "pickImage"]
+- ["So15UITableViewCellC", "picker"]
+- ["So15UITableViewCellC", "pickerData"]
+- ["So15UITableViewCellC", "pickerView"]
+- ["So15UITableViewCellC", "setSelected"]
+- !private ["So18UITraitEnvironmentP", "NSAttributedString"]
+- ["So18UITraitEnvironmentP", "String"]
+- !private ["So18UITraitEnvironmentP", "UIColor"]
+- !private ["So18UITraitEnvironmentP", "UIFont"]
+- ["So18UITraitEnvironmentP", ""]
+- !private ["So18UITraitEnvironmentP", "addImageButton"]
+- !private ["So18UITraitEnvironmentP", "awakeFromNib"]
+- !private ["So18UITraitEnvironmentP", "dataSource"]
+- !private ["So18UITraitEnvironmentP", "delegate"]
+- !private ["So18UITraitEnvironmentP", "init"]
+- !private ["So18UITraitEnvironmentP", "itemImage"]
+- !private ["So18UITraitEnvironmentP", "layer"]
+- ["So18UITraitEnvironmentP", "numberOfComponents"]
+- ["So18UITraitEnvironmentP", "numberOfComponentsInPickerView"]
+- !private ["So18UITraitEnvironmentP", "onImageSelect"]
+- !private ["So18UITraitEnvironmentP", "picker"]
+- !private ["So18UITraitEnvironmentP", "pickerData"]
+- ["So18UITraitEnvironmentP", "pickerView"]
+- !private ["So18UITraitEnvironmentP", "setSelected"]
+- !private ["So23UIUserActivityRestoringP", "NSAttributedString"]
+- ["So23UIUserActivityRestoringP", "String"]
+- !private ["So23UIUserActivityRestoringP", "UIColor"]
+- !private ["So23UIUserActivityRestoringP", "UIFont"]
+- ["So23UIUserActivityRestoringP", ""]
+- !private ["So23UIUserActivityRestoringP", "addImageButton"]
+- !private ["So23UIUserActivityRestoringP", "awakeFromNib"]
+- !private ["So23UIUserActivityRestoringP", "dataSource"]
+- !private ["So23UIUserActivityRestoringP", "delegate"]
+- !private ["So23UIUserActivityRestoringP", "init"]
+- !private ["So23UIUserActivityRestoringP", "itemImage"]
+- !private ["So23UIUserActivityRestoringP", "layer"]
+- ["So23UIUserActivityRestoringP", "numberOfComponents"]
+- ["So23UIUserActivityRestoringP", "numberOfComponentsInPickerView"]
+- !private ["So23UIUserActivityRestoringP", "onImageSelect"]
+- !private ["So23UIUserActivityRestoringP", "picker"]
+- !private ["So23UIUserActivityRestoringP", "pickerData"]
+- ["So23UIUserActivityRestoringP", "pickerView"]
+- !private ["So23UIUserActivityRestoringP", "setSelected"]
+- ["So6UIViewC", "Bool"]
+- ["So6UIViewC", "ImagePickerDelegate"]
+- ["So6UIViewC", "Int"]
+- ["So6UIViewC", "NSAttributedString"]
+- ["So6UIViewC", "String"]
+- ["So6UIViewC", "UIButton"]
+- !private ["So6UIViewC", "UIColor"]
+- !private ["So6UIViewC", "UIFont"]
+- ["So6UIViewC", "UIImage"]
+- ["So6UIViewC", "UIImageView"]
+- ["So6UIViewC", "UILabel"]
+- ["So6UIViewC", "UIPickerView"]
+- ["So6UIViewC", "addImageButton"]
+- ["So6UIViewC", "awakeFromNib"]
+- !private ["So6UIViewC", "dataSource"]
+- ["So6UIViewC", "delegate"]
+- ["So6UIViewC", "init"]
+- ["So6UIViewC", "itemImage"]
+- ["So6UIViewC", "itemLabel"]
+- !private ["So6UIViewC", "layer"]
+- ["So6UIViewC", "numberOfComponents"]
+- ["So6UIViewC", "numberOfComponentsInPickerView"]
+- ["So6UIViewC", "onImageSelect"]
+- ["So6UIViewC", "pickImage"]
+- ["So6UIViewC", "picker"]
+- ["So6UIViewC", "pickerData"]
+- ["So6UIViewC", "pickerView"]
+- ["So6UIViewC", "setSelected"]
+- !private ["s14_ArrayProtocolP", "count"]
+- ["s14_ArrayProtocolP", "init"]
+- !private ["s14_ArrayProtocolP", "subscript"]
+- !private ["s24_DestructorSafeContainerP", "count"]
+- ["s24_DestructorSafeContainerP", "init"]
+- !private ["s24_DestructorSafeContainerP", "subscript"]
+- !private ["s26_ExpressibleByColorLiteralP", "white"]
+- !private ["s19_HasContiguousBytesP", "count"]
+- ["s19_HasContiguousBytesP", "init"]
+- !private ["s19_HasContiguousBytesP", "subscript"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "count"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "font"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "foregroundColor"]
+- ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "NSAttributedString"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "String"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIColor"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIFont"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "addImageButton"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "awakeFromNib"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "cornerRadius"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "dataSource"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "delegate"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "itemImage"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "layer"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "numberOfComponents"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "numberOfComponentsInPickerView"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "onImageSelect"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "picker"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "pickerData"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "pickerView"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "setSelected"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "white"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "NSAttributedString"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "String"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "UIColor"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "UIFont"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", ""]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "addImageButton"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "awakeFromNib"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "cornerRadius"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "dataSource"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "delegate"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "itemImage"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "layer"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "numberOfComponents"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "numberOfComponentsInPickerView"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "onImageSelect"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "picker"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "pickerData"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "pickerView"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "setSelected"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "white"]
+- !private ["10RealmSwift20_ManagedPropertyTypeP", "dataSource"]
+- !private ["10RealmSwift20_ManagedPropertyTypeP", "delegate"]
+- !private ["10RealmSwift20_ManagedPropertyTypeP", "layer"]
+- !private ["s21_ObjectiveCBridgeableP", "count"]
+- !private ["s21_ObjectiveCBridgeableP", "dataSource"]
+- !private ["s21_ObjectiveCBridgeableP", "delegate"]
+- !private ["s21_ObjectiveCBridgeableP", "font"]
+- !private ["s21_ObjectiveCBridgeableP", "foregroundColor"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "layer"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+- !private ["s20_SwiftNewtypeWrapperP", "font"]
+- !private ["s20_SwiftNewtypeWrapperP", "foregroundColor"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "NSAttributedString"]
+- ["s38__DefaultCustomPlaygroundQuickLookableP", "String"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "UIColor"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "UIFont"]
+- ["s38__DefaultCustomPlaygroundQuickLookableP", ""]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "addImageButton"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "awakeFromNib"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "dataSource"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "delegate"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "init"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "itemImage"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "layer"]
+- ["s38__DefaultCustomPlaygroundQuickLookableP", "numberOfComponents"]
+- ["s38__DefaultCustomPlaygroundQuickLookableP", "numberOfComponentsInPickerView"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "onImageSelect"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "picker"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "pickerData"]
+- ["s38__DefaultCustomPlaygroundQuickLookableP", "pickerView"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "setSelected"]
+depends-nominal:
+- "Sa"
+- "SK"
+- !private "So7CALayerC"
+- "So15CALayerDelegateP"
+- !private "So13CAMediaTimingP"
+- "s7CVarArgP"
+- "Sl"
+- "10Foundation15ContiguousBytesP"
+- "s28CustomDebugStringConvertibleP"
+- !private "10RealmSwift26CustomObjectiveCBridgeableP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "10Foundation12DataProtocolP"
+- "Se"
+- "SE"
+- "SQ"
+- "s25ExpressibleByArrayLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
+- "SH"
+- !private "19Home_Budget_Planner19ImagePickerDelegateP"
+- "19Home_Budget_Planner9ItemsCellC"
+- !private "So21NSAttributedStringKeya"
+- "SM"
+- "10Foundation19MutableDataProtocolP"
+- !private "So18NSAttributedStringC"
+- "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So16NSMutableCopyingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "So14NSSecureCodingP"
+- !private "Sq"
+- !private "10RealmSwift16OptionalProtocolP"
+- "Sk"
+- "Sm"
+- !private "SY"
+- !private "10RealmSwift0A15CollectionValueP"
+- "ST"
+- !private "So48UIAccessibilityContentSizeCategoryImageAdjustingP"
+- "So29UIAccessibilityIdentificationP"
+- "So12UIAppearanceP"
+- "So21UIAppearanceContainerP"
+- !private "So8UIButtonC"
+- !private "So7UIColorC"
+- !private "So9UIControlC"
+- "So17UICoordinateSpaceP"
+- "So13UIDynamicItemP"
+- "So18UIFocusEnvironmentP"
+- "So11UIFocusItemP"
+- "So20UIFocusItemContainerP"
+- !private "So6UIFontC"
+- "So27UIGestureRecognizerDelegateP"
+- !private "So11UIImageViewC"
+- "So24UILargeContentViewerItemP"
+- "So30UIPasteConfigurationSupportingP"
+- !private "So12UIPickerViewC"
+- "So22UIPickerViewDataSourceP"
+- "So20UIPickerViewDelegateP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- !private "So35UISpringLoadedInteractionSupportingP"
+- "So15UITableViewCellC"
+- "So18UITraitEnvironmentP"
+- "So23UIUserActivityRestoringP"
+- "So6UIViewC"
+- "s14_ArrayProtocolP"
+- "s24_DestructorSafeContainerP"
+- !private "s26_ExpressibleByColorLiteralP"
+- "s19_HasContiguousBytesP"
+- "s35_HasCustomAnyHashableRepresentationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- !private "10RealmSwift20_ManagedPropertyTypeP"
+- "s21_ObjectiveCBridgeableP"
+- !private "s20_SwiftNewtypeWrapperP"
+- "s38__DefaultCustomPlaygroundQuickLookableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/ObjectiveC.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreImage.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/QuartzCore.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Dispatch.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Metal.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Darwin.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Foundation.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreFoundation.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreGraphics.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Swift.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/UIKit.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/SwiftOnoneSupport.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Combine.framework/Modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/Paulina/Desktop/My_Projects/Home Budget Planner/DerivedData/Home Budget Planner/Build/Products/Debug-iphonesimulator/ChameleonFramework/ChameleonFramework.framework/Modules/ChameleonFramework.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/Paulina/Desktop/My_Projects/Home Budget Planner/DerivedData/Home Budget Planner/Build/Products/Debug-iphonesimulator/RealmSwift/RealmSwift.framework/Modules/RealmSwift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/Paulina/Desktop/My_Projects/Home Budget Planner/DerivedData/Home Budget Planner/Build/Products/Debug-iphonesimulator/SwipeCellKit/SwipeCellKit.framework/Modules/SwipeCellKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/Paulina/Desktop/My_Projects/Home Budget Planner/DerivedData/Home Budget Planner/Build/Products/Debug-iphonesimulator/ChameleonFramework/ChameleonFramework.framework/Headers/Chameleon_.h"
+- "/Users/Paulina/Desktop/My_Projects/Home Budget Planner/DerivedData/Home Budget Planner/Build/Products/Debug-iphonesimulator/ChameleonFramework/ChameleonFramework.framework/Headers/ChameleonFramework-umbrella.h"
+- "/Users/Paulina/Desktop/My_Projects/Home Budget Planner/DerivedData/Home Budget Planner/Build/Products/Debug-iphonesimulator/RealmSwift/RealmSwift.framework/Headers/RealmSwift-umbrella.h"
+- "/Users/Paulina/Desktop/My_Projects/Home Budget Planner/DerivedData/Home Budget Planner/Build/Products/Debug-iphonesimulator/SwipeCellKit/SwipeCellKit.framework/Headers/SwipeCellKit-umbrella.h"
+- "/Users/Paulina/Desktop/My_Projects/Home Budget Planner/DerivedData/Home Budget Planner/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSchema.h"
+- "/Users/Paulina/Desktop/My_Projects/Home Budget Planner/DerivedData/Home Budget Planner/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMObjectSchema.h"
+- "/Users/Paulina/Desktop/My_Projects/Home Budget Planner/DerivedData/Home Budget Planner/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMObjectBase_Dynamic.h"
+- "/Users/Paulina/Desktop/My_Projects/Home Budget Planner/DerivedData/Home Budget Planner/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMRealm_Dynamic.h"
+- "/Users/Paulina/Desktop/My_Projects/Home Budget Planner/DerivedData/Home Budget Planner/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMRealm+Sync.h"
+- "/Users/Paulina/Desktop/My_Projects/Home Budget Planner/DerivedData/Home Budget Planner/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMRealmConfiguration+Sync.h"
+- "/Users/Paulina/Desktop/My_Projects/Home Budget Planner/DerivedData/Home Budget Planner/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/NSError+RLMSync.h"
+- "/Users/Paulina/Desktop/My_Projects/Home Budget Planner/DerivedData/Home Budget Planner/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMThreadSafeReference.h"
+- "/Users/Paulina/Desktop/My_Projects/Home Budget Planner/DerivedData/Home Budget Planner/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMObjectStore.h"
+- "/Users/Paulina/Desktop/My_Projects/Home Budget Planner/DerivedData/Home Budget Planner/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMOptionalBase.h"
+- "/Users/Paulina/Desktop/My_Projects/Home Budget Planner/DerivedData/Home Budget Planner/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMObjectBase.h"
+- "/Users/Paulina/Desktop/My_Projects/Home Budget Planner/DerivedData/Home Budget Planner/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMListBase.h"
+- "/Users/Paulina/Desktop/My_Projects/Home Budget Planner/DerivedData/Home Budget Planner/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMSchema_Private.h"
+- "/Users/Paulina/Desktop/My_Projects/Home Budget Planner/DerivedData/Home Budget Planner/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMObjectSchema_Private.h"
+- "/Users/Paulina/Desktop/My_Projects/Home Budget Planner/DerivedData/Home Budget Planner/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMObjectBase_Private.h"
+- "/Users/Paulina/Desktop/My_Projects/Home Budget Planner/DerivedData/Home Budget Planner/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMSyncUtil_Private.h"
+- "/Users/Paulina/Desktop/My_Projects/Home Budget Planner/DerivedData/Home Budget Planner/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMRealm_Private.h"
+- "/Users/Paulina/Desktop/My_Projects/Home Budget Planner/DerivedData/Home Budget Planner/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMSyncConfiguration_Private.h"
+- "/Users/Paulina/Desktop/My_Projects/Home Budget Planner/DerivedData/Home Budget Planner/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMRealmConfiguration_Private.h"
+- "/Users/Paulina/Desktop/My_Projects/Home Budget Planner/DerivedData/Home Budget Planner/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMCollection_Private.h"
+- "/Users/Paulina/Desktop/My_Projects/Home Budget Planner/DerivedData/Home Budget Planner/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMResults_Private.h"
+- "/Users/Paulina/Desktop/My_Projects/Home Budget Planner/DerivedData/Home Budget Planner/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMObject_Private.h"
+- "/Users/Paulina/Desktop/My_Projects/Home Budget Planner/DerivedData/Home Budget Planner/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMArray_Private.h"
+- "/Users/Paulina/Desktop/My_Projects/Home Budget Planner/DerivedData/Home Budget Planner/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMProperty_Private.h"
+- "/Users/Paulina/Desktop/My_Projects/Home Budget Planner/DerivedData/Home Budget Planner/Build/Products/Debug-iphonesimulator/ChameleonFramework/ChameleonFramework.framework/Headers/UIImage+ChameleonPrivate.h"
+- "/Users/Paulina/Desktop/My_Projects/Home Budget Planner/DerivedData/Home Budget Planner/Build/Products/Debug-iphonesimulator/ChameleonFramework/ChameleonFramework.framework/Headers/UIColor+ChameleonPrivate.h"
+- "/Users/Paulina/Desktop/My_Projects/Home Budget Planner/DerivedData/Home Budget Planner/Build/Products/Debug-iphonesimulator/ChameleonFramework/ChameleonFramework.framework/Headers/UIView+ChameleonPrivate.h"
+- "/Users/Paulina/Desktop/My_Projects/Home Budget Planner/DerivedData/Home Budget Planner/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncUtil.h"
+- "/Users/Paulina/Desktop/My_Projects/Home Budget Planner/DerivedData/Home Budget Planner/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/Realm.h"
+- "/Users/Paulina/Desktop/My_Projects/Home Budget Planner/DerivedData/Home Budget Planner/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMRealm.h"
+- "/Users/Paulina/Desktop/My_Projects/Home Budget Planner/DerivedData/Home Budget Planner/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMPlatform.h"
+- "/Users/Paulina/Desktop/My_Projects/Home Budget Planner/DerivedData/Home Budget Planner/Build/Products/Debug-iphonesimulator/ChameleonFramework/ChameleonFramework.framework/Headers/UILabel+Chameleon.h"
+- "/Users/Paulina/Desktop/My_Projects/Home Budget Planner/DerivedData/Home Budget Planner/Build/Products/Debug-iphonesimulator/ChameleonFramework/ChameleonFramework.framework/Headers/UIButton+Chameleon.h"
+- "/Users/Paulina/Desktop/My_Projects/Home Budget Planner/DerivedData/Home Budget Planner/Build/Products/Debug-iphonesimulator/ChameleonFramework/ChameleonFramework.framework/Headers/UINavigationController+Chameleon.h"
+- "/Users/Paulina/Desktop/My_Projects/Home Budget Planner/DerivedData/Home Budget Planner/Build/Products/Debug-iphonesimulator/ChameleonFramework/ChameleonFramework.framework/Headers/UIViewController+Chameleon.h"
+- "/Users/Paulina/Desktop/My_Projects/Home Budget Planner/DerivedData/Home Budget Planner/Build/Products/Debug-iphonesimulator/ChameleonFramework/ChameleonFramework.framework/Headers/UIColor+Chameleon.h"
+- "/Users/Paulina/Desktop/My_Projects/Home Budget Planner/DerivedData/Home Budget Planner/Build/Products/Debug-iphonesimulator/ChameleonFramework/ChameleonFramework.framework/Headers/NSArray+Chameleon.h"
+- "/Users/Paulina/Desktop/My_Projects/Home Budget Planner/DerivedData/Home Budget Planner/Build/Products/Debug-iphonesimulator/ChameleonFramework/ChameleonFramework.framework/Headers/Chameleon.h"
+- "/Users/Paulina/Desktop/My_Projects/Home Budget Planner/DerivedData/Home Budget Planner/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncSession.h"
+- "/Users/Paulina/Desktop/My_Projects/Home Budget Planner/DerivedData/Home Budget Planner/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncPermission.h"
+- "/Users/Paulina/Desktop/My_Projects/Home Budget Planner/DerivedData/Home Budget Planner/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMMigration.h"
+- "/Users/Paulina/Desktop/My_Projects/Home Budget Planner/DerivedData/Home Budget Planner/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncConfiguration.h"
+- "/Users/Paulina/Desktop/My_Projects/Home Budget Planner/DerivedData/Home Budget Planner/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMRealmConfiguration.h"
+- "/Users/Paulina/Desktop/My_Projects/Home Budget Planner/DerivedData/Home Budget Planner/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMCollection.h"
+- "/Users/Paulina/Desktop/My_Projects/Home Budget Planner/DerivedData/Home Budget Planner/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncSubscription.h"
+- "/Users/Paulina/Desktop/My_Projects/Home Budget Planner/DerivedData/Home Budget Planner/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncManager.h"
+- "/Users/Paulina/Desktop/My_Projects/Home Budget Planner/DerivedData/Home Budget Planner/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncUser.h"
+- "/Users/Paulina/Desktop/My_Projects/Home Budget Planner/DerivedData/Home Budget Planner/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMAccessor.h"
+- "/Users/Paulina/Desktop/My_Projects/Home Budget Planner/DerivedData/Home Budget Planner/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncCredentials.h"
+- "/Users/Paulina/Desktop/My_Projects/Home Budget Planner/DerivedData/Home Budget Planner/Build/Products/Debug-iphonesimulator/ChameleonFramework/ChameleonFramework.framework/Headers/ChameleonEnums.h"
+- "/Users/Paulina/Desktop/My_Projects/Home Budget Planner/DerivedData/Home Budget Planner/Build/Products/Debug-iphonesimulator/ChameleonFramework/ChameleonFramework.framework/Headers/ChameleonMacros.h"
+- "/Users/Paulina/Desktop/My_Projects/Home Budget Planner/DerivedData/Home Budget Planner/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMResults.h"
+- "/Users/Paulina/Desktop/My_Projects/Home Budget Planner/DerivedData/Home Budget Planner/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMConstants.h"
+- "/Users/Paulina/Desktop/My_Projects/Home Budget Planner/DerivedData/Home Budget Planner/Build/Products/Debug-iphonesimulator/ChameleonFramework/ChameleonFramework.framework/Headers/ChameleonConstants.h"
+- "/Users/Paulina/Desktop/My_Projects/Home Budget Planner/DerivedData/Home Budget Planner/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMObject.h"
+- "/Users/Paulina/Desktop/My_Projects/Home Budget Planner/DerivedData/Home Budget Planner/Build/Products/Debug-iphonesimulator/ChameleonFramework/ChameleonFramework.framework/Headers/UIAppearance+Swift.h"
+- "/Users/Paulina/Desktop/My_Projects/Home Budget Planner/DerivedData/Home Budget Planner/Build/Products/Debug-iphonesimulator/ChameleonFramework/ChameleonFramework.framework/Headers/ChameleonFramework-Swift.h"
+- "/Users/Paulina/Desktop/My_Projects/Home Budget Planner/DerivedData/Home Budget Planner/Build/Products/Debug-iphonesimulator/RealmSwift/RealmSwift.framework/Headers/RealmSwift-Swift.h"
+- "/Users/Paulina/Desktop/My_Projects/Home Budget Planner/DerivedData/Home Budget Planner/Build/Products/Debug-iphonesimulator/SwipeCellKit/SwipeCellKit.framework/Headers/SwipeCellKit-Swift.h"
+- "/Users/Paulina/Desktop/My_Projects/Home Budget Planner/DerivedData/Home Budget Planner/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMArray.h"
+- "/Users/Paulina/Desktop/My_Projects/Home Budget Planner/DerivedData/Home Budget Planner/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMProperty.h"
+- "/Users/Paulina/Desktop/My_Projects/Home Budget Planner/DerivedData/Home Budget Planner/Build/Products/Debug-iphonesimulator/ChameleonFramework/ChameleonFramework.framework/Modules/module.modulemap"
+- "/Users/Paulina/Desktop/My_Projects/Home Budget Planner/DerivedData/Home Budget Planner/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Modules/module.modulemap"
+- "/Users/Paulina/Desktop/My_Projects/Home Budget Planner/DerivedData/Home Budget Planner/Build/Products/Debug-iphonesimulator/RealmSwift/RealmSwift.framework/Modules/module.modulemap"
+- "/Users/Paulina/Desktop/My_Projects/Home Budget Planner/DerivedData/Home Budget Planner/Build/Products/Debug-iphonesimulator/SwipeCellKit/SwipeCellKit.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "e29a6981f4ae0e99a04edc93d803475e"

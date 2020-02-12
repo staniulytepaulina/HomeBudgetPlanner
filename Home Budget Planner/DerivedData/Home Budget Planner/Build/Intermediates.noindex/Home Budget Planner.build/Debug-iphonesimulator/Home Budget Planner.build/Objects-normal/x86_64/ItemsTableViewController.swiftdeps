@@ -1,0 +1,778 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ItemsTableViewController"
+provides-nominal:
+- "19Home_Budget_Planner24ItemsTableViewControllerC"
+provides-member:
+- ["19Home_Budget_Planner24ItemsTableViewControllerC", ""]
+provides-dynamic-lookup:
+- "tableView"
+- "viewDidLoad"
+depends-top-level:
+- !private "=="
+- "AssignmentPrecedence"
+- "CastingPrecedence"
+- "IndexPath"
+- !private "ItemsCell"
+- "ItemsTableViewController"
+- !private "StringLiteralType"
+- "SwipeAction"
+- "SwipeActionsOrientation"
+- "SwipeOptions"
+- "SwipeTableViewCellDelegate"
+- !private "UIImage"
+- "UIImagePickerControllerDelegate"
+- "UINavigationControllerDelegate"
+- !private "UINib"
+- "UITableView"
+- "UITableViewCell"
+- "UITableViewController"
+depends-member:
+- !private ["So15CALayerDelegateP", "dequeueReusableCell"]
+- !private ["So15CALayerDelegateP", "register"]
+- !private ["s7CVarArgP", "SwipeAction"]
+- !private ["s7CVarArgP", "SwipeOptions"]
+- !private ["s7CVarArgP", "UIImage"]
+- !private ["s7CVarArgP", "UINib"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "dequeueReusableCell"]
+- !private ["s7CVarArgP", "image"]
+- ["s7CVarArgP", "imagePickerController"]
+- ["s7CVarArgP", "imagePickerControllerDidCancel"]
+- !private ["s7CVarArgP", "init"]
+- ["s7CVarArgP", "navigationController"]
+- ["s7CVarArgP", "navigationControllerPreferredInterfaceOrientationForPresentation"]
+- ["s7CVarArgP", "navigationControllerSupportedInterfaceOrientations"]
+- !private ["s7CVarArgP", "register"]
+- ["s7CVarArgP", "tableView"]
+- !private ["s7CVarArgP", "updateModel"]
+- !private ["s7CVarArgP", "viewDidLoad"]
+- ["s7CVarArgP", "visibleRect"]
+- !private ["s28CustomDebugStringConvertibleP", "SwipeAction"]
+- !private ["s28CustomDebugStringConvertibleP", "SwipeOptions"]
+- !private ["s28CustomDebugStringConvertibleP", "UIImage"]
+- !private ["s28CustomDebugStringConvertibleP", "UINib"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "dequeueReusableCell"]
+- !private ["s28CustomDebugStringConvertibleP", "destructive"]
+- !private ["s28CustomDebugStringConvertibleP", "image"]
+- ["s28CustomDebugStringConvertibleP", "imagePickerController"]
+- ["s28CustomDebugStringConvertibleP", "imagePickerControllerDidCancel"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- ["s28CustomDebugStringConvertibleP", "navigationController"]
+- ["s28CustomDebugStringConvertibleP", "navigationControllerPreferredInterfaceOrientationForPresentation"]
+- ["s28CustomDebugStringConvertibleP", "navigationControllerSupportedInterfaceOrientations"]
+- !private ["s28CustomDebugStringConvertibleP", "register"]
+- ["s28CustomDebugStringConvertibleP", "tableView"]
+- !private ["s28CustomDebugStringConvertibleP", "updateModel"]
+- !private ["s28CustomDebugStringConvertibleP", "viewDidLoad"]
+- ["s28CustomDebugStringConvertibleP", "visibleRect"]
+- !private ["10RealmSwift26CustomObjectiveCBridgeableP", "destructive"]
+- !private ["10RealmSwift26CustomObjectiveCBridgeableP", "register"]
+- !private ["s17CustomReflectableP", "destructive"]
+- !private ["s17CustomReflectableP", "register"]
+- !private ["s23CustomStringConvertibleP", "SwipeAction"]
+- !private ["s23CustomStringConvertibleP", "SwipeOptions"]
+- !private ["s23CustomStringConvertibleP", "UIImage"]
+- !private ["s23CustomStringConvertibleP", "UINib"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "dequeueReusableCell"]
+- !private ["s23CustomStringConvertibleP", "image"]
+- ["s23CustomStringConvertibleP", "imagePickerController"]
+- ["s23CustomStringConvertibleP", "imagePickerControllerDidCancel"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- ["s23CustomStringConvertibleP", "navigationController"]
+- ["s23CustomStringConvertibleP", "navigationControllerPreferredInterfaceOrientationForPresentation"]
+- ["s23CustomStringConvertibleP", "navigationControllerSupportedInterfaceOrientations"]
+- !private ["s23CustomStringConvertibleP", "register"]
+- ["s23CustomStringConvertibleP", "tableView"]
+- !private ["s23CustomStringConvertibleP", "updateModel"]
+- !private ["s23CustomStringConvertibleP", "viewDidLoad"]
+- ["s23CustomStringConvertibleP", "visibleRect"]
+- !private ["Se", "destructive"]
+- !private ["Se", "register"]
+- !private ["SE", "destructive"]
+- !private ["SE", "register"]
+- !private ["SQ", "SwipeAction"]
+- !private ["SQ", "SwipeOptions"]
+- !private ["SQ", "UIImage"]
+- !private ["SQ", "UINib"]
+- ["SQ", ""]
+- !private ["SQ", "dequeueReusableCell"]
+- !private ["SQ", "destructive"]
+- !private ["SQ", "image"]
+- ["SQ", "imagePickerController"]
+- ["SQ", "imagePickerControllerDidCancel"]
+- !private ["SQ", "init"]
+- ["SQ", "navigationController"]
+- ["SQ", "navigationControllerPreferredInterfaceOrientationForPresentation"]
+- ["SQ", "navigationControllerSupportedInterfaceOrientations"]
+- !private ["SQ", "register"]
+- !private ["SQ", "right"]
+- ["SQ", "tableView"]
+- !private ["SQ", "updateModel"]
+- !private ["SQ", "viewDidLoad"]
+- ["SQ", "visibleRect"]
+- !private ["s23ExpressibleByNilLiteralP", "destructive"]
+- !private ["s23ExpressibleByNilLiteralP", "register"]
+- !private ["SH", "SwipeAction"]
+- !private ["SH", "SwipeOptions"]
+- !private ["SH", "UIImage"]
+- !private ["SH", "UINib"]
+- ["SH", ""]
+- !private ["SH", "dequeueReusableCell"]
+- !private ["SH", "destructive"]
+- !private ["SH", "image"]
+- ["SH", "imagePickerController"]
+- ["SH", "imagePickerControllerDidCancel"]
+- !private ["SH", "init"]
+- ["SH", "navigationController"]
+- ["SH", "navigationControllerPreferredInterfaceOrientationForPresentation"]
+- ["SH", "navigationControllerSupportedInterfaceOrientations"]
+- !private ["SH", "register"]
+- !private ["SH", "right"]
+- ["SH", "tableView"]
+- !private ["SH", "updateModel"]
+- !private ["SH", "viewDidLoad"]
+- ["SH", "visibleRect"]
+- ["19Home_Budget_Planner24ItemsTableViewControllerC", "IndexPath"]
+- !private ["19Home_Budget_Planner24ItemsTableViewControllerC", "ItemsCell"]
+- ["19Home_Budget_Planner24ItemsTableViewControllerC", "SwipeAction"]
+- ["19Home_Budget_Planner24ItemsTableViewControllerC", "SwipeActionsOrientation"]
+- ["19Home_Budget_Planner24ItemsTableViewControllerC", "SwipeOptions"]
+- !private ["19Home_Budget_Planner24ItemsTableViewControllerC", "UIImage"]
+- !private ["19Home_Budget_Planner24ItemsTableViewControllerC", "UINib"]
+- ["19Home_Budget_Planner24ItemsTableViewControllerC", "UITableView"]
+- ["19Home_Budget_Planner24ItemsTableViewControllerC", "UITableViewCell"]
+- ["19Home_Budget_Planner24ItemsTableViewControllerC", "deinit"]
+- ["19Home_Budget_Planner24ItemsTableViewControllerC", "imagePickerController"]
+- ["19Home_Budget_Planner24ItemsTableViewControllerC", "imagePickerControllerDidCancel"]
+- ["19Home_Budget_Planner24ItemsTableViewControllerC", "init"]
+- ["19Home_Budget_Planner24ItemsTableViewControllerC", "navigationController"]
+- ["19Home_Budget_Planner24ItemsTableViewControllerC", "navigationControllerPreferredInterfaceOrientationForPresentation"]
+- ["19Home_Budget_Planner24ItemsTableViewControllerC", "navigationControllerSupportedInterfaceOrientations"]
+- ["19Home_Budget_Planner24ItemsTableViewControllerC", "tableView"]
+- ["19Home_Budget_Planner24ItemsTableViewControllerC", "updateModel"]
+- ["19Home_Budget_Planner24ItemsTableViewControllerC", "viewDidLoad"]
+- ["19Home_Budget_Planner24ItemsTableViewControllerC", "visibleRect"]
+- !private ["So8NSCodingP", "SwipeAction"]
+- !private ["So8NSCodingP", "SwipeOptions"]
+- !private ["So8NSCodingP", "UIImage"]
+- !private ["So8NSCodingP", "UINib"]
+- ["So8NSCodingP", ""]
+- !private ["So8NSCodingP", "dequeueReusableCell"]
+- ["So8NSCodingP", "imagePickerController"]
+- ["So8NSCodingP", "imagePickerControllerDidCancel"]
+- !private ["So8NSCodingP", "init"]
+- ["So8NSCodingP", "navigationController"]
+- ["So8NSCodingP", "navigationControllerPreferredInterfaceOrientationForPresentation"]
+- ["So8NSCodingP", "navigationControllerSupportedInterfaceOrientations"]
+- !private ["So8NSCodingP", "register"]
+- ["So8NSCodingP", "tableView"]
+- !private ["So8NSCodingP", "updateModel"]
+- !private ["So8NSCodingP", "viewDidLoad"]
+- ["So8NSCodingP", "visibleRect"]
+- !private ["So26NSExtensionRequestHandlingP", "SwipeAction"]
+- !private ["So26NSExtensionRequestHandlingP", "SwipeOptions"]
+- !private ["So26NSExtensionRequestHandlingP", "UIImage"]
+- !private ["So26NSExtensionRequestHandlingP", "UINib"]
+- ["So26NSExtensionRequestHandlingP", ""]
+- ["So26NSExtensionRequestHandlingP", "imagePickerController"]
+- ["So26NSExtensionRequestHandlingP", "imagePickerControllerDidCancel"]
+- !private ["So26NSExtensionRequestHandlingP", "init"]
+- ["So26NSExtensionRequestHandlingP", "navigationController"]
+- ["So26NSExtensionRequestHandlingP", "navigationControllerPreferredInterfaceOrientationForPresentation"]
+- ["So26NSExtensionRequestHandlingP", "navigationControllerSupportedInterfaceOrientations"]
+- ["So26NSExtensionRequestHandlingP", "tableView"]
+- !private ["So26NSExtensionRequestHandlingP", "updateModel"]
+- !private ["So26NSExtensionRequestHandlingP", "viewDidLoad"]
+- ["So26NSExtensionRequestHandlingP", "visibleRect"]
+- !private ["So21NSItemProviderReadingP", "init"]
+- !private ["So21NSItemProviderWritingP", "init"]
+- ["So8NSObjectC", "IndexPath"]
+- !private ["So8NSObjectC", "ItemsCell"]
+- ["So8NSObjectC", "SwipeAction"]
+- ["So8NSObjectC", "SwipeActionsOrientation"]
+- ["So8NSObjectC", "SwipeOptions"]
+- !private ["So8NSObjectC", "UIImage"]
+- !private ["So8NSObjectC", "UINib"]
+- ["So8NSObjectC", "UITableView"]
+- ["So8NSObjectC", "UITableViewCell"]
+- !private ["So8NSObjectC", "dequeueReusableCell"]
+- !private ["So8NSObjectC", "image"]
+- ["So8NSObjectC", "imagePickerController"]
+- ["So8NSObjectC", "imagePickerControllerDidCancel"]
+- ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "navigationController"]
+- ["So8NSObjectC", "navigationControllerPreferredInterfaceOrientationForPresentation"]
+- ["So8NSObjectC", "navigationControllerSupportedInterfaceOrientations"]
+- !private ["So8NSObjectC", "register"]
+- ["So8NSObjectC", "tableView"]
+- ["So8NSObjectC", "updateModel"]
+- ["So8NSObjectC", "viewDidLoad"]
+- ["So8NSObjectC", "visibleRect"]
+- !private ["So8NSObjectP", "SwipeAction"]
+- !private ["So8NSObjectP", "SwipeOptions"]
+- !private ["So8NSObjectP", "UIImage"]
+- !private ["So8NSObjectP", "UINib"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "dequeueReusableCell"]
+- !private ["So8NSObjectP", "image"]
+- ["So8NSObjectP", "imagePickerController"]
+- ["So8NSObjectP", "imagePickerControllerDidCancel"]
+- !private ["So8NSObjectP", "init"]
+- ["So8NSObjectP", "navigationController"]
+- ["So8NSObjectP", "navigationControllerPreferredInterfaceOrientationForPresentation"]
+- ["So8NSObjectP", "navigationControllerSupportedInterfaceOrientations"]
+- !private ["So8NSObjectP", "register"]
+- ["So8NSObjectP", "tableView"]
+- !private ["So8NSObjectP", "updateModel"]
+- !private ["So8NSObjectP", "viewDidLoad"]
+- ["So8NSObjectP", "visibleRect"]
+- !private ["So14NSSecureCodingP", "init"]
+- !private ["Sq", "destructive"]
+- !private ["Sq", "register"]
+- !private ["10RealmSwift16OptionalProtocolP", "destructive"]
+- !private ["10RealmSwift16OptionalProtocolP", "register"]
+- !private ["SY", "destructive"]
+- !private ["SY", "right"]
+- !private ["10RealmSwift0A15CollectionValueP", "destructive"]
+- !private ["10RealmSwift0A15CollectionValueP", "register"]
+- !private ["12SwipeCellKit0A6ActionC", "image"]
+- !private ["12SwipeCellKit0A6ActionC", "init"]
+- !private ["12SwipeCellKit0A11ActionStyleO", "destructive"]
+- !private ["12SwipeCellKit0A18ActionsOrientationO", "right"]
+- !private ["12SwipeCellKit0A14ExpansionStyleV", "destructive"]
+- !private ["12SwipeCellKit0A7OptionsV", "expansionStyle"]
+- !private ["12SwipeCellKit0A7OptionsV", "init"]
+- !private ["12SwipeCellKit0a9TableViewB8DelegateP", "SwipeAction"]
+- !private ["12SwipeCellKit0a9TableViewB8DelegateP", "SwipeOptions"]
+- !private ["12SwipeCellKit0a9TableViewB8DelegateP", "UIImage"]
+- !private ["12SwipeCellKit0a9TableViewB8DelegateP", "UINib"]
+- ["12SwipeCellKit0a9TableViewB8DelegateP", ""]
+- ["12SwipeCellKit0a9TableViewB8DelegateP", "imagePickerController"]
+- ["12SwipeCellKit0a9TableViewB8DelegateP", "imagePickerControllerDidCancel"]
+- ["12SwipeCellKit0a9TableViewB8DelegateP", "navigationController"]
+- ["12SwipeCellKit0a9TableViewB8DelegateP", "navigationControllerPreferredInterfaceOrientationForPresentation"]
+- ["12SwipeCellKit0a9TableViewB8DelegateP", "navigationControllerSupportedInterfaceOrientations"]
+- ["12SwipeCellKit0a9TableViewB8DelegateP", "tableView"]
+- !private ["12SwipeCellKit0a9TableViewB8DelegateP", "updateModel"]
+- ["12SwipeCellKit0a9TableViewB8DelegateP", "visibleRect"]
+- !private ["So29UIAccessibilityIdentificationP", "dequeueReusableCell"]
+- !private ["So29UIAccessibilityIdentificationP", "init"]
+- !private ["So29UIAccessibilityIdentificationP", "register"]
+- !private ["So12UIAppearanceP", "dequeueReusableCell"]
+- !private ["So12UIAppearanceP", "register"]
+- !private ["So21UIAppearanceContainerP", "SwipeAction"]
+- !private ["So21UIAppearanceContainerP", "SwipeOptions"]
+- !private ["So21UIAppearanceContainerP", "UIImage"]
+- !private ["So21UIAppearanceContainerP", "UINib"]
+- ["So21UIAppearanceContainerP", ""]
+- !private ["So21UIAppearanceContainerP", "dequeueReusableCell"]
+- ["So21UIAppearanceContainerP", "imagePickerController"]
+- ["So21UIAppearanceContainerP", "imagePickerControllerDidCancel"]
+- !private ["So21UIAppearanceContainerP", "init"]
+- ["So21UIAppearanceContainerP", "navigationController"]
+- ["So21UIAppearanceContainerP", "navigationControllerPreferredInterfaceOrientationForPresentation"]
+- ["So21UIAppearanceContainerP", "navigationControllerSupportedInterfaceOrientations"]
+- !private ["So21UIAppearanceContainerP", "register"]
+- ["So21UIAppearanceContainerP", "tableView"]
+- !private ["So21UIAppearanceContainerP", "updateModel"]
+- !private ["So21UIAppearanceContainerP", "viewDidLoad"]
+- ["So21UIAppearanceContainerP", "visibleRect"]
+- !private ["So18UIContentContainerP", "SwipeAction"]
+- !private ["So18UIContentContainerP", "SwipeOptions"]
+- !private ["So18UIContentContainerP", "UIImage"]
+- !private ["So18UIContentContainerP", "UINib"]
+- ["So18UIContentContainerP", ""]
+- ["So18UIContentContainerP", "imagePickerController"]
+- ["So18UIContentContainerP", "imagePickerControllerDidCancel"]
+- !private ["So18UIContentContainerP", "init"]
+- ["So18UIContentContainerP", "navigationController"]
+- ["So18UIContentContainerP", "navigationControllerPreferredInterfaceOrientationForPresentation"]
+- ["So18UIContentContainerP", "navigationControllerSupportedInterfaceOrientations"]
+- ["So18UIContentContainerP", "tableView"]
+- !private ["So18UIContentContainerP", "updateModel"]
+- !private ["So18UIContentContainerP", "viewDidLoad"]
+- ["So18UIContentContainerP", "visibleRect"]
+- !private ["So17UICoordinateSpaceP", "dequeueReusableCell"]
+- !private ["So17UICoordinateSpaceP", "register"]
+- !private ["So23UIDataSourceTranslatingP", "dequeueReusableCell"]
+- !private ["So23UIDataSourceTranslatingP", "register"]
+- !private ["So13UIDynamicItemP", "dequeueReusableCell"]
+- !private ["So13UIDynamicItemP", "register"]
+- !private ["So18UIFocusEnvironmentP", "SwipeAction"]
+- !private ["So18UIFocusEnvironmentP", "SwipeOptions"]
+- !private ["So18UIFocusEnvironmentP", "UIImage"]
+- !private ["So18UIFocusEnvironmentP", "UINib"]
+- ["So18UIFocusEnvironmentP", ""]
+- !private ["So18UIFocusEnvironmentP", "dequeueReusableCell"]
+- ["So18UIFocusEnvironmentP", "imagePickerController"]
+- ["So18UIFocusEnvironmentP", "imagePickerControllerDidCancel"]
+- !private ["So18UIFocusEnvironmentP", "init"]
+- ["So18UIFocusEnvironmentP", "navigationController"]
+- ["So18UIFocusEnvironmentP", "navigationControllerPreferredInterfaceOrientationForPresentation"]
+- ["So18UIFocusEnvironmentP", "navigationControllerSupportedInterfaceOrientations"]
+- !private ["So18UIFocusEnvironmentP", "register"]
+- ["So18UIFocusEnvironmentP", "tableView"]
+- !private ["So18UIFocusEnvironmentP", "updateModel"]
+- !private ["So18UIFocusEnvironmentP", "viewDidLoad"]
+- ["So18UIFocusEnvironmentP", "visibleRect"]
+- !private ["So11UIFocusItemP", "dequeueReusableCell"]
+- !private ["So11UIFocusItemP", "register"]
+- !private ["So20UIFocusItemContainerP", "dequeueReusableCell"]
+- !private ["So20UIFocusItemContainerP", "register"]
+- !private ["So30UIFocusItemScrollableContainerP", "dequeueReusableCell"]
+- !private ["So30UIFocusItemScrollableContainerP", "register"]
+- !private ["So7UIImageC", "init"]
+- !private ["So31UIImagePickerControllerDelegateP", "SwipeAction"]
+- !private ["So31UIImagePickerControllerDelegateP", "SwipeOptions"]
+- !private ["So31UIImagePickerControllerDelegateP", "UIImage"]
+- !private ["So31UIImagePickerControllerDelegateP", "UINib"]
+- ["So31UIImagePickerControllerDelegateP", ""]
+- ["So31UIImagePickerControllerDelegateP", "imagePickerController"]
+- ["So31UIImagePickerControllerDelegateP", "imagePickerControllerDidCancel"]
+- ["So31UIImagePickerControllerDelegateP", "navigationController"]
+- ["So31UIImagePickerControllerDelegateP", "navigationControllerPreferredInterfaceOrientationForPresentation"]
+- ["So31UIImagePickerControllerDelegateP", "navigationControllerSupportedInterfaceOrientations"]
+- ["So31UIImagePickerControllerDelegateP", "tableView"]
+- !private ["So31UIImagePickerControllerDelegateP", "updateModel"]
+- ["So31UIImagePickerControllerDelegateP", "visibleRect"]
+- !private ["So39UIItemProviderPresentationSizeProvidingP", "init"]
+- !private ["So24UILargeContentViewerItemP", "dequeueReusableCell"]
+- !private ["So24UILargeContentViewerItemP", "register"]
+- !private ["So30UINavigationControllerDelegateP", "SwipeAction"]
+- !private ["So30UINavigationControllerDelegateP", "SwipeOptions"]
+- !private ["So30UINavigationControllerDelegateP", "UIImage"]
+- !private ["So30UINavigationControllerDelegateP", "UINib"]
+- ["So30UINavigationControllerDelegateP", ""]
+- ["So30UINavigationControllerDelegateP", "imagePickerController"]
+- ["So30UINavigationControllerDelegateP", "imagePickerControllerDidCancel"]
+- ["So30UINavigationControllerDelegateP", "navigationController"]
+- ["So30UINavigationControllerDelegateP", "navigationControllerPreferredInterfaceOrientationForPresentation"]
+- ["So30UINavigationControllerDelegateP", "navigationControllerSupportedInterfaceOrientations"]
+- ["So30UINavigationControllerDelegateP", "tableView"]
+- !private ["So30UINavigationControllerDelegateP", "updateModel"]
+- ["So30UINavigationControllerDelegateP", "visibleRect"]
+- !private ["So5UINibC", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "SwipeAction"]
+- !private ["So30UIPasteConfigurationSupportingP", "SwipeOptions"]
+- !private ["So30UIPasteConfigurationSupportingP", "UIImage"]
+- !private ["So30UIPasteConfigurationSupportingP", "UINib"]
+- ["So30UIPasteConfigurationSupportingP", ""]
+- !private ["So30UIPasteConfigurationSupportingP", "dequeueReusableCell"]
+- ["So30UIPasteConfigurationSupportingP", "imagePickerController"]
+- ["So30UIPasteConfigurationSupportingP", "imagePickerControllerDidCancel"]
+- !private ["So30UIPasteConfigurationSupportingP", "init"]
+- ["So30UIPasteConfigurationSupportingP", "navigationController"]
+- ["So30UIPasteConfigurationSupportingP", "navigationControllerPreferredInterfaceOrientationForPresentation"]
+- ["So30UIPasteConfigurationSupportingP", "navigationControllerSupportedInterfaceOrientations"]
+- !private ["So30UIPasteConfigurationSupportingP", "register"]
+- ["So30UIPasteConfigurationSupportingP", "tableView"]
+- !private ["So30UIPasteConfigurationSupportingP", "updateModel"]
+- !private ["So30UIPasteConfigurationSupportingP", "viewDidLoad"]
+- ["So30UIPasteConfigurationSupportingP", "visibleRect"]
+- ["So11UIResponderC", "IndexPath"]
+- !private ["So11UIResponderC", "ItemsCell"]
+- ["So11UIResponderC", "SwipeAction"]
+- ["So11UIResponderC", "SwipeActionsOrientation"]
+- ["So11UIResponderC", "SwipeOptions"]
+- !private ["So11UIResponderC", "UIImage"]
+- !private ["So11UIResponderC", "UINib"]
+- ["So11UIResponderC", "UITableView"]
+- ["So11UIResponderC", "UITableViewCell"]
+- !private ["So11UIResponderC", "dequeueReusableCell"]
+- ["So11UIResponderC", "imagePickerController"]
+- ["So11UIResponderC", "imagePickerControllerDidCancel"]
+- ["So11UIResponderC", "init"]
+- ["So11UIResponderC", "navigationController"]
+- ["So11UIResponderC", "navigationControllerPreferredInterfaceOrientationForPresentation"]
+- ["So11UIResponderC", "navigationControllerSupportedInterfaceOrientations"]
+- !private ["So11UIResponderC", "register"]
+- ["So11UIResponderC", "tableView"]
+- ["So11UIResponderC", "updateModel"]
+- ["So11UIResponderC", "viewDidLoad"]
+- ["So11UIResponderC", "visibleRect"]
+- !private ["So30UIResponderStandardEditActionsP", "SwipeAction"]
+- !private ["So30UIResponderStandardEditActionsP", "SwipeOptions"]
+- !private ["So30UIResponderStandardEditActionsP", "UIImage"]
+- !private ["So30UIResponderStandardEditActionsP", "UINib"]
+- ["So30UIResponderStandardEditActionsP", ""]
+- !private ["So30UIResponderStandardEditActionsP", "dequeueReusableCell"]
+- ["So30UIResponderStandardEditActionsP", "imagePickerController"]
+- ["So30UIResponderStandardEditActionsP", "imagePickerControllerDidCancel"]
+- !private ["So30UIResponderStandardEditActionsP", "init"]
+- ["So30UIResponderStandardEditActionsP", "navigationController"]
+- ["So30UIResponderStandardEditActionsP", "navigationControllerPreferredInterfaceOrientationForPresentation"]
+- ["So30UIResponderStandardEditActionsP", "navigationControllerSupportedInterfaceOrientations"]
+- !private ["So30UIResponderStandardEditActionsP", "register"]
+- ["So30UIResponderStandardEditActionsP", "tableView"]
+- !private ["So30UIResponderStandardEditActionsP", "updateModel"]
+- !private ["So30UIResponderStandardEditActionsP", "viewDidLoad"]
+- ["So30UIResponderStandardEditActionsP", "visibleRect"]
+- !private ["So12UIScrollViewC", "dequeueReusableCell"]
+- !private ["So12UIScrollViewC", "register"]
+- !private ["So20UIScrollViewDelegateP", "SwipeAction"]
+- !private ["So20UIScrollViewDelegateP", "SwipeOptions"]
+- !private ["So20UIScrollViewDelegateP", "UIImage"]
+- !private ["So20UIScrollViewDelegateP", "UINib"]
+- ["So20UIScrollViewDelegateP", ""]
+- ["So20UIScrollViewDelegateP", "imagePickerController"]
+- ["So20UIScrollViewDelegateP", "imagePickerControllerDidCancel"]
+- !private ["So20UIScrollViewDelegateP", "init"]
+- ["So20UIScrollViewDelegateP", "navigationController"]
+- ["So20UIScrollViewDelegateP", "navigationControllerPreferredInterfaceOrientationForPresentation"]
+- ["So20UIScrollViewDelegateP", "navigationControllerSupportedInterfaceOrientations"]
+- ["So20UIScrollViewDelegateP", "tableView"]
+- !private ["So20UIScrollViewDelegateP", "updateModel"]
+- !private ["So20UIScrollViewDelegateP", "viewDidLoad"]
+- ["So20UIScrollViewDelegateP", "visibleRect"]
+- !private ["So35UISpringLoadedInteractionSupportingP", "dequeueReusableCell"]
+- !private ["So35UISpringLoadedInteractionSupportingP", "register"]
+- !private ["So16UIStateRestoringP", "SwipeAction"]
+- !private ["So16UIStateRestoringP", "SwipeOptions"]
+- !private ["So16UIStateRestoringP", "UIImage"]
+- !private ["So16UIStateRestoringP", "UINib"]
+- ["So16UIStateRestoringP", ""]
+- ["So16UIStateRestoringP", "imagePickerController"]
+- ["So16UIStateRestoringP", "imagePickerControllerDidCancel"]
+- !private ["So16UIStateRestoringP", "init"]
+- ["So16UIStateRestoringP", "navigationController"]
+- ["So16UIStateRestoringP", "navigationControllerPreferredInterfaceOrientationForPresentation"]
+- ["So16UIStateRestoringP", "navigationControllerSupportedInterfaceOrientations"]
+- ["So16UIStateRestoringP", "tableView"]
+- !private ["So16UIStateRestoringP", "updateModel"]
+- !private ["So16UIStateRestoringP", "viewDidLoad"]
+- ["So16UIStateRestoringP", "visibleRect"]
+- !private ["So11UITableViewC", "dequeueReusableCell"]
+- !private ["So11UITableViewC", "register"]
+- ["So21UITableViewControllerC", "IndexPath"]
+- !private ["So21UITableViewControllerC", "ItemsCell"]
+- ["So21UITableViewControllerC", "SwipeAction"]
+- ["So21UITableViewControllerC", "SwipeActionsOrientation"]
+- ["So21UITableViewControllerC", "SwipeOptions"]
+- !private ["So21UITableViewControllerC", "UIImage"]
+- !private ["So21UITableViewControllerC", "UINib"]
+- ["So21UITableViewControllerC", "UITableView"]
+- ["So21UITableViewControllerC", "UITableViewCell"]
+- ["So21UITableViewControllerC", ""]
+- ["So21UITableViewControllerC", "imagePickerController"]
+- ["So21UITableViewControllerC", "imagePickerControllerDidCancel"]
+- ["So21UITableViewControllerC", "init"]
+- ["So21UITableViewControllerC", "navigationController"]
+- ["So21UITableViewControllerC", "navigationControllerPreferredInterfaceOrientationForPresentation"]
+- ["So21UITableViewControllerC", "navigationControllerSupportedInterfaceOrientations"]
+- ["So21UITableViewControllerC", "tableView"]
+- ["So21UITableViewControllerC", "updateModel"]
+- ["So21UITableViewControllerC", "viewDidLoad"]
+- ["So21UITableViewControllerC", "visibleRect"]
+- !private ["So21UITableViewDataSourceP", "SwipeAction"]
+- !private ["So21UITableViewDataSourceP", "SwipeOptions"]
+- !private ["So21UITableViewDataSourceP", "UIImage"]
+- !private ["So21UITableViewDataSourceP", "UINib"]
+- ["So21UITableViewDataSourceP", ""]
+- ["So21UITableViewDataSourceP", "imagePickerController"]
+- ["So21UITableViewDataSourceP", "imagePickerControllerDidCancel"]
+- !private ["So21UITableViewDataSourceP", "init"]
+- ["So21UITableViewDataSourceP", "navigationController"]
+- ["So21UITableViewDataSourceP", "navigationControllerPreferredInterfaceOrientationForPresentation"]
+- ["So21UITableViewDataSourceP", "navigationControllerSupportedInterfaceOrientations"]
+- ["So21UITableViewDataSourceP", "tableView"]
+- !private ["So21UITableViewDataSourceP", "updateModel"]
+- !private ["So21UITableViewDataSourceP", "viewDidLoad"]
+- ["So21UITableViewDataSourceP", "visibleRect"]
+- !private ["So19UITableViewDelegateP", "SwipeAction"]
+- !private ["So19UITableViewDelegateP", "SwipeOptions"]
+- !private ["So19UITableViewDelegateP", "UIImage"]
+- !private ["So19UITableViewDelegateP", "UINib"]
+- ["So19UITableViewDelegateP", ""]
+- ["So19UITableViewDelegateP", "imagePickerController"]
+- ["So19UITableViewDelegateP", "imagePickerControllerDidCancel"]
+- !private ["So19UITableViewDelegateP", "init"]
+- ["So19UITableViewDelegateP", "navigationController"]
+- ["So19UITableViewDelegateP", "navigationControllerPreferredInterfaceOrientationForPresentation"]
+- ["So19UITableViewDelegateP", "navigationControllerSupportedInterfaceOrientations"]
+- ["So19UITableViewDelegateP", "tableView"]
+- !private ["So19UITableViewDelegateP", "updateModel"]
+- !private ["So19UITableViewDelegateP", "viewDidLoad"]
+- ["So19UITableViewDelegateP", "visibleRect"]
+- !private ["So18UITraitEnvironmentP", "SwipeAction"]
+- !private ["So18UITraitEnvironmentP", "SwipeOptions"]
+- !private ["So18UITraitEnvironmentP", "UIImage"]
+- !private ["So18UITraitEnvironmentP", "UINib"]
+- ["So18UITraitEnvironmentP", ""]
+- !private ["So18UITraitEnvironmentP", "dequeueReusableCell"]
+- ["So18UITraitEnvironmentP", "imagePickerController"]
+- ["So18UITraitEnvironmentP", "imagePickerControllerDidCancel"]
+- !private ["So18UITraitEnvironmentP", "init"]
+- ["So18UITraitEnvironmentP", "navigationController"]
+- ["So18UITraitEnvironmentP", "navigationControllerPreferredInterfaceOrientationForPresentation"]
+- ["So18UITraitEnvironmentP", "navigationControllerSupportedInterfaceOrientations"]
+- !private ["So18UITraitEnvironmentP", "register"]
+- ["So18UITraitEnvironmentP", "tableView"]
+- !private ["So18UITraitEnvironmentP", "updateModel"]
+- !private ["So18UITraitEnvironmentP", "viewDidLoad"]
+- ["So18UITraitEnvironmentP", "visibleRect"]
+- !private ["So23UIUserActivityRestoringP", "SwipeAction"]
+- !private ["So23UIUserActivityRestoringP", "SwipeOptions"]
+- !private ["So23UIUserActivityRestoringP", "UIImage"]
+- !private ["So23UIUserActivityRestoringP", "UINib"]
+- ["So23UIUserActivityRestoringP", ""]
+- !private ["So23UIUserActivityRestoringP", "dequeueReusableCell"]
+- ["So23UIUserActivityRestoringP", "imagePickerController"]
+- ["So23UIUserActivityRestoringP", "imagePickerControllerDidCancel"]
+- !private ["So23UIUserActivityRestoringP", "init"]
+- ["So23UIUserActivityRestoringP", "navigationController"]
+- ["So23UIUserActivityRestoringP", "navigationControllerPreferredInterfaceOrientationForPresentation"]
+- ["So23UIUserActivityRestoringP", "navigationControllerSupportedInterfaceOrientations"]
+- !private ["So23UIUserActivityRestoringP", "register"]
+- ["So23UIUserActivityRestoringP", "tableView"]
+- !private ["So23UIUserActivityRestoringP", "updateModel"]
+- !private ["So23UIUserActivityRestoringP", "viewDidLoad"]
+- ["So23UIUserActivityRestoringP", "visibleRect"]
+- !private ["So6UIViewC", "dequeueReusableCell"]
+- !private ["So6UIViewC", "register"]
+- ["So16UIViewControllerC", "IndexPath"]
+- !private ["So16UIViewControllerC", "ItemsCell"]
+- ["So16UIViewControllerC", "SwipeAction"]
+- ["So16UIViewControllerC", "SwipeActionsOrientation"]
+- ["So16UIViewControllerC", "SwipeOptions"]
+- !private ["So16UIViewControllerC", "UIImage"]
+- !private ["So16UIViewControllerC", "UINib"]
+- ["So16UIViewControllerC", "UITableView"]
+- ["So16UIViewControllerC", "UITableViewCell"]
+- ["So16UIViewControllerC", "imagePickerController"]
+- ["So16UIViewControllerC", "imagePickerControllerDidCancel"]
+- ["So16UIViewControllerC", "init"]
+- ["So16UIViewControllerC", "navigationController"]
+- ["So16UIViewControllerC", "navigationControllerPreferredInterfaceOrientationForPresentation"]
+- ["So16UIViewControllerC", "navigationControllerSupportedInterfaceOrientations"]
+- ["So16UIViewControllerC", "tableView"]
+- ["So16UIViewControllerC", "updateModel"]
+- ["So16UIViewControllerC", "viewDidLoad"]
+- ["So16UIViewControllerC", "visibleRect"]
+- !private ["s26_ExpressibleByImageLiteralP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "SwipeAction"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "SwipeOptions"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIImage"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UINib"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "dequeueReusableCell"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "image"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "imagePickerController"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "imagePickerControllerDidCancel"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "navigationController"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "navigationControllerPreferredInterfaceOrientationForPresentation"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "navigationControllerSupportedInterfaceOrientations"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "register"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "tableView"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "updateModel"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "viewDidLoad"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "visibleRect"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "SwipeAction"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "SwipeOptions"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "UIImage"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "UINib"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", ""]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "dequeueReusableCell"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "image"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "imagePickerController"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "imagePickerControllerDidCancel"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "navigationController"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "navigationControllerPreferredInterfaceOrientationForPresentation"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "navigationControllerSupportedInterfaceOrientations"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "register"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "tableView"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "updateModel"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "viewDidLoad"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "visibleRect"]
+- !private ["10RealmSwift20_ManagedPropertyTypeP", "destructive"]
+- !private ["10RealmSwift20_ManagedPropertyTypeP", "register"]
+- !private ["s21_ObjectiveCBridgeableP", "destructive"]
+- !private ["s21_ObjectiveCBridgeableP", "register"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "dequeueReusableCell"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "register"]
+depends-nominal:
+- !private "So15CALayerDelegateP"
+- "s7CVarArgP"
+- "s28CustomDebugStringConvertibleP"
+- !private "10RealmSwift26CustomObjectiveCBridgeableP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "Se"
+- !private "SE"
+- "SQ"
+- !private "s23ExpressibleByNilLiteralP"
+- "SH"
+- "19Home_Budget_Planner24ItemsTableViewControllerC"
+- "So8NSCodingP"
+- "So26NSExtensionRequestHandlingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "So14NSSecureCodingP"
+- !private "Sq"
+- !private "10RealmSwift16OptionalProtocolP"
+- !private "SY"
+- !private "10RealmSwift0A15CollectionValueP"
+- !private "12SwipeCellKit0A6ActionC"
+- !private "12SwipeCellKit0A11ActionStyleO"
+- !private "12SwipeCellKit0A18ActionsOrientationO"
+- !private "12SwipeCellKit0A14ExpansionStyleV"
+- !private "12SwipeCellKit0A7OptionsV"
+- "12SwipeCellKit0a9TableViewB8DelegateP"
+- !private "So29UIAccessibilityIdentificationP"
+- !private "So12UIAppearanceP"
+- "So21UIAppearanceContainerP"
+- "So18UIContentContainerP"
+- !private "So17UICoordinateSpaceP"
+- !private "So23UIDataSourceTranslatingP"
+- !private "So13UIDynamicItemP"
+- "So18UIFocusEnvironmentP"
+- !private "So11UIFocusItemP"
+- !private "So20UIFocusItemContainerP"
+- !private "So30UIFocusItemScrollableContainerP"
+- !private "So7UIImageC"
+- "So31UIImagePickerControllerDelegateP"
+- !private "So39UIItemProviderPresentationSizeProvidingP"
+- !private "So24UILargeContentViewerItemP"
+- "So30UINavigationControllerDelegateP"
+- !private "So5UINibC"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- !private "So12UIScrollViewC"
+- "So20UIScrollViewDelegateP"
+- !private "So35UISpringLoadedInteractionSupportingP"
+- "So16UIStateRestoringP"
+- !private "So11UITableViewC"
+- "So21UITableViewControllerC"
+- "So21UITableViewDataSourceP"
+- "So19UITableViewDelegateP"
+- "So18UITraitEnvironmentP"
+- "So23UIUserActivityRestoringP"
+- !private "So6UIViewC"
+- "So16UIViewControllerC"
+- !private "s26_ExpressibleByImageLiteralP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- !private "10RealmSwift20_ManagedPropertyTypeP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s38__DefaultCustomPlaygroundQuickLookableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/ObjectiveC.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreImage.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/QuartzCore.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Dispatch.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Metal.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Darwin.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Foundation.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreFoundation.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreGraphics.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Swift.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/UIKit.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/SwiftOnoneSupport.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Combine.framework/Modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/Paulina/Desktop/My_Projects/Home Budget Planner/DerivedData/Home Budget Planner/Build/Products/Debug-iphonesimulator/ChameleonFramework/ChameleonFramework.framework/Modules/ChameleonFramework.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/Paulina/Desktop/My_Projects/Home Budget Planner/DerivedData/Home Budget Planner/Build/Products/Debug-iphonesimulator/RealmSwift/RealmSwift.framework/Modules/RealmSwift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/Paulina/Desktop/My_Projects/Home Budget Planner/DerivedData/Home Budget Planner/Build/Products/Debug-iphonesimulator/SwipeCellKit/SwipeCellKit.framework/Modules/SwipeCellKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/Paulina/Desktop/My_Projects/Home Budget Planner/DerivedData/Home Budget Planner/Build/Products/Debug-iphonesimulator/ChameleonFramework/ChameleonFramework.framework/Headers/Chameleon_.h"
+- "/Users/Paulina/Desktop/My_Projects/Home Budget Planner/DerivedData/Home Budget Planner/Build/Products/Debug-iphonesimulator/ChameleonFramework/ChameleonFramework.framework/Headers/ChameleonFramework-umbrella.h"
+- "/Users/Paulina/Desktop/My_Projects/Home Budget Planner/DerivedData/Home Budget Planner/Build/Products/Debug-iphonesimulator/RealmSwift/RealmSwift.framework/Headers/RealmSwift-umbrella.h"
+- "/Users/Paulina/Desktop/My_Projects/Home Budget Planner/DerivedData/Home Budget Planner/Build/Products/Debug-iphonesimulator/SwipeCellKit/SwipeCellKit.framework/Headers/SwipeCellKit-umbrella.h"
+- "/Users/Paulina/Desktop/My_Projects/Home Budget Planner/DerivedData/Home Budget Planner/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSchema.h"
+- "/Users/Paulina/Desktop/My_Projects/Home Budget Planner/DerivedData/Home Budget Planner/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMObjectSchema.h"
+- "/Users/Paulina/Desktop/My_Projects/Home Budget Planner/DerivedData/Home Budget Planner/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMObjectBase_Dynamic.h"
+- "/Users/Paulina/Desktop/My_Projects/Home Budget Planner/DerivedData/Home Budget Planner/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMRealm_Dynamic.h"
+- "/Users/Paulina/Desktop/My_Projects/Home Budget Planner/DerivedData/Home Budget Planner/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMRealm+Sync.h"
+- "/Users/Paulina/Desktop/My_Projects/Home Budget Planner/DerivedData/Home Budget Planner/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMRealmConfiguration+Sync.h"
+- "/Users/Paulina/Desktop/My_Projects/Home Budget Planner/DerivedData/Home Budget Planner/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/NSError+RLMSync.h"
+- "/Users/Paulina/Desktop/My_Projects/Home Budget Planner/DerivedData/Home Budget Planner/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMThreadSafeReference.h"
+- "/Users/Paulina/Desktop/My_Projects/Home Budget Planner/DerivedData/Home Budget Planner/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMObjectStore.h"
+- "/Users/Paulina/Desktop/My_Projects/Home Budget Planner/DerivedData/Home Budget Planner/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMOptionalBase.h"
+- "/Users/Paulina/Desktop/My_Projects/Home Budget Planner/DerivedData/Home Budget Planner/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMObjectBase.h"
+- "/Users/Paulina/Desktop/My_Projects/Home Budget Planner/DerivedData/Home Budget Planner/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMListBase.h"
+- "/Users/Paulina/Desktop/My_Projects/Home Budget Planner/DerivedData/Home Budget Planner/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMSchema_Private.h"
+- "/Users/Paulina/Desktop/My_Projects/Home Budget Planner/DerivedData/Home Budget Planner/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMObjectSchema_Private.h"
+- "/Users/Paulina/Desktop/My_Projects/Home Budget Planner/DerivedData/Home Budget Planner/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMObjectBase_Private.h"
+- "/Users/Paulina/Desktop/My_Projects/Home Budget Planner/DerivedData/Home Budget Planner/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMSyncUtil_Private.h"
+- "/Users/Paulina/Desktop/My_Projects/Home Budget Planner/DerivedData/Home Budget Planner/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMRealm_Private.h"
+- "/Users/Paulina/Desktop/My_Projects/Home Budget Planner/DerivedData/Home Budget Planner/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMSyncConfiguration_Private.h"
+- "/Users/Paulina/Desktop/My_Projects/Home Budget Planner/DerivedData/Home Budget Planner/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMRealmConfiguration_Private.h"
+- "/Users/Paulina/Desktop/My_Projects/Home Budget Planner/DerivedData/Home Budget Planner/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMCollection_Private.h"
+- "/Users/Paulina/Desktop/My_Projects/Home Budget Planner/DerivedData/Home Budget Planner/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMResults_Private.h"
+- "/Users/Paulina/Desktop/My_Projects/Home Budget Planner/DerivedData/Home Budget Planner/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMObject_Private.h"
+- "/Users/Paulina/Desktop/My_Projects/Home Budget Planner/DerivedData/Home Budget Planner/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMArray_Private.h"
+- "/Users/Paulina/Desktop/My_Projects/Home Budget Planner/DerivedData/Home Budget Planner/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMProperty_Private.h"
+- "/Users/Paulina/Desktop/My_Projects/Home Budget Planner/DerivedData/Home Budget Planner/Build/Products/Debug-iphonesimulator/ChameleonFramework/ChameleonFramework.framework/Headers/UIImage+ChameleonPrivate.h"
+- "/Users/Paulina/Desktop/My_Projects/Home Budget Planner/DerivedData/Home Budget Planner/Build/Products/Debug-iphonesimulator/ChameleonFramework/ChameleonFramework.framework/Headers/UIColor+ChameleonPrivate.h"
+- "/Users/Paulina/Desktop/My_Projects/Home Budget Planner/DerivedData/Home Budget Planner/Build/Products/Debug-iphonesimulator/ChameleonFramework/ChameleonFramework.framework/Headers/UIView+ChameleonPrivate.h"
+- "/Users/Paulina/Desktop/My_Projects/Home Budget Planner/DerivedData/Home Budget Planner/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncUtil.h"
+- "/Users/Paulina/Desktop/My_Projects/Home Budget Planner/DerivedData/Home Budget Planner/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/Realm.h"
+- "/Users/Paulina/Desktop/My_Projects/Home Budget Planner/DerivedData/Home Budget Planner/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMRealm.h"
+- "/Users/Paulina/Desktop/My_Projects/Home Budget Planner/DerivedData/Home Budget Planner/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMPlatform.h"
+- "/Users/Paulina/Desktop/My_Projects/Home Budget Planner/DerivedData/Home Budget Planner/Build/Products/Debug-iphonesimulator/ChameleonFramework/ChameleonFramework.framework/Headers/UILabel+Chameleon.h"
+- "/Users/Paulina/Desktop/My_Projects/Home Budget Planner/DerivedData/Home Budget Planner/Build/Products/Debug-iphonesimulator/ChameleonFramework/ChameleonFramework.framework/Headers/UIButton+Chameleon.h"
+- "/Users/Paulina/Desktop/My_Projects/Home Budget Planner/DerivedData/Home Budget Planner/Build/Products/Debug-iphonesimulator/ChameleonFramework/ChameleonFramework.framework/Headers/UINavigationController+Chameleon.h"
+- "/Users/Paulina/Desktop/My_Projects/Home Budget Planner/DerivedData/Home Budget Planner/Build/Products/Debug-iphonesimulator/ChameleonFramework/ChameleonFramework.framework/Headers/UIViewController+Chameleon.h"
+- "/Users/Paulina/Desktop/My_Projects/Home Budget Planner/DerivedData/Home Budget Planner/Build/Products/Debug-iphonesimulator/ChameleonFramework/ChameleonFramework.framework/Headers/UIColor+Chameleon.h"
+- "/Users/Paulina/Desktop/My_Projects/Home Budget Planner/DerivedData/Home Budget Planner/Build/Products/Debug-iphonesimulator/ChameleonFramework/ChameleonFramework.framework/Headers/NSArray+Chameleon.h"
+- "/Users/Paulina/Desktop/My_Projects/Home Budget Planner/DerivedData/Home Budget Planner/Build/Products/Debug-iphonesimulator/ChameleonFramework/ChameleonFramework.framework/Headers/Chameleon.h"
+- "/Users/Paulina/Desktop/My_Projects/Home Budget Planner/DerivedData/Home Budget Planner/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncSession.h"
+- "/Users/Paulina/Desktop/My_Projects/Home Budget Planner/DerivedData/Home Budget Planner/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncPermission.h"
+- "/Users/Paulina/Desktop/My_Projects/Home Budget Planner/DerivedData/Home Budget Planner/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMMigration.h"
+- "/Users/Paulina/Desktop/My_Projects/Home Budget Planner/DerivedData/Home Budget Planner/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncConfiguration.h"
+- "/Users/Paulina/Desktop/My_Projects/Home Budget Planner/DerivedData/Home Budget Planner/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMRealmConfiguration.h"
+- "/Users/Paulina/Desktop/My_Projects/Home Budget Planner/DerivedData/Home Budget Planner/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMCollection.h"
+- "/Users/Paulina/Desktop/My_Projects/Home Budget Planner/DerivedData/Home Budget Planner/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncSubscription.h"
+- "/Users/Paulina/Desktop/My_Projects/Home Budget Planner/DerivedData/Home Budget Planner/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncManager.h"
+- "/Users/Paulina/Desktop/My_Projects/Home Budget Planner/DerivedData/Home Budget Planner/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncUser.h"
+- "/Users/Paulina/Desktop/My_Projects/Home Budget Planner/DerivedData/Home Budget Planner/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMAccessor.h"
+- "/Users/Paulina/Desktop/My_Projects/Home Budget Planner/DerivedData/Home Budget Planner/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncCredentials.h"
+- "/Users/Paulina/Desktop/My_Projects/Home Budget Planner/DerivedData/Home Budget Planner/Build/Products/Debug-iphonesimulator/ChameleonFramework/ChameleonFramework.framework/Headers/ChameleonEnums.h"
+- "/Users/Paulina/Desktop/My_Projects/Home Budget Planner/DerivedData/Home Budget Planner/Build/Products/Debug-iphonesimulator/ChameleonFramework/ChameleonFramework.framework/Headers/ChameleonMacros.h"
+- "/Users/Paulina/Desktop/My_Projects/Home Budget Planner/DerivedData/Home Budget Planner/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMResults.h"
+- "/Users/Paulina/Desktop/My_Projects/Home Budget Planner/DerivedData/Home Budget Planner/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMConstants.h"
+- "/Users/Paulina/Desktop/My_Projects/Home Budget Planner/DerivedData/Home Budget Planner/Build/Products/Debug-iphonesimulator/ChameleonFramework/ChameleonFramework.framework/Headers/ChameleonConstants.h"
+- "/Users/Paulina/Desktop/My_Projects/Home Budget Planner/DerivedData/Home Budget Planner/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMObject.h"
+- "/Users/Paulina/Desktop/My_Projects/Home Budget Planner/DerivedData/Home Budget Planner/Build/Products/Debug-iphonesimulator/ChameleonFramework/ChameleonFramework.framework/Headers/UIAppearance+Swift.h"
+- "/Users/Paulina/Desktop/My_Projects/Home Budget Planner/DerivedData/Home Budget Planner/Build/Products/Debug-iphonesimulator/ChameleonFramework/ChameleonFramework.framework/Headers/ChameleonFramework-Swift.h"
+- "/Users/Paulina/Desktop/My_Projects/Home Budget Planner/DerivedData/Home Budget Planner/Build/Products/Debug-iphonesimulator/RealmSwift/RealmSwift.framework/Headers/RealmSwift-Swift.h"
+- "/Users/Paulina/Desktop/My_Projects/Home Budget Planner/DerivedData/Home Budget Planner/Build/Products/Debug-iphonesimulator/SwipeCellKit/SwipeCellKit.framework/Headers/SwipeCellKit-Swift.h"
+- "/Users/Paulina/Desktop/My_Projects/Home Budget Planner/DerivedData/Home Budget Planner/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMArray.h"
+- "/Users/Paulina/Desktop/My_Projects/Home Budget Planner/DerivedData/Home Budget Planner/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMProperty.h"
+- "/Users/Paulina/Desktop/My_Projects/Home Budget Planner/DerivedData/Home Budget Planner/Build/Products/Debug-iphonesimulator/ChameleonFramework/ChameleonFramework.framework/Modules/module.modulemap"
+- "/Users/Paulina/Desktop/My_Projects/Home Budget Planner/DerivedData/Home Budget Planner/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Modules/module.modulemap"
+- "/Users/Paulina/Desktop/My_Projects/Home Budget Planner/DerivedData/Home Budget Planner/Build/Products/Debug-iphonesimulator/RealmSwift/RealmSwift.framework/Modules/module.modulemap"
+- "/Users/Paulina/Desktop/My_Projects/Home Budget Planner/DerivedData/Home Budget Planner/Build/Products/Debug-iphonesimulator/SwipeCellKit/SwipeCellKit.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "13088989c8c2a1bb31d57a7db72f91c2"

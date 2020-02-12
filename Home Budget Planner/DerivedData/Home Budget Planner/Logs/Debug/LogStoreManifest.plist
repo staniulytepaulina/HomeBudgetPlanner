@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>logFormatVersion</key>
+	<integer>10</integer>
+	<key>logs</key>
+	<dict>
+		<key>7CABAEC0-39AB-426D-88DB-B9DCD18F6C9A</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>7CABAEC0-39AB-426D-88DB-B9DCD18F6C9A.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Home Budget Planner project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Home Budget Planner</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug Home Budget Planner</string>
+			<key>timeStartedRecording</key>
+			<real>603155734.37191403</real>
+			<key>timeStoppedRecording</key>
+			<real>603155827.35903895</real>
+			<key>title</key>
+			<string>Debug Home Budget Planner</string>
+			<key>uniqueIdentifier</key>
+			<string>7CABAEC0-39AB-426D-88DB-B9DCD18F6C9A</string>
+		</dict>
+		<key>7CDC2B33-D699-422C-A653-19D8F58EF2AA</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>7CDC2B33-D699-422C-A653-19D8F58EF2AA.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Home Budget Planner project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Home Budget Planner</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug Home Budget Planner</string>
+			<key>timeStartedRecording</key>
+			<real>603059562.16899502</real>
+			<key>timeStoppedRecording</key>
+			<real>603060184.41371202</real>
+			<key>title</key>
+			<string>Debug Home Budget Planner</string>
+			<key>uniqueIdentifier</key>
+			<string>7CDC2B33-D699-422C-A653-19D8F58EF2AA</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

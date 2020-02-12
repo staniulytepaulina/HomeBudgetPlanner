@@ -1,0 +1,285 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Room"
+provides-nominal:
+- "19Home_Budget_Planner4RoomC"
+provides-member:
+- ["19Home_Budget_Planner4RoomC", ""]
+provides-dynamic-lookup:
+- "colour"
+- "name"
+depends-top-level:
+- "Category"
+- "House"
+- "LinkingObjects"
+- "List"
+- "Object"
+- "Room"
+- "String"
+- "StringLiteralType"
+depends-member:
+- ["10RealmSwift28AssistedObjectiveCBridgeableP", "House"]
+- ["10RealmSwift28AssistedObjectiveCBridgeableP", "LinkingObjects"]
+- ["10RealmSwift28AssistedObjectiveCBridgeableP", "List"]
+- ["10RealmSwift28AssistedObjectiveCBridgeableP", ""]
+- ["10RealmSwift28AssistedObjectiveCBridgeableP", "init"]
+- ["SK", "init"]
+- ["s7CVarArgP", "House"]
+- ["s7CVarArgP", "LinkingObjects"]
+- ["s7CVarArgP", "List"]
+- ["s7CVarArgP", ""]
+- ["s7CVarArgP", "init"]
+- ["19Home_Budget_Planner8CategoryC", "deinit"]
+- ["Sl", "init"]
+- ["s28CustomDebugStringConvertibleP", "House"]
+- ["s28CustomDebugStringConvertibleP", "LinkingObjects"]
+- ["s28CustomDebugStringConvertibleP", "List"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- ["s23CustomStringConvertibleP", "House"]
+- ["s23CustomStringConvertibleP", "LinkingObjects"]
+- ["s23CustomStringConvertibleP", "List"]
+- ["s23CustomStringConvertibleP", ""]
+- ["s23CustomStringConvertibleP", "init"]
+- ["Se", "init"]
+- ["SE", "init"]
+- ["SQ", "House"]
+- ["SQ", "LinkingObjects"]
+- ["SQ", "List"]
+- ["SQ", ""]
+- ["SQ", "init"]
+- ["SH", "House"]
+- ["SH", "LinkingObjects"]
+- ["SH", "List"]
+- ["SH", ""]
+- ["SH", "init"]
+- ["s22LazyCollectionProtocolP", "init"]
+- ["s20LazySequenceProtocolP", "init"]
+- ["10RealmSwift14LinkingObjectsV", "init"]
+- ["10RealmSwift4ListC", "init"]
+- ["SM", "init"]
+- ["So17NSFastEnumerationP", "init"]
+- ["So8NSObjectC", "Category"]
+- ["So8NSObjectC", "House"]
+- ["So8NSObjectC", "LinkingObjects"]
+- ["So8NSObjectC", "List"]
+- ["So8NSObjectC", "String"]
+- ["So8NSObjectC", "categories"]
+- ["So8NSObjectC", "colour"]
+- ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "name"]
+- ["So8NSObjectC", "parentHouse"]
+- ["So8NSObjectP", "House"]
+- ["So8NSObjectP", "LinkingObjects"]
+- ["So8NSObjectP", "List"]
+- ["So8NSObjectP", ""]
+- ["So8NSObjectP", "init"]
+- ["10RealmSwift6ObjectC", "Category"]
+- ["10RealmSwift6ObjectC", "House"]
+- ["10RealmSwift6ObjectC", "LinkingObjects"]
+- ["10RealmSwift6ObjectC", "List"]
+- ["10RealmSwift6ObjectC", "String"]
+- ["10RealmSwift6ObjectC", ""]
+- ["10RealmSwift6ObjectC", "categories"]
+- ["10RealmSwift6ObjectC", "colour"]
+- ["10RealmSwift6ObjectC", "init"]
+- ["10RealmSwift6ObjectC", "name"]
+- ["10RealmSwift6ObjectC", "parentHouse"]
+- ["So13RLMObjectBaseC", "Category"]
+- ["So13RLMObjectBaseC", "House"]
+- ["So13RLMObjectBaseC", "LinkingObjects"]
+- ["So13RLMObjectBaseC", "List"]
+- ["So13RLMObjectBaseC", "String"]
+- ["So13RLMObjectBaseC", "categories"]
+- ["So13RLMObjectBaseC", "colour"]
+- ["So13RLMObjectBaseC", "init"]
+- ["So13RLMObjectBaseC", "name"]
+- ["So13RLMObjectBaseC", "parentHouse"]
+- ["Sk", "init"]
+- ["10RealmSwift0A10CollectionP", "init"]
+- ["10RealmSwift0A14CollectionBaseP", "init"]
+- ["10RealmSwift0A15CollectionValueP", "House"]
+- ["10RealmSwift0A15CollectionValueP", "LinkingObjects"]
+- ["10RealmSwift0A15CollectionValueP", "List"]
+- ["10RealmSwift0A15CollectionValueP", ""]
+- !private ["10RealmSwift0A15CollectionValueP", "init"]
+- ["19Home_Budget_Planner4RoomC", "Category"]
+- ["19Home_Budget_Planner4RoomC", "House"]
+- ["19Home_Budget_Planner4RoomC", "LinkingObjects"]
+- ["19Home_Budget_Planner4RoomC", "List"]
+- ["19Home_Budget_Planner4RoomC", "String"]
+- ["19Home_Budget_Planner4RoomC", "categories"]
+- ["19Home_Budget_Planner4RoomC", "colour"]
+- ["19Home_Budget_Planner4RoomC", "deinit"]
+- ["19Home_Budget_Planner4RoomC", "init"]
+- ["19Home_Budget_Planner4RoomC", "name"]
+- ["19Home_Budget_Planner4RoomC", "parentHouse"]
+- ["ST", "init"]
+- ["10RealmSwift14ThreadConfinedP", "House"]
+- ["10RealmSwift14ThreadConfinedP", "LinkingObjects"]
+- ["10RealmSwift14ThreadConfinedP", "List"]
+- ["10RealmSwift14ThreadConfinedP", ""]
+- ["10RealmSwift14ThreadConfinedP", "init"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "House"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "LinkingObjects"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "List"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "House"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "LinkingObjects"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "List"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", ""]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
+- ["10RealmSwift20_ManagedPropertyTypeP", "House"]
+- ["10RealmSwift20_ManagedPropertyTypeP", "LinkingObjects"]
+- ["10RealmSwift20_ManagedPropertyTypeP", "List"]
+- ["10RealmSwift20_ManagedPropertyTypeP", ""]
+- ["10RealmSwift20_ManagedPropertyTypeP", "init"]
+- ["10RealmSwift01_A20CollectionEnumeratorP", "init"]
+depends-nominal:
+- "10RealmSwift28AssistedObjectiveCBridgeableP"
+- "SK"
+- "s7CVarArgP"
+- "19Home_Budget_Planner8CategoryC"
+- "Sl"
+- "s28CustomDebugStringConvertibleP"
+- "s23CustomStringConvertibleP"
+- "Se"
+- "SE"
+- "SQ"
+- "SH"
+- "s22LazyCollectionProtocolP"
+- "s20LazySequenceProtocolP"
+- "10RealmSwift14LinkingObjectsV"
+- "10RealmSwift4ListC"
+- "SM"
+- "So17NSFastEnumerationP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- "10RealmSwift6ObjectC"
+- "So13RLMObjectBaseC"
+- "Sk"
+- "10RealmSwift0A10CollectionP"
+- "10RealmSwift0A14CollectionBaseP"
+- "10RealmSwift0A15CollectionValueP"
+- "19Home_Budget_Planner4RoomC"
+- "ST"
+- "10RealmSwift14ThreadConfinedP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- "10RealmSwift20_ManagedPropertyTypeP"
+- "10RealmSwift01_A20CollectionEnumeratorP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/ObjectiveC.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreImage.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/QuartzCore.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Dispatch.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Metal.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Darwin.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Foundation.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreFoundation.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreGraphics.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Swift.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/UIKit.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/SwiftOnoneSupport.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Combine.framework/Modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/Paulina/Desktop/My_Projects/Home Budget Planner/DerivedData/Home Budget Planner/Build/Products/Debug-iphonesimulator/ChameleonFramework/ChameleonFramework.framework/Modules/ChameleonFramework.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/Paulina/Desktop/My_Projects/Home Budget Planner/DerivedData/Home Budget Planner/Build/Products/Debug-iphonesimulator/RealmSwift/RealmSwift.framework/Modules/RealmSwift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/Paulina/Desktop/My_Projects/Home Budget Planner/DerivedData/Home Budget Planner/Build/Products/Debug-iphonesimulator/SwipeCellKit/SwipeCellKit.framework/Modules/SwipeCellKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/Paulina/Desktop/My_Projects/Home Budget Planner/DerivedData/Home Budget Planner/Build/Products/Debug-iphonesimulator/ChameleonFramework/ChameleonFramework.framework/Headers/Chameleon_.h"
+- "/Users/Paulina/Desktop/My_Projects/Home Budget Planner/DerivedData/Home Budget Planner/Build/Products/Debug-iphonesimulator/ChameleonFramework/ChameleonFramework.framework/Headers/ChameleonFramework-umbrella.h"
+- "/Users/Paulina/Desktop/My_Projects/Home Budget Planner/DerivedData/Home Budget Planner/Build/Products/Debug-iphonesimulator/RealmSwift/RealmSwift.framework/Headers/RealmSwift-umbrella.h"
+- "/Users/Paulina/Desktop/My_Projects/Home Budget Planner/DerivedData/Home Budget Planner/Build/Products/Debug-iphonesimulator/SwipeCellKit/SwipeCellKit.framework/Headers/SwipeCellKit-umbrella.h"
+- "/Users/Paulina/Desktop/My_Projects/Home Budget Planner/DerivedData/Home Budget Planner/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSchema.h"
+- "/Users/Paulina/Desktop/My_Projects/Home Budget Planner/DerivedData/Home Budget Planner/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMObjectSchema.h"
+- "/Users/Paulina/Desktop/My_Projects/Home Budget Planner/DerivedData/Home Budget Planner/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMObjectBase_Dynamic.h"
+- "/Users/Paulina/Desktop/My_Projects/Home Budget Planner/DerivedData/Home Budget Planner/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMRealm_Dynamic.h"
+- "/Users/Paulina/Desktop/My_Projects/Home Budget Planner/DerivedData/Home Budget Planner/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMRealm+Sync.h"
+- "/Users/Paulina/Desktop/My_Projects/Home Budget Planner/DerivedData/Home Budget Planner/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMRealmConfiguration+Sync.h"
+- "/Users/Paulina/Desktop/My_Projects/Home Budget Planner/DerivedData/Home Budget Planner/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/NSError+RLMSync.h"
+- "/Users/Paulina/Desktop/My_Projects/Home Budget Planner/DerivedData/Home Budget Planner/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMThreadSafeReference.h"
+- "/Users/Paulina/Desktop/My_Projects/Home Budget Planner/DerivedData/Home Budget Planner/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMObjectStore.h"
+- "/Users/Paulina/Desktop/My_Projects/Home Budget Planner/DerivedData/Home Budget Planner/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMOptionalBase.h"
+- "/Users/Paulina/Desktop/My_Projects/Home Budget Planner/DerivedData/Home Budget Planner/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMObjectBase.h"
+- "/Users/Paulina/Desktop/My_Projects/Home Budget Planner/DerivedData/Home Budget Planner/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMListBase.h"
+- "/Users/Paulina/Desktop/My_Projects/Home Budget Planner/DerivedData/Home Budget Planner/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMSchema_Private.h"
+- "/Users/Paulina/Desktop/My_Projects/Home Budget Planner/DerivedData/Home Budget Planner/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMObjectSchema_Private.h"
+- "/Users/Paulina/Desktop/My_Projects/Home Budget Planner/DerivedData/Home Budget Planner/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMObjectBase_Private.h"
+- "/Users/Paulina/Desktop/My_Projects/Home Budget Planner/DerivedData/Home Budget Planner/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMSyncUtil_Private.h"
+- "/Users/Paulina/Desktop/My_Projects/Home Budget Planner/DerivedData/Home Budget Planner/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMRealm_Private.h"
+- "/Users/Paulina/Desktop/My_Projects/Home Budget Planner/DerivedData/Home Budget Planner/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMSyncConfiguration_Private.h"
+- "/Users/Paulina/Desktop/My_Projects/Home Budget Planner/DerivedData/Home Budget Planner/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMRealmConfiguration_Private.h"
+- "/Users/Paulina/Desktop/My_Projects/Home Budget Planner/DerivedData/Home Budget Planner/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMCollection_Private.h"
+- "/Users/Paulina/Desktop/My_Projects/Home Budget Planner/DerivedData/Home Budget Planner/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMResults_Private.h"
+- "/Users/Paulina/Desktop/My_Projects/Home Budget Planner/DerivedData/Home Budget Planner/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMObject_Private.h"
+- "/Users/Paulina/Desktop/My_Projects/Home Budget Planner/DerivedData/Home Budget Planner/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMArray_Private.h"
+- "/Users/Paulina/Desktop/My_Projects/Home Budget Planner/DerivedData/Home Budget Planner/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMProperty_Private.h"
+- "/Users/Paulina/Desktop/My_Projects/Home Budget Planner/DerivedData/Home Budget Planner/Build/Products/Debug-iphonesimulator/ChameleonFramework/ChameleonFramework.framework/Headers/UIImage+ChameleonPrivate.h"
+- "/Users/Paulina/Desktop/My_Projects/Home Budget Planner/DerivedData/Home Budget Planner/Build/Products/Debug-iphonesimulator/ChameleonFramework/ChameleonFramework.framework/Headers/UIColor+ChameleonPrivate.h"
+- "/Users/Paulina/Desktop/My_Projects/Home Budget Planner/DerivedData/Home Budget Planner/Build/Products/Debug-iphonesimulator/ChameleonFramework/ChameleonFramework.framework/Headers/UIView+ChameleonPrivate.h"
+- "/Users/Paulina/Desktop/My_Projects/Home Budget Planner/DerivedData/Home Budget Planner/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncUtil.h"
+- "/Users/Paulina/Desktop/My_Projects/Home Budget Planner/DerivedData/Home Budget Planner/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/Realm.h"
+- "/Users/Paulina/Desktop/My_Projects/Home Budget Planner/DerivedData/Home Budget Planner/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMRealm.h"
+- "/Users/Paulina/Desktop/My_Projects/Home Budget Planner/DerivedData/Home Budget Planner/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMPlatform.h"
+- "/Users/Paulina/Desktop/My_Projects/Home Budget Planner/DerivedData/Home Budget Planner/Build/Products/Debug-iphonesimulator/ChameleonFramework/ChameleonFramework.framework/Headers/UILabel+Chameleon.h"
+- "/Users/Paulina/Desktop/My_Projects/Home Budget Planner/DerivedData/Home Budget Planner/Build/Products/Debug-iphonesimulator/ChameleonFramework/ChameleonFramework.framework/Headers/UIButton+Chameleon.h"
+- "/Users/Paulina/Desktop/My_Projects/Home Budget Planner/DerivedData/Home Budget Planner/Build/Products/Debug-iphonesimulator/ChameleonFramework/ChameleonFramework.framework/Headers/UINavigationController+Chameleon.h"
+- "/Users/Paulina/Desktop/My_Projects/Home Budget Planner/DerivedData/Home Budget Planner/Build/Products/Debug-iphonesimulator/ChameleonFramework/ChameleonFramework.framework/Headers/UIViewController+Chameleon.h"
+- "/Users/Paulina/Desktop/My_Projects/Home Budget Planner/DerivedData/Home Budget Planner/Build/Products/Debug-iphonesimulator/ChameleonFramework/ChameleonFramework.framework/Headers/UIColor+Chameleon.h"
+- "/Users/Paulina/Desktop/My_Projects/Home Budget Planner/DerivedData/Home Budget Planner/Build/Products/Debug-iphonesimulator/ChameleonFramework/ChameleonFramework.framework/Headers/NSArray+Chameleon.h"
+- "/Users/Paulina/Desktop/My_Projects/Home Budget Planner/DerivedData/Home Budget Planner/Build/Products/Debug-iphonesimulator/ChameleonFramework/ChameleonFramework.framework/Headers/Chameleon.h"
+- "/Users/Paulina/Desktop/My_Projects/Home Budget Planner/DerivedData/Home Budget Planner/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncSession.h"
+- "/Users/Paulina/Desktop/My_Projects/Home Budget Planner/DerivedData/Home Budget Planner/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncPermission.h"
+- "/Users/Paulina/Desktop/My_Projects/Home Budget Planner/DerivedData/Home Budget Planner/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMMigration.h"
+- "/Users/Paulina/Desktop/My_Projects/Home Budget Planner/DerivedData/Home Budget Planner/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncConfiguration.h"
+- "/Users/Paulina/Desktop/My_Projects/Home Budget Planner/DerivedData/Home Budget Planner/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMRealmConfiguration.h"
+- "/Users/Paulina/Desktop/My_Projects/Home Budget Planner/DerivedData/Home Budget Planner/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMCollection.h"
+- "/Users/Paulina/Desktop/My_Projects/Home Budget Planner/DerivedData/Home Budget Planner/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncSubscription.h"
+- "/Users/Paulina/Desktop/My_Projects/Home Budget Planner/DerivedData/Home Budget Planner/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncManager.h"
+- "/Users/Paulina/Desktop/My_Projects/Home Budget Planner/DerivedData/Home Budget Planner/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncUser.h"
+- "/Users/Paulina/Desktop/My_Projects/Home Budget Planner/DerivedData/Home Budget Planner/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMAccessor.h"
+- "/Users/Paulina/Desktop/My_Projects/Home Budget Planner/DerivedData/Home Budget Planner/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncCredentials.h"
+- "/Users/Paulina/Desktop/My_Projects/Home Budget Planner/DerivedData/Home Budget Planner/Build/Products/Debug-iphonesimulator/ChameleonFramework/ChameleonFramework.framework/Headers/ChameleonEnums.h"
+- "/Users/Paulina/Desktop/My_Projects/Home Budget Planner/DerivedData/Home Budget Planner/Build/Products/Debug-iphonesimulator/ChameleonFramework/ChameleonFramework.framework/Headers/ChameleonMacros.h"
+- "/Users/Paulina/Desktop/My_Projects/Home Budget Planner/DerivedData/Home Budget Planner/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMResults.h"
+- "/Users/Paulina/Desktop/My_Projects/Home Budget Planner/DerivedData/Home Budget Planner/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMConstants.h"
+- "/Users/Paulina/Desktop/My_Projects/Home Budget Planner/DerivedData/Home Budget Planner/Build/Products/Debug-iphonesimulator/ChameleonFramework/ChameleonFramework.framework/Headers/ChameleonConstants.h"
+- "/Users/Paulina/Desktop/My_Projects/Home Budget Planner/DerivedData/Home Budget Planner/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMObject.h"
+- "/Users/Paulina/Desktop/My_Projects/Home Budget Planner/DerivedData/Home Budget Planner/Build/Products/Debug-iphonesimulator/ChameleonFramework/ChameleonFramework.framework/Headers/UIAppearance+Swift.h"
+- "/Users/Paulina/Desktop/My_Projects/Home Budget Planner/DerivedData/Home Budget Planner/Build/Products/Debug-iphonesimulator/ChameleonFramework/ChameleonFramework.framework/Headers/ChameleonFramework-Swift.h"
+- "/Users/Paulina/Desktop/My_Projects/Home Budget Planner/DerivedData/Home Budget Planner/Build/Products/Debug-iphonesimulator/RealmSwift/RealmSwift.framework/Headers/RealmSwift-Swift.h"
+- "/Users/Paulina/Desktop/My_Projects/Home Budget Planner/DerivedData/Home Budget Planner/Build/Products/Debug-iphonesimulator/SwipeCellKit/SwipeCellKit.framework/Headers/SwipeCellKit-Swift.h"
+- "/Users/Paulina/Desktop/My_Projects/Home Budget Planner/DerivedData/Home Budget Planner/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMArray.h"
+- "/Users/Paulina/Desktop/My_Projects/Home Budget Planner/DerivedData/Home Budget Planner/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMProperty.h"
+- "/Users/Paulina/Desktop/My_Projects/Home Budget Planner/DerivedData/Home Budget Planner/Build/Products/Debug-iphonesimulator/ChameleonFramework/ChameleonFramework.framework/Modules/module.modulemap"
+- "/Users/Paulina/Desktop/My_Projects/Home Budget Planner/DerivedData/Home Budget Planner/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Modules/module.modulemap"
+- "/Users/Paulina/Desktop/My_Projects/Home Budget Planner/DerivedData/Home Budget Planner/Build/Products/Debug-iphonesimulator/RealmSwift/RealmSwift.framework/Modules/module.modulemap"
+- "/Users/Paulina/Desktop/My_Projects/Home Budget Planner/DerivedData/Home Budget Planner/Build/Products/Debug-iphonesimulator/SwipeCellKit/SwipeCellKit.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "7cefe289c614bc92f10703e6ea1a4f74"

@@ -1,0 +1,18 @@
+version: "Apple Swift version 5.1.3 (swiftlang-1100.0.282.1 clang-1100.0.33.15)"
+options: "92c857ab725ad4bda27fa1939f8b50fa"
+build_time: [1581461017, 309201000]
+inputs:
+  "/Users/Paulina/Desktop/My_Projects/Home Budget Planner/Home Budget Planner/Controllers/ImagePickerDelegate.swift": [1581268955, 292493634]
+  "/Users/Paulina/Desktop/My_Projects/Home Budget Planner/Home Budget Planner/Data Model/Item.swift": [1580839674, 636478209]
+  "/Users/Paulina/Desktop/My_Projects/Home Budget Planner/Home Budget Planner/Controllers/HouseViewController.swift": [1581461015, 697034656]
+  "/Users/Paulina/Desktop/My_Projects/Home Budget Planner/Home Budget Planner/Data Model/House.swift": [1579372519, 381588793]
+  "/Users/Paulina/Desktop/My_Projects/Home Budget Planner/Home Budget Planner/Controllers/ItemsViewController.swift": [1581366757, 839274472]
+  "/Users/Paulina/Desktop/My_Projects/Home Budget Planner/Home Budget Planner/AppDelegate.swift": [1580840964, 787482845]
+  "/Users/Paulina/Desktop/My_Projects/Home Budget Planner/Home Budget Planner/Data Model/Room.swift": [1580842400, 155167621]
+  "/Users/Paulina/Desktop/My_Projects/Home Budget Planner/Home Budget Planner/Controllers/SwipeTableViewController.swift": [1580848962, 851190185]
+  "/Users/Paulina/Desktop/My_Projects/Home Budget Planner/Home Budget Planner/SceneDelegate.swift": [1579362510, 92801735]
+  "/Users/Paulina/Desktop/My_Projects/Home Budget Planner/Home Budget Planner/Controllers/ItemsTableViewController.swift": [1581349369, 191834903]
+  "/Users/Paulina/Desktop/My_Projects/Home Budget Planner/Home Budget Planner/Views/ItemsCell.swift": [1581349373, 412358685]
+  "/Users/Paulina/Desktop/My_Projects/Home Budget Planner/Home Budget Planner/Controllers/CategoryViewController.swift": [1581366757, 869237195]
+  "/Users/Paulina/Desktop/My_Projects/Home Budget Planner/Home Budget Planner/Data Model/Category.swift": [1581014093, 813209294]
+  "/Users/Paulina/Desktop/My_Projects/Home Budget Planner/Home Budget Planner/Controllers/RoomViewController.swift": [1581366667, 496186227]

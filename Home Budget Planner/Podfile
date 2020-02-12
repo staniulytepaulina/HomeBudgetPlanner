@@ -1,0 +1,22 @@
+platform :ios, '9.0'
+
+target 'Home Budget Planner' do
+
+  use_frameworks!
+
+  # Pods for Home Budget Planner
+
+pod 'RealmSwift'
+pod 'SwipeCellKit'
+pod 'ChameleonFramework/Swift', :git => 'https://github.com/wowansm/Chameleon.git', :branch => 'swift5'
+
+  target 'Home Budget PlannerTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'Home Budget PlannerUITests' do
+    # Pods for testing
+  end
+
+end

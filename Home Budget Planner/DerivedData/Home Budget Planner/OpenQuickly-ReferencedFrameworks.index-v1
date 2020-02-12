@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<string>ChameleonFramework</string>
+	<string>Realm</string>
+	<string>SwipeCellKit</string>
+	<string>RealmSwift</string>
+	<string>net</string>
+	<string>CommonCrypto</string>
+	<string>CoreGraphics</string>
+	<string>XCTest</string>
+	<string>sys</string>
+	<string>objc</string>
+	<string>Chameleon</string>
+	<string>UIKit</string>
+	<string>Foundation</string>
+	<string>realm</string>
+	<string>Home</string>
+</array>
+</plist>

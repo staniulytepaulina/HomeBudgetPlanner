@@ -1,0 +1,1041 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ComplementaryFlatColorOf"
+- "RandomFlatColorWithShade"
+- "ContrastColorOf"
+- "GradientColor"
+- "HexColor"
+- "AverageColorFromImage"
+- "ColorSchemeOf"
+- "ColorsFromImage"
+- "RandomFlatColor"
+- "ClearColor"
+- "FlatBlack"
+- "FlatBlue"
+- "FlatBrown"
+- "FlatCoffee"
+- "FlatForestGreen"
+- "FlatGray"
+- "FlatGreen"
+- "FlatLime"
+- "FlatMagenta"
+- "FlatMaroon"
+- "FlatMint"
+- "FlatNavyBlue"
+- "FlatOrange"
+- "FlatPink"
+- "FlatPlum"
+- "FlatPowderBlue"
+- "FlatPurple"
+- "FlatRed"
+- "FlatSand"
+- "FlatSkyBlue"
+- "FlatTeal"
+- "FlatWatermelon"
+- "FlatWhite"
+- "FlatYellow"
+- "FlatBlackDark"
+- "FlatBlueDark"
+- "FlatBrownDark"
+- "FlatCoffeeDark"
+- "FlatForestGreenDark"
+- "FlatGrayDark"
+- "FlatGreenDark"
+- "FlatLimeDark"
+- "FlatMagentaDark"
+- "FlatMaroonDark"
+- "FlatMintDark"
+- "FlatNavyBlueDark"
+- "FlatOrangeDark"
+- "FlatPinkDark"
+- "FlatPlumDark"
+- "FlatPowderBlueDark"
+- "FlatPurpleDark"
+- "FlatRedDark"
+- "FlatSandDark"
+- "FlatSkyBlueDark"
+- "FlatTealDark"
+- "FlatWatermelonDark"
+- "FlatWhiteDark"
+- "FlatYellowDark"
+provides-nominal:
+provides-member:
+provides-dynamic-lookup:
+depends-top-level:
+- "AverageColorFromImage"
+- "Bool"
+- "CGFloat"
+- "CGRect"
+- "CastingPrecedence"
+- "ClearColor"
+- "ColorScheme"
+- "ColorSchemeOf"
+- "ColorsFromImage"
+- "ComplementaryFlatColorOf"
+- "ContrastColorOf"
+- "FlatBlack"
+- "FlatBlackDark"
+- "FlatBlue"
+- "FlatBlueDark"
+- "FlatBrown"
+- "FlatBrownDark"
+- "FlatCoffee"
+- "FlatCoffeeDark"
+- "FlatForestGreen"
+- "FlatForestGreenDark"
+- "FlatGray"
+- "FlatGrayDark"
+- "FlatGreen"
+- "FlatGreenDark"
+- "FlatLime"
+- "FlatLimeDark"
+- "FlatMagenta"
+- "FlatMagentaDark"
+- "FlatMaroon"
+- "FlatMaroonDark"
+- "FlatMint"
+- "FlatMintDark"
+- "FlatNavyBlue"
+- "FlatNavyBlueDark"
+- "FlatOrange"
+- "FlatOrangeDark"
+- "FlatPink"
+- "FlatPinkDark"
+- "FlatPlum"
+- "FlatPlumDark"
+- "FlatPowderBlue"
+- "FlatPowderBlueDark"
+- "FlatPurple"
+- "FlatPurpleDark"
+- "FlatRed"
+- "FlatRedDark"
+- "FlatSand"
+- "FlatSandDark"
+- "FlatSkyBlue"
+- "FlatSkyBlueDark"
+- "FlatTeal"
+- "FlatTealDark"
+- "FlatWatermelon"
+- "FlatWatermelonDark"
+- "FlatWhite"
+- "FlatWhiteDark"
+- "FlatYellow"
+- "FlatYellowDark"
+- "FloatLiteralType"
+- "GradientColor"
+- "HexColor"
+- !private "NSArray"
+- "RandomFlatColor"
+- "RandomFlatColorWithShade"
+- "String"
+- "UIColor"
+- "UIGradientStyle"
+- "UIImage"
+- "UIShadeStyle"
+depends-member:
+- !private ["s7CVarArgP", "clear"]
+- !private ["s7CVarArgP", "flatBlack"]
+- !private ["s7CVarArgP", "flatBlackDark"]
+- !private ["s7CVarArgP", "flatBlue"]
+- !private ["s7CVarArgP", "flatBlueDark"]
+- !private ["s7CVarArgP", "flatBrown"]
+- !private ["s7CVarArgP", "flatBrownDark"]
+- !private ["s7CVarArgP", "flatCoffee"]
+- !private ["s7CVarArgP", "flatCoffeeDark"]
+- !private ["s7CVarArgP", "flatForestGreen"]
+- !private ["s7CVarArgP", "flatForestGreenDark"]
+- !private ["s7CVarArgP", "flatGray"]
+- !private ["s7CVarArgP", "flatGrayDark"]
+- !private ["s7CVarArgP", "flatGreen"]
+- !private ["s7CVarArgP", "flatGreenDark"]
+- !private ["s7CVarArgP", "flatLime"]
+- !private ["s7CVarArgP", "flatLimeDark"]
+- !private ["s7CVarArgP", "flatMagenta"]
+- !private ["s7CVarArgP", "flatMagentaDark"]
+- !private ["s7CVarArgP", "flatMaroon"]
+- !private ["s7CVarArgP", "flatMaroonDark"]
+- !private ["s7CVarArgP", "flatMint"]
+- !private ["s7CVarArgP", "flatMintDark"]
+- !private ["s7CVarArgP", "flatNavyBlue"]
+- !private ["s7CVarArgP", "flatNavyBlueDark"]
+- !private ["s7CVarArgP", "flatOrange"]
+- !private ["s7CVarArgP", "flatOrangeDark"]
+- !private ["s7CVarArgP", "flatPink"]
+- !private ["s7CVarArgP", "flatPinkDark"]
+- !private ["s7CVarArgP", "flatPlum"]
+- !private ["s7CVarArgP", "flatPlumDark"]
+- !private ["s7CVarArgP", "flatPowderBlue"]
+- !private ["s7CVarArgP", "flatPowderBlueDark"]
+- !private ["s7CVarArgP", "flatPurple"]
+- !private ["s7CVarArgP", "flatPurpleDark"]
+- !private ["s7CVarArgP", "flatRed"]
+- !private ["s7CVarArgP", "flatRedDark"]
+- !private ["s7CVarArgP", "flatSand"]
+- !private ["s7CVarArgP", "flatSandDark"]
+- !private ["s7CVarArgP", "flatSkyBlue"]
+- !private ["s7CVarArgP", "flatSkyBlueDark"]
+- !private ["s7CVarArgP", "flatTeal"]
+- !private ["s7CVarArgP", "flatTealDark"]
+- !private ["s7CVarArgP", "flatWatermelon"]
+- !private ["s7CVarArgP", "flatWatermelonDark"]
+- !private ["s7CVarArgP", "flatWhite"]
+- !private ["s7CVarArgP", "flatWhiteDark"]
+- !private ["s7CVarArgP", "flatYellow"]
+- !private ["s7CVarArgP", "flatYellowDark"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "randomFlat"]
+- !private ["s28CustomDebugStringConvertibleP", "clear"]
+- !private ["s28CustomDebugStringConvertibleP", "flatBlack"]
+- !private ["s28CustomDebugStringConvertibleP", "flatBlackDark"]
+- !private ["s28CustomDebugStringConvertibleP", "flatBlue"]
+- !private ["s28CustomDebugStringConvertibleP", "flatBlueDark"]
+- !private ["s28CustomDebugStringConvertibleP", "flatBrown"]
+- !private ["s28CustomDebugStringConvertibleP", "flatBrownDark"]
+- !private ["s28CustomDebugStringConvertibleP", "flatCoffee"]
+- !private ["s28CustomDebugStringConvertibleP", "flatCoffeeDark"]
+- !private ["s28CustomDebugStringConvertibleP", "flatForestGreen"]
+- !private ["s28CustomDebugStringConvertibleP", "flatForestGreenDark"]
+- !private ["s28CustomDebugStringConvertibleP", "flatGray"]
+- !private ["s28CustomDebugStringConvertibleP", "flatGrayDark"]
+- !private ["s28CustomDebugStringConvertibleP", "flatGreen"]
+- !private ["s28CustomDebugStringConvertibleP", "flatGreenDark"]
+- !private ["s28CustomDebugStringConvertibleP", "flatLime"]
+- !private ["s28CustomDebugStringConvertibleP", "flatLimeDark"]
+- !private ["s28CustomDebugStringConvertibleP", "flatMagenta"]
+- !private ["s28CustomDebugStringConvertibleP", "flatMagentaDark"]
+- !private ["s28CustomDebugStringConvertibleP", "flatMaroon"]
+- !private ["s28CustomDebugStringConvertibleP", "flatMaroonDark"]
+- !private ["s28CustomDebugStringConvertibleP", "flatMint"]
+- !private ["s28CustomDebugStringConvertibleP", "flatMintDark"]
+- !private ["s28CustomDebugStringConvertibleP", "flatNavyBlue"]
+- !private ["s28CustomDebugStringConvertibleP", "flatNavyBlueDark"]
+- !private ["s28CustomDebugStringConvertibleP", "flatOrange"]
+- !private ["s28CustomDebugStringConvertibleP", "flatOrangeDark"]
+- !private ["s28CustomDebugStringConvertibleP", "flatPink"]
+- !private ["s28CustomDebugStringConvertibleP", "flatPinkDark"]
+- !private ["s28CustomDebugStringConvertibleP", "flatPlum"]
+- !private ["s28CustomDebugStringConvertibleP", "flatPlumDark"]
+- !private ["s28CustomDebugStringConvertibleP", "flatPowderBlue"]
+- !private ["s28CustomDebugStringConvertibleP", "flatPowderBlueDark"]
+- !private ["s28CustomDebugStringConvertibleP", "flatPurple"]
+- !private ["s28CustomDebugStringConvertibleP", "flatPurpleDark"]
+- !private ["s28CustomDebugStringConvertibleP", "flatRed"]
+- !private ["s28CustomDebugStringConvertibleP", "flatRedDark"]
+- !private ["s28CustomDebugStringConvertibleP", "flatSand"]
+- !private ["s28CustomDebugStringConvertibleP", "flatSandDark"]
+- !private ["s28CustomDebugStringConvertibleP", "flatSkyBlue"]
+- !private ["s28CustomDebugStringConvertibleP", "flatSkyBlueDark"]
+- !private ["s28CustomDebugStringConvertibleP", "flatTeal"]
+- !private ["s28CustomDebugStringConvertibleP", "flatTealDark"]
+- !private ["s28CustomDebugStringConvertibleP", "flatWatermelon"]
+- !private ["s28CustomDebugStringConvertibleP", "flatWatermelonDark"]
+- !private ["s28CustomDebugStringConvertibleP", "flatWhite"]
+- !private ["s28CustomDebugStringConvertibleP", "flatWhiteDark"]
+- !private ["s28CustomDebugStringConvertibleP", "flatYellow"]
+- !private ["s28CustomDebugStringConvertibleP", "flatYellowDark"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "randomFlat"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s23CustomStringConvertibleP", "clear"]
+- !private ["s23CustomStringConvertibleP", "flatBlack"]
+- !private ["s23CustomStringConvertibleP", "flatBlackDark"]
+- !private ["s23CustomStringConvertibleP", "flatBlue"]
+- !private ["s23CustomStringConvertibleP", "flatBlueDark"]
+- !private ["s23CustomStringConvertibleP", "flatBrown"]
+- !private ["s23CustomStringConvertibleP", "flatBrownDark"]
+- !private ["s23CustomStringConvertibleP", "flatCoffee"]
+- !private ["s23CustomStringConvertibleP", "flatCoffeeDark"]
+- !private ["s23CustomStringConvertibleP", "flatForestGreen"]
+- !private ["s23CustomStringConvertibleP", "flatForestGreenDark"]
+- !private ["s23CustomStringConvertibleP", "flatGray"]
+- !private ["s23CustomStringConvertibleP", "flatGrayDark"]
+- !private ["s23CustomStringConvertibleP", "flatGreen"]
+- !private ["s23CustomStringConvertibleP", "flatGreenDark"]
+- !private ["s23CustomStringConvertibleP", "flatLime"]
+- !private ["s23CustomStringConvertibleP", "flatLimeDark"]
+- !private ["s23CustomStringConvertibleP", "flatMagenta"]
+- !private ["s23CustomStringConvertibleP", "flatMagentaDark"]
+- !private ["s23CustomStringConvertibleP", "flatMaroon"]
+- !private ["s23CustomStringConvertibleP", "flatMaroonDark"]
+- !private ["s23CustomStringConvertibleP", "flatMint"]
+- !private ["s23CustomStringConvertibleP", "flatMintDark"]
+- !private ["s23CustomStringConvertibleP", "flatNavyBlue"]
+- !private ["s23CustomStringConvertibleP", "flatNavyBlueDark"]
+- !private ["s23CustomStringConvertibleP", "flatOrange"]
+- !private ["s23CustomStringConvertibleP", "flatOrangeDark"]
+- !private ["s23CustomStringConvertibleP", "flatPink"]
+- !private ["s23CustomStringConvertibleP", "flatPinkDark"]
+- !private ["s23CustomStringConvertibleP", "flatPlum"]
+- !private ["s23CustomStringConvertibleP", "flatPlumDark"]
+- !private ["s23CustomStringConvertibleP", "flatPowderBlue"]
+- !private ["s23CustomStringConvertibleP", "flatPowderBlueDark"]
+- !private ["s23CustomStringConvertibleP", "flatPurple"]
+- !private ["s23CustomStringConvertibleP", "flatPurpleDark"]
+- !private ["s23CustomStringConvertibleP", "flatRed"]
+- !private ["s23CustomStringConvertibleP", "flatRedDark"]
+- !private ["s23CustomStringConvertibleP", "flatSand"]
+- !private ["s23CustomStringConvertibleP", "flatSandDark"]
+- !private ["s23CustomStringConvertibleP", "flatSkyBlue"]
+- !private ["s23CustomStringConvertibleP", "flatSkyBlueDark"]
+- !private ["s23CustomStringConvertibleP", "flatTeal"]
+- !private ["s23CustomStringConvertibleP", "flatTealDark"]
+- !private ["s23CustomStringConvertibleP", "flatWatermelon"]
+- !private ["s23CustomStringConvertibleP", "flatWatermelonDark"]
+- !private ["s23CustomStringConvertibleP", "flatWhite"]
+- !private ["s23CustomStringConvertibleP", "flatWhiteDark"]
+- !private ["s23CustomStringConvertibleP", "flatYellow"]
+- !private ["s23CustomStringConvertibleP", "flatYellowDark"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "randomFlat"]
+- !private ["SQ", "clear"]
+- !private ["SQ", "flatBlack"]
+- !private ["SQ", "flatBlackDark"]
+- !private ["SQ", "flatBlue"]
+- !private ["SQ", "flatBlueDark"]
+- !private ["SQ", "flatBrown"]
+- !private ["SQ", "flatBrownDark"]
+- !private ["SQ", "flatCoffee"]
+- !private ["SQ", "flatCoffeeDark"]
+- !private ["SQ", "flatForestGreen"]
+- !private ["SQ", "flatForestGreenDark"]
+- !private ["SQ", "flatGray"]
+- !private ["SQ", "flatGrayDark"]
+- !private ["SQ", "flatGreen"]
+- !private ["SQ", "flatGreenDark"]
+- !private ["SQ", "flatLime"]
+- !private ["SQ", "flatLimeDark"]
+- !private ["SQ", "flatMagenta"]
+- !private ["SQ", "flatMagentaDark"]
+- !private ["SQ", "flatMaroon"]
+- !private ["SQ", "flatMaroonDark"]
+- !private ["SQ", "flatMint"]
+- !private ["SQ", "flatMintDark"]
+- !private ["SQ", "flatNavyBlue"]
+- !private ["SQ", "flatNavyBlueDark"]
+- !private ["SQ", "flatOrange"]
+- !private ["SQ", "flatOrangeDark"]
+- !private ["SQ", "flatPink"]
+- !private ["SQ", "flatPinkDark"]
+- !private ["SQ", "flatPlum"]
+- !private ["SQ", "flatPlumDark"]
+- !private ["SQ", "flatPowderBlue"]
+- !private ["SQ", "flatPowderBlueDark"]
+- !private ["SQ", "flatPurple"]
+- !private ["SQ", "flatPurpleDark"]
+- !private ["SQ", "flatRed"]
+- !private ["SQ", "flatRedDark"]
+- !private ["SQ", "flatSand"]
+- !private ["SQ", "flatSandDark"]
+- !private ["SQ", "flatSkyBlue"]
+- !private ["SQ", "flatSkyBlueDark"]
+- !private ["SQ", "flatTeal"]
+- !private ["SQ", "flatTealDark"]
+- !private ["SQ", "flatWatermelon"]
+- !private ["SQ", "flatWatermelonDark"]
+- !private ["SQ", "flatWhite"]
+- !private ["SQ", "flatWhiteDark"]
+- !private ["SQ", "flatYellow"]
+- !private ["SQ", "flatYellowDark"]
+- !private ["SQ", "init"]
+- !private ["SQ", "randomFlat"]
+- !private ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["SH", "clear"]
+- !private ["SH", "flatBlack"]
+- !private ["SH", "flatBlackDark"]
+- !private ["SH", "flatBlue"]
+- !private ["SH", "flatBlueDark"]
+- !private ["SH", "flatBrown"]
+- !private ["SH", "flatBrownDark"]
+- !private ["SH", "flatCoffee"]
+- !private ["SH", "flatCoffeeDark"]
+- !private ["SH", "flatForestGreen"]
+- !private ["SH", "flatForestGreenDark"]
+- !private ["SH", "flatGray"]
+- !private ["SH", "flatGrayDark"]
+- !private ["SH", "flatGreen"]
+- !private ["SH", "flatGreenDark"]
+- !private ["SH", "flatLime"]
+- !private ["SH", "flatLimeDark"]
+- !private ["SH", "flatMagenta"]
+- !private ["SH", "flatMagentaDark"]
+- !private ["SH", "flatMaroon"]
+- !private ["SH", "flatMaroonDark"]
+- !private ["SH", "flatMint"]
+- !private ["SH", "flatMintDark"]
+- !private ["SH", "flatNavyBlue"]
+- !private ["SH", "flatNavyBlueDark"]
+- !private ["SH", "flatOrange"]
+- !private ["SH", "flatOrangeDark"]
+- !private ["SH", "flatPink"]
+- !private ["SH", "flatPinkDark"]
+- !private ["SH", "flatPlum"]
+- !private ["SH", "flatPlumDark"]
+- !private ["SH", "flatPowderBlue"]
+- !private ["SH", "flatPowderBlueDark"]
+- !private ["SH", "flatPurple"]
+- !private ["SH", "flatPurpleDark"]
+- !private ["SH", "flatRed"]
+- !private ["SH", "flatRedDark"]
+- !private ["SH", "flatSand"]
+- !private ["SH", "flatSandDark"]
+- !private ["SH", "flatSkyBlue"]
+- !private ["SH", "flatSkyBlueDark"]
+- !private ["SH", "flatTeal"]
+- !private ["SH", "flatTealDark"]
+- !private ["SH", "flatWatermelon"]
+- !private ["SH", "flatWatermelonDark"]
+- !private ["SH", "flatWhite"]
+- !private ["SH", "flatWhiteDark"]
+- !private ["SH", "flatYellow"]
+- !private ["SH", "flatYellowDark"]
+- !private ["SH", "init"]
+- !private ["SH", "randomFlat"]
+- !private ["So7NSArrayC", "init"]
+- !private ["So8NSCodingP", "clear"]
+- !private ["So8NSCodingP", "flatBlack"]
+- !private ["So8NSCodingP", "flatBlackDark"]
+- !private ["So8NSCodingP", "flatBlue"]
+- !private ["So8NSCodingP", "flatBlueDark"]
+- !private ["So8NSCodingP", "flatBrown"]
+- !private ["So8NSCodingP", "flatBrownDark"]
+- !private ["So8NSCodingP", "flatCoffee"]
+- !private ["So8NSCodingP", "flatCoffeeDark"]
+- !private ["So8NSCodingP", "flatForestGreen"]
+- !private ["So8NSCodingP", "flatForestGreenDark"]
+- !private ["So8NSCodingP", "flatGray"]
+- !private ["So8NSCodingP", "flatGrayDark"]
+- !private ["So8NSCodingP", "flatGreen"]
+- !private ["So8NSCodingP", "flatGreenDark"]
+- !private ["So8NSCodingP", "flatLime"]
+- !private ["So8NSCodingP", "flatLimeDark"]
+- !private ["So8NSCodingP", "flatMagenta"]
+- !private ["So8NSCodingP", "flatMagentaDark"]
+- !private ["So8NSCodingP", "flatMaroon"]
+- !private ["So8NSCodingP", "flatMaroonDark"]
+- !private ["So8NSCodingP", "flatMint"]
+- !private ["So8NSCodingP", "flatMintDark"]
+- !private ["So8NSCodingP", "flatNavyBlue"]
+- !private ["So8NSCodingP", "flatNavyBlueDark"]
+- !private ["So8NSCodingP", "flatOrange"]
+- !private ["So8NSCodingP", "flatOrangeDark"]
+- !private ["So8NSCodingP", "flatPink"]
+- !private ["So8NSCodingP", "flatPinkDark"]
+- !private ["So8NSCodingP", "flatPlum"]
+- !private ["So8NSCodingP", "flatPlumDark"]
+- !private ["So8NSCodingP", "flatPowderBlue"]
+- !private ["So8NSCodingP", "flatPowderBlueDark"]
+- !private ["So8NSCodingP", "flatPurple"]
+- !private ["So8NSCodingP", "flatPurpleDark"]
+- !private ["So8NSCodingP", "flatRed"]
+- !private ["So8NSCodingP", "flatRedDark"]
+- !private ["So8NSCodingP", "flatSand"]
+- !private ["So8NSCodingP", "flatSandDark"]
+- !private ["So8NSCodingP", "flatSkyBlue"]
+- !private ["So8NSCodingP", "flatSkyBlueDark"]
+- !private ["So8NSCodingP", "flatTeal"]
+- !private ["So8NSCodingP", "flatTealDark"]
+- !private ["So8NSCodingP", "flatWatermelon"]
+- !private ["So8NSCodingP", "flatWatermelonDark"]
+- !private ["So8NSCodingP", "flatWhite"]
+- !private ["So8NSCodingP", "flatWhiteDark"]
+- !private ["So8NSCodingP", "flatYellow"]
+- !private ["So8NSCodingP", "flatYellowDark"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "randomFlat"]
+- !private ["So9NSCopyingP", "clear"]
+- !private ["So9NSCopyingP", "flatBlack"]
+- !private ["So9NSCopyingP", "flatBlackDark"]
+- !private ["So9NSCopyingP", "flatBlue"]
+- !private ["So9NSCopyingP", "flatBlueDark"]
+- !private ["So9NSCopyingP", "flatBrown"]
+- !private ["So9NSCopyingP", "flatBrownDark"]
+- !private ["So9NSCopyingP", "flatCoffee"]
+- !private ["So9NSCopyingP", "flatCoffeeDark"]
+- !private ["So9NSCopyingP", "flatForestGreen"]
+- !private ["So9NSCopyingP", "flatForestGreenDark"]
+- !private ["So9NSCopyingP", "flatGray"]
+- !private ["So9NSCopyingP", "flatGrayDark"]
+- !private ["So9NSCopyingP", "flatGreen"]
+- !private ["So9NSCopyingP", "flatGreenDark"]
+- !private ["So9NSCopyingP", "flatLime"]
+- !private ["So9NSCopyingP", "flatLimeDark"]
+- !private ["So9NSCopyingP", "flatMagenta"]
+- !private ["So9NSCopyingP", "flatMagentaDark"]
+- !private ["So9NSCopyingP", "flatMaroon"]
+- !private ["So9NSCopyingP", "flatMaroonDark"]
+- !private ["So9NSCopyingP", "flatMint"]
+- !private ["So9NSCopyingP", "flatMintDark"]
+- !private ["So9NSCopyingP", "flatNavyBlue"]
+- !private ["So9NSCopyingP", "flatNavyBlueDark"]
+- !private ["So9NSCopyingP", "flatOrange"]
+- !private ["So9NSCopyingP", "flatOrangeDark"]
+- !private ["So9NSCopyingP", "flatPink"]
+- !private ["So9NSCopyingP", "flatPinkDark"]
+- !private ["So9NSCopyingP", "flatPlum"]
+- !private ["So9NSCopyingP", "flatPlumDark"]
+- !private ["So9NSCopyingP", "flatPowderBlue"]
+- !private ["So9NSCopyingP", "flatPowderBlueDark"]
+- !private ["So9NSCopyingP", "flatPurple"]
+- !private ["So9NSCopyingP", "flatPurpleDark"]
+- !private ["So9NSCopyingP", "flatRed"]
+- !private ["So9NSCopyingP", "flatRedDark"]
+- !private ["So9NSCopyingP", "flatSand"]
+- !private ["So9NSCopyingP", "flatSandDark"]
+- !private ["So9NSCopyingP", "flatSkyBlue"]
+- !private ["So9NSCopyingP", "flatSkyBlueDark"]
+- !private ["So9NSCopyingP", "flatTeal"]
+- !private ["So9NSCopyingP", "flatTealDark"]
+- !private ["So9NSCopyingP", "flatWatermelon"]
+- !private ["So9NSCopyingP", "flatWatermelonDark"]
+- !private ["So9NSCopyingP", "flatWhite"]
+- !private ["So9NSCopyingP", "flatWhiteDark"]
+- !private ["So9NSCopyingP", "flatYellow"]
+- !private ["So9NSCopyingP", "flatYellowDark"]
+- !private ["So9NSCopyingP", "init"]
+- !private ["So9NSCopyingP", "randomFlat"]
+- !private ["So17NSFastEnumerationP", "init"]
+- !private ["So21NSItemProviderReadingP", "clear"]
+- !private ["So21NSItemProviderReadingP", "flatBlack"]
+- !private ["So21NSItemProviderReadingP", "flatBlackDark"]
+- !private ["So21NSItemProviderReadingP", "flatBlue"]
+- !private ["So21NSItemProviderReadingP", "flatBlueDark"]
+- !private ["So21NSItemProviderReadingP", "flatBrown"]
+- !private ["So21NSItemProviderReadingP", "flatBrownDark"]
+- !private ["So21NSItemProviderReadingP", "flatCoffee"]
+- !private ["So21NSItemProviderReadingP", "flatCoffeeDark"]
+- !private ["So21NSItemProviderReadingP", "flatForestGreen"]
+- !private ["So21NSItemProviderReadingP", "flatForestGreenDark"]
+- !private ["So21NSItemProviderReadingP", "flatGray"]
+- !private ["So21NSItemProviderReadingP", "flatGrayDark"]
+- !private ["So21NSItemProviderReadingP", "flatGreen"]
+- !private ["So21NSItemProviderReadingP", "flatGreenDark"]
+- !private ["So21NSItemProviderReadingP", "flatLime"]
+- !private ["So21NSItemProviderReadingP", "flatLimeDark"]
+- !private ["So21NSItemProviderReadingP", "flatMagenta"]
+- !private ["So21NSItemProviderReadingP", "flatMagentaDark"]
+- !private ["So21NSItemProviderReadingP", "flatMaroon"]
+- !private ["So21NSItemProviderReadingP", "flatMaroonDark"]
+- !private ["So21NSItemProviderReadingP", "flatMint"]
+- !private ["So21NSItemProviderReadingP", "flatMintDark"]
+- !private ["So21NSItemProviderReadingP", "flatNavyBlue"]
+- !private ["So21NSItemProviderReadingP", "flatNavyBlueDark"]
+- !private ["So21NSItemProviderReadingP", "flatOrange"]
+- !private ["So21NSItemProviderReadingP", "flatOrangeDark"]
+- !private ["So21NSItemProviderReadingP", "flatPink"]
+- !private ["So21NSItemProviderReadingP", "flatPinkDark"]
+- !private ["So21NSItemProviderReadingP", "flatPlum"]
+- !private ["So21NSItemProviderReadingP", "flatPlumDark"]
+- !private ["So21NSItemProviderReadingP", "flatPowderBlue"]
+- !private ["So21NSItemProviderReadingP", "flatPowderBlueDark"]
+- !private ["So21NSItemProviderReadingP", "flatPurple"]
+- !private ["So21NSItemProviderReadingP", "flatPurpleDark"]
+- !private ["So21NSItemProviderReadingP", "flatRed"]
+- !private ["So21NSItemProviderReadingP", "flatRedDark"]
+- !private ["So21NSItemProviderReadingP", "flatSand"]
+- !private ["So21NSItemProviderReadingP", "flatSandDark"]
+- !private ["So21NSItemProviderReadingP", "flatSkyBlue"]
+- !private ["So21NSItemProviderReadingP", "flatSkyBlueDark"]
+- !private ["So21NSItemProviderReadingP", "flatTeal"]
+- !private ["So21NSItemProviderReadingP", "flatTealDark"]
+- !private ["So21NSItemProviderReadingP", "flatWatermelon"]
+- !private ["So21NSItemProviderReadingP", "flatWatermelonDark"]
+- !private ["So21NSItemProviderReadingP", "flatWhite"]
+- !private ["So21NSItemProviderReadingP", "flatWhiteDark"]
+- !private ["So21NSItemProviderReadingP", "flatYellow"]
+- !private ["So21NSItemProviderReadingP", "flatYellowDark"]
+- !private ["So21NSItemProviderReadingP", "init"]
+- !private ["So21NSItemProviderReadingP", "randomFlat"]
+- !private ["So21NSItemProviderWritingP", "clear"]
+- !private ["So21NSItemProviderWritingP", "flatBlack"]
+- !private ["So21NSItemProviderWritingP", "flatBlackDark"]
+- !private ["So21NSItemProviderWritingP", "flatBlue"]
+- !private ["So21NSItemProviderWritingP", "flatBlueDark"]
+- !private ["So21NSItemProviderWritingP", "flatBrown"]
+- !private ["So21NSItemProviderWritingP", "flatBrownDark"]
+- !private ["So21NSItemProviderWritingP", "flatCoffee"]
+- !private ["So21NSItemProviderWritingP", "flatCoffeeDark"]
+- !private ["So21NSItemProviderWritingP", "flatForestGreen"]
+- !private ["So21NSItemProviderWritingP", "flatForestGreenDark"]
+- !private ["So21NSItemProviderWritingP", "flatGray"]
+- !private ["So21NSItemProviderWritingP", "flatGrayDark"]
+- !private ["So21NSItemProviderWritingP", "flatGreen"]
+- !private ["So21NSItemProviderWritingP", "flatGreenDark"]
+- !private ["So21NSItemProviderWritingP", "flatLime"]
+- !private ["So21NSItemProviderWritingP", "flatLimeDark"]
+- !private ["So21NSItemProviderWritingP", "flatMagenta"]
+- !private ["So21NSItemProviderWritingP", "flatMagentaDark"]
+- !private ["So21NSItemProviderWritingP", "flatMaroon"]
+- !private ["So21NSItemProviderWritingP", "flatMaroonDark"]
+- !private ["So21NSItemProviderWritingP", "flatMint"]
+- !private ["So21NSItemProviderWritingP", "flatMintDark"]
+- !private ["So21NSItemProviderWritingP", "flatNavyBlue"]
+- !private ["So21NSItemProviderWritingP", "flatNavyBlueDark"]
+- !private ["So21NSItemProviderWritingP", "flatOrange"]
+- !private ["So21NSItemProviderWritingP", "flatOrangeDark"]
+- !private ["So21NSItemProviderWritingP", "flatPink"]
+- !private ["So21NSItemProviderWritingP", "flatPinkDark"]
+- !private ["So21NSItemProviderWritingP", "flatPlum"]
+- !private ["So21NSItemProviderWritingP", "flatPlumDark"]
+- !private ["So21NSItemProviderWritingP", "flatPowderBlue"]
+- !private ["So21NSItemProviderWritingP", "flatPowderBlueDark"]
+- !private ["So21NSItemProviderWritingP", "flatPurple"]
+- !private ["So21NSItemProviderWritingP", "flatPurpleDark"]
+- !private ["So21NSItemProviderWritingP", "flatRed"]
+- !private ["So21NSItemProviderWritingP", "flatRedDark"]
+- !private ["So21NSItemProviderWritingP", "flatSand"]
+- !private ["So21NSItemProviderWritingP", "flatSandDark"]
+- !private ["So21NSItemProviderWritingP", "flatSkyBlue"]
+- !private ["So21NSItemProviderWritingP", "flatSkyBlueDark"]
+- !private ["So21NSItemProviderWritingP", "flatTeal"]
+- !private ["So21NSItemProviderWritingP", "flatTealDark"]
+- !private ["So21NSItemProviderWritingP", "flatWatermelon"]
+- !private ["So21NSItemProviderWritingP", "flatWatermelonDark"]
+- !private ["So21NSItemProviderWritingP", "flatWhite"]
+- !private ["So21NSItemProviderWritingP", "flatWhiteDark"]
+- !private ["So21NSItemProviderWritingP", "flatYellow"]
+- !private ["So21NSItemProviderWritingP", "flatYellowDark"]
+- !private ["So21NSItemProviderWritingP", "init"]
+- !private ["So21NSItemProviderWritingP", "randomFlat"]
+- !private ["So16NSMutableCopyingP", "init"]
+- !private ["So8NSObjectC", "clear"]
+- !private ["So8NSObjectC", "flatBlack"]
+- !private ["So8NSObjectC", "flatBlackDark"]
+- !private ["So8NSObjectC", "flatBlue"]
+- !private ["So8NSObjectC", "flatBlueDark"]
+- !private ["So8NSObjectC", "flatBrown"]
+- !private ["So8NSObjectC", "flatBrownDark"]
+- !private ["So8NSObjectC", "flatCoffee"]
+- !private ["So8NSObjectC", "flatCoffeeDark"]
+- !private ["So8NSObjectC", "flatForestGreen"]
+- !private ["So8NSObjectC", "flatForestGreenDark"]
+- !private ["So8NSObjectC", "flatGray"]
+- !private ["So8NSObjectC", "flatGrayDark"]
+- !private ["So8NSObjectC", "flatGreen"]
+- !private ["So8NSObjectC", "flatGreenDark"]
+- !private ["So8NSObjectC", "flatLime"]
+- !private ["So8NSObjectC", "flatLimeDark"]
+- !private ["So8NSObjectC", "flatMagenta"]
+- !private ["So8NSObjectC", "flatMagentaDark"]
+- !private ["So8NSObjectC", "flatMaroon"]
+- !private ["So8NSObjectC", "flatMaroonDark"]
+- !private ["So8NSObjectC", "flatMint"]
+- !private ["So8NSObjectC", "flatMintDark"]
+- !private ["So8NSObjectC", "flatNavyBlue"]
+- !private ["So8NSObjectC", "flatNavyBlueDark"]
+- !private ["So8NSObjectC", "flatOrange"]
+- !private ["So8NSObjectC", "flatOrangeDark"]
+- !private ["So8NSObjectC", "flatPink"]
+- !private ["So8NSObjectC", "flatPinkDark"]
+- !private ["So8NSObjectC", "flatPlum"]
+- !private ["So8NSObjectC", "flatPlumDark"]
+- !private ["So8NSObjectC", "flatPowderBlue"]
+- !private ["So8NSObjectC", "flatPowderBlueDark"]
+- !private ["So8NSObjectC", "flatPurple"]
+- !private ["So8NSObjectC", "flatPurpleDark"]
+- !private ["So8NSObjectC", "flatRed"]
+- !private ["So8NSObjectC", "flatRedDark"]
+- !private ["So8NSObjectC", "flatSand"]
+- !private ["So8NSObjectC", "flatSandDark"]
+- !private ["So8NSObjectC", "flatSkyBlue"]
+- !private ["So8NSObjectC", "flatSkyBlueDark"]
+- !private ["So8NSObjectC", "flatTeal"]
+- !private ["So8NSObjectC", "flatTealDark"]
+- !private ["So8NSObjectC", "flatWatermelon"]
+- !private ["So8NSObjectC", "flatWatermelonDark"]
+- !private ["So8NSObjectC", "flatWhite"]
+- !private ["So8NSObjectC", "flatWhiteDark"]
+- !private ["So8NSObjectC", "flatYellow"]
+- !private ["So8NSObjectC", "flatYellowDark"]
+- !private ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "randomFlat"]
+- !private ["So8NSObjectP", "clear"]
+- !private ["So8NSObjectP", "flatBlack"]
+- !private ["So8NSObjectP", "flatBlackDark"]
+- !private ["So8NSObjectP", "flatBlue"]
+- !private ["So8NSObjectP", "flatBlueDark"]
+- !private ["So8NSObjectP", "flatBrown"]
+- !private ["So8NSObjectP", "flatBrownDark"]
+- !private ["So8NSObjectP", "flatCoffee"]
+- !private ["So8NSObjectP", "flatCoffeeDark"]
+- !private ["So8NSObjectP", "flatForestGreen"]
+- !private ["So8NSObjectP", "flatForestGreenDark"]
+- !private ["So8NSObjectP", "flatGray"]
+- !private ["So8NSObjectP", "flatGrayDark"]
+- !private ["So8NSObjectP", "flatGreen"]
+- !private ["So8NSObjectP", "flatGreenDark"]
+- !private ["So8NSObjectP", "flatLime"]
+- !private ["So8NSObjectP", "flatLimeDark"]
+- !private ["So8NSObjectP", "flatMagenta"]
+- !private ["So8NSObjectP", "flatMagentaDark"]
+- !private ["So8NSObjectP", "flatMaroon"]
+- !private ["So8NSObjectP", "flatMaroonDark"]
+- !private ["So8NSObjectP", "flatMint"]
+- !private ["So8NSObjectP", "flatMintDark"]
+- !private ["So8NSObjectP", "flatNavyBlue"]
+- !private ["So8NSObjectP", "flatNavyBlueDark"]
+- !private ["So8NSObjectP", "flatOrange"]
+- !private ["So8NSObjectP", "flatOrangeDark"]
+- !private ["So8NSObjectP", "flatPink"]
+- !private ["So8NSObjectP", "flatPinkDark"]
+- !private ["So8NSObjectP", "flatPlum"]
+- !private ["So8NSObjectP", "flatPlumDark"]
+- !private ["So8NSObjectP", "flatPowderBlue"]
+- !private ["So8NSObjectP", "flatPowderBlueDark"]
+- !private ["So8NSObjectP", "flatPurple"]
+- !private ["So8NSObjectP", "flatPurpleDark"]
+- !private ["So8NSObjectP", "flatRed"]
+- !private ["So8NSObjectP", "flatRedDark"]
+- !private ["So8NSObjectP", "flatSand"]
+- !private ["So8NSObjectP", "flatSandDark"]
+- !private ["So8NSObjectP", "flatSkyBlue"]
+- !private ["So8NSObjectP", "flatSkyBlueDark"]
+- !private ["So8NSObjectP", "flatTeal"]
+- !private ["So8NSObjectP", "flatTealDark"]
+- !private ["So8NSObjectP", "flatWatermelon"]
+- !private ["So8NSObjectP", "flatWatermelonDark"]
+- !private ["So8NSObjectP", "flatWhite"]
+- !private ["So8NSObjectP", "flatWhiteDark"]
+- !private ["So8NSObjectP", "flatYellow"]
+- !private ["So8NSObjectP", "flatYellowDark"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "randomFlat"]
+- !private ["So14NSSecureCodingP", "clear"]
+- !private ["So14NSSecureCodingP", "flatBlack"]
+- !private ["So14NSSecureCodingP", "flatBlackDark"]
+- !private ["So14NSSecureCodingP", "flatBlue"]
+- !private ["So14NSSecureCodingP", "flatBlueDark"]
+- !private ["So14NSSecureCodingP", "flatBrown"]
+- !private ["So14NSSecureCodingP", "flatBrownDark"]
+- !private ["So14NSSecureCodingP", "flatCoffee"]
+- !private ["So14NSSecureCodingP", "flatCoffeeDark"]
+- !private ["So14NSSecureCodingP", "flatForestGreen"]
+- !private ["So14NSSecureCodingP", "flatForestGreenDark"]
+- !private ["So14NSSecureCodingP", "flatGray"]
+- !private ["So14NSSecureCodingP", "flatGrayDark"]
+- !private ["So14NSSecureCodingP", "flatGreen"]
+- !private ["So14NSSecureCodingP", "flatGreenDark"]
+- !private ["So14NSSecureCodingP", "flatLime"]
+- !private ["So14NSSecureCodingP", "flatLimeDark"]
+- !private ["So14NSSecureCodingP", "flatMagenta"]
+- !private ["So14NSSecureCodingP", "flatMagentaDark"]
+- !private ["So14NSSecureCodingP", "flatMaroon"]
+- !private ["So14NSSecureCodingP", "flatMaroonDark"]
+- !private ["So14NSSecureCodingP", "flatMint"]
+- !private ["So14NSSecureCodingP", "flatMintDark"]
+- !private ["So14NSSecureCodingP", "flatNavyBlue"]
+- !private ["So14NSSecureCodingP", "flatNavyBlueDark"]
+- !private ["So14NSSecureCodingP", "flatOrange"]
+- !private ["So14NSSecureCodingP", "flatOrangeDark"]
+- !private ["So14NSSecureCodingP", "flatPink"]
+- !private ["So14NSSecureCodingP", "flatPinkDark"]
+- !private ["So14NSSecureCodingP", "flatPlum"]
+- !private ["So14NSSecureCodingP", "flatPlumDark"]
+- !private ["So14NSSecureCodingP", "flatPowderBlue"]
+- !private ["So14NSSecureCodingP", "flatPowderBlueDark"]
+- !private ["So14NSSecureCodingP", "flatPurple"]
+- !private ["So14NSSecureCodingP", "flatPurpleDark"]
+- !private ["So14NSSecureCodingP", "flatRed"]
+- !private ["So14NSSecureCodingP", "flatRedDark"]
+- !private ["So14NSSecureCodingP", "flatSand"]
+- !private ["So14NSSecureCodingP", "flatSandDark"]
+- !private ["So14NSSecureCodingP", "flatSkyBlue"]
+- !private ["So14NSSecureCodingP", "flatSkyBlueDark"]
+- !private ["So14NSSecureCodingP", "flatTeal"]
+- !private ["So14NSSecureCodingP", "flatTealDark"]
+- !private ["So14NSSecureCodingP", "flatWatermelon"]
+- !private ["So14NSSecureCodingP", "flatWatermelonDark"]
+- !private ["So14NSSecureCodingP", "flatWhite"]
+- !private ["So14NSSecureCodingP", "flatWhiteDark"]
+- !private ["So14NSSecureCodingP", "flatYellow"]
+- !private ["So14NSSecureCodingP", "flatYellowDark"]
+- !private ["So14NSSecureCodingP", "init"]
+- !private ["So14NSSecureCodingP", "randomFlat"]
+- !private ["ST", "init"]
+- !private ["So7UIColorC", "clear"]
+- !private ["So7UIColorC", "flatBlack"]
+- !private ["So7UIColorC", "flatBlackDark"]
+- !private ["So7UIColorC", "flatBlue"]
+- !private ["So7UIColorC", "flatBlueDark"]
+- !private ["So7UIColorC", "flatBrown"]
+- !private ["So7UIColorC", "flatBrownDark"]
+- !private ["So7UIColorC", "flatCoffee"]
+- !private ["So7UIColorC", "flatCoffeeDark"]
+- !private ["So7UIColorC", "flatForestGreen"]
+- !private ["So7UIColorC", "flatForestGreenDark"]
+- !private ["So7UIColorC", "flatGray"]
+- !private ["So7UIColorC", "flatGrayDark"]
+- !private ["So7UIColorC", "flatGreen"]
+- !private ["So7UIColorC", "flatGreenDark"]
+- !private ["So7UIColorC", "flatLime"]
+- !private ["So7UIColorC", "flatLimeDark"]
+- !private ["So7UIColorC", "flatMagenta"]
+- !private ["So7UIColorC", "flatMagentaDark"]
+- !private ["So7UIColorC", "flatMaroon"]
+- !private ["So7UIColorC", "flatMaroonDark"]
+- !private ["So7UIColorC", "flatMint"]
+- !private ["So7UIColorC", "flatMintDark"]
+- !private ["So7UIColorC", "flatNavyBlue"]
+- !private ["So7UIColorC", "flatNavyBlueDark"]
+- !private ["So7UIColorC", "flatOrange"]
+- !private ["So7UIColorC", "flatOrangeDark"]
+- !private ["So7UIColorC", "flatPink"]
+- !private ["So7UIColorC", "flatPinkDark"]
+- !private ["So7UIColorC", "flatPlum"]
+- !private ["So7UIColorC", "flatPlumDark"]
+- !private ["So7UIColorC", "flatPowderBlue"]
+- !private ["So7UIColorC", "flatPowderBlueDark"]
+- !private ["So7UIColorC", "flatPurple"]
+- !private ["So7UIColorC", "flatPurpleDark"]
+- !private ["So7UIColorC", "flatRed"]
+- !private ["So7UIColorC", "flatRedDark"]
+- !private ["So7UIColorC", "flatSand"]
+- !private ["So7UIColorC", "flatSandDark"]
+- !private ["So7UIColorC", "flatSkyBlue"]
+- !private ["So7UIColorC", "flatSkyBlueDark"]
+- !private ["So7UIColorC", "flatTeal"]
+- !private ["So7UIColorC", "flatTealDark"]
+- !private ["So7UIColorC", "flatWatermelon"]
+- !private ["So7UIColorC", "flatWatermelonDark"]
+- !private ["So7UIColorC", "flatWhite"]
+- !private ["So7UIColorC", "flatWhiteDark"]
+- !private ["So7UIColorC", "flatYellow"]
+- !private ["So7UIColorC", "flatYellowDark"]
+- !private ["So7UIColorC", "init"]
+- !private ["So7UIColorC", "randomFlat"]
+- !private ["s26_ExpressibleByColorLiteralP", "clear"]
+- !private ["s26_ExpressibleByColorLiteralP", "flatBlack"]
+- !private ["s26_ExpressibleByColorLiteralP", "flatBlackDark"]
+- !private ["s26_ExpressibleByColorLiteralP", "flatBlue"]
+- !private ["s26_ExpressibleByColorLiteralP", "flatBlueDark"]
+- !private ["s26_ExpressibleByColorLiteralP", "flatBrown"]
+- !private ["s26_ExpressibleByColorLiteralP", "flatBrownDark"]
+- !private ["s26_ExpressibleByColorLiteralP", "flatCoffee"]
+- !private ["s26_ExpressibleByColorLiteralP", "flatCoffeeDark"]
+- !private ["s26_ExpressibleByColorLiteralP", "flatForestGreen"]
+- !private ["s26_ExpressibleByColorLiteralP", "flatForestGreenDark"]
+- !private ["s26_ExpressibleByColorLiteralP", "flatGray"]
+- !private ["s26_ExpressibleByColorLiteralP", "flatGrayDark"]
+- !private ["s26_ExpressibleByColorLiteralP", "flatGreen"]
+- !private ["s26_ExpressibleByColorLiteralP", "flatGreenDark"]
+- !private ["s26_ExpressibleByColorLiteralP", "flatLime"]
+- !private ["s26_ExpressibleByColorLiteralP", "flatLimeDark"]
+- !private ["s26_ExpressibleByColorLiteralP", "flatMagenta"]
+- !private ["s26_ExpressibleByColorLiteralP", "flatMagentaDark"]
+- !private ["s26_ExpressibleByColorLiteralP", "flatMaroon"]
+- !private ["s26_ExpressibleByColorLiteralP", "flatMaroonDark"]
+- !private ["s26_ExpressibleByColorLiteralP", "flatMint"]
+- !private ["s26_ExpressibleByColorLiteralP", "flatMintDark"]
+- !private ["s26_ExpressibleByColorLiteralP", "flatNavyBlue"]
+- !private ["s26_ExpressibleByColorLiteralP", "flatNavyBlueDark"]
+- !private ["s26_ExpressibleByColorLiteralP", "flatOrange"]
+- !private ["s26_ExpressibleByColorLiteralP", "flatOrangeDark"]
+- !private ["s26_ExpressibleByColorLiteralP", "flatPink"]
+- !private ["s26_ExpressibleByColorLiteralP", "flatPinkDark"]
+- !private ["s26_ExpressibleByColorLiteralP", "flatPlum"]
+- !private ["s26_ExpressibleByColorLiteralP", "flatPlumDark"]
+- !private ["s26_ExpressibleByColorLiteralP", "flatPowderBlue"]
+- !private ["s26_ExpressibleByColorLiteralP", "flatPowderBlueDark"]
+- !private ["s26_ExpressibleByColorLiteralP", "flatPurple"]
+- !private ["s26_ExpressibleByColorLiteralP", "flatPurpleDark"]
+- !private ["s26_ExpressibleByColorLiteralP", "flatRed"]
+- !private ["s26_ExpressibleByColorLiteralP", "flatRedDark"]
+- !private ["s26_ExpressibleByColorLiteralP", "flatSand"]
+- !private ["s26_ExpressibleByColorLiteralP", "flatSandDark"]
+- !private ["s26_ExpressibleByColorLiteralP", "flatSkyBlue"]
+- !private ["s26_ExpressibleByColorLiteralP", "flatSkyBlueDark"]
+- !private ["s26_ExpressibleByColorLiteralP", "flatTeal"]
+- !private ["s26_ExpressibleByColorLiteralP", "flatTealDark"]
+- !private ["s26_ExpressibleByColorLiteralP", "flatWatermelon"]
+- !private ["s26_ExpressibleByColorLiteralP", "flatWatermelonDark"]
+- !private ["s26_ExpressibleByColorLiteralP", "flatWhite"]
+- !private ["s26_ExpressibleByColorLiteralP", "flatWhiteDark"]
+- !private ["s26_ExpressibleByColorLiteralP", "flatYellow"]
+- !private ["s26_ExpressibleByColorLiteralP", "flatYellowDark"]
+- !private ["s26_ExpressibleByColorLiteralP", "init"]
+- !private ["s26_ExpressibleByColorLiteralP", "randomFlat"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "clear"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "flatBlack"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "flatBlackDark"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "flatBlue"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "flatBlueDark"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "flatBrown"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "flatBrownDark"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "flatCoffee"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "flatCoffeeDark"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "flatForestGreen"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "flatForestGreenDark"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "flatGray"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "flatGrayDark"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "flatGreen"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "flatGreenDark"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "flatLime"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "flatLimeDark"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "flatMagenta"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "flatMagentaDark"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "flatMaroon"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "flatMaroonDark"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "flatMint"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "flatMintDark"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "flatNavyBlue"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "flatNavyBlueDark"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "flatOrange"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "flatOrangeDark"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "flatPink"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "flatPinkDark"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "flatPlum"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "flatPlumDark"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "flatPowderBlue"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "flatPowderBlueDark"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "flatPurple"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "flatPurpleDark"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "flatRed"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "flatRedDark"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "flatSand"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "flatSandDark"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "flatSkyBlue"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "flatSkyBlueDark"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "flatTeal"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "flatTealDark"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "flatWatermelon"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "flatWatermelonDark"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "flatWhite"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "flatWhiteDark"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "flatYellow"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "flatYellowDark"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "randomFlat"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "clear"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "flatBlack"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "flatBlackDark"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "flatBlue"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "flatBlueDark"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "flatBrown"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "flatBrownDark"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "flatCoffee"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "flatCoffeeDark"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "flatForestGreen"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "flatForestGreenDark"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "flatGray"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "flatGrayDark"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "flatGreen"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "flatGreenDark"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "flatLime"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "flatLimeDark"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "flatMagenta"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "flatMagentaDark"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "flatMaroon"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "flatMaroonDark"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "flatMint"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "flatMintDark"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "flatNavyBlue"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "flatNavyBlueDark"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "flatOrange"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "flatOrangeDark"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "flatPink"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "flatPinkDark"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "flatPlum"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "flatPlumDark"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "flatPowderBlue"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "flatPowderBlueDark"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "flatPurple"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "flatPurpleDark"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "flatRed"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "flatRedDark"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "flatSand"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "flatSandDark"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "flatSkyBlue"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "flatSkyBlueDark"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "flatTeal"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "flatTealDark"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "flatWatermelon"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "flatWatermelonDark"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "flatWhite"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "flatWhiteDark"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "flatYellow"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "flatYellowDark"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "randomFlat"]
+depends-nominal:
+- !private "s7CVarArgP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "SQ"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "SH"
+- !private "So7NSArrayC"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So17NSFastEnumerationP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So16NSMutableCopyingP"
+- !private "So8NSObjectC"
+- !private "So8NSObjectP"
+- !private "So14NSSecureCodingP"
+- !private "ST"
+- !private "So7UIColorC"
+- !private "s26_ExpressibleByColorLiteralP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "10Foundation37_KeyValueCodingAndObservingPublishingP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/ObjectiveC.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreImage.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/QuartzCore.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Dispatch.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Metal.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Darwin.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Foundation.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreFoundation.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreGraphics.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Swift.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/UIKit.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/SwiftOnoneSupport.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Combine.framework/Modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/Paulina/Desktop/My_Projects/Home Budget Planner/Pods/ChameleonFramework/Pod/Classes/Objective-C/Chameleon_.h"
+- "/Users/Paulina/Desktop/My_Projects/Home Budget Planner/Pods/Target Support Files/ChameleonFramework/ChameleonFramework-umbrella.h"
+- "/Users/Paulina/Desktop/My_Projects/Home Budget Planner/Pods/ChameleonFramework/Pod/Classes/Objective-C/UIImage+ChameleonPrivate.h"
+- "/Users/Paulina/Desktop/My_Projects/Home Budget Planner/Pods/ChameleonFramework/Pod/Classes/Objective-C/UIColor+ChameleonPrivate.h"
+- "/Users/Paulina/Desktop/My_Projects/Home Budget Planner/Pods/ChameleonFramework/Pod/Classes/Objective-C/UIView+ChameleonPrivate.h"
+- "/Users/Paulina/Desktop/My_Projects/Home Budget Planner/Pods/ChameleonFramework/Pod/Classes/Objective-C/UILabel+Chameleon.h"
+- "/Users/Paulina/Desktop/My_Projects/Home Budget Planner/Pods/ChameleonFramework/Pod/Classes/Objective-C/UIButton+Chameleon.h"
+- "/Users/Paulina/Desktop/My_Projects/Home Budget Planner/Pods/ChameleonFramework/Pod/Classes/Objective-C/UINavigationController+Chameleon.h"
+- "/Users/Paulina/Desktop/My_Projects/Home Budget Planner/Pods/ChameleonFramework/Pod/Classes/Objective-C/UIViewController+Chameleon.h"
+- "/Users/Paulina/Desktop/My_Projects/Home Budget Planner/Pods/ChameleonFramework/Pod/Classes/Objective-C/UIColor+Chameleon.h"
+- "/Users/Paulina/Desktop/My_Projects/Home Budget Planner/Pods/ChameleonFramework/Pod/Classes/Objective-C/NSArray+Chameleon.h"
+- "/Users/Paulina/Desktop/My_Projects/Home Budget Planner/Pods/ChameleonFramework/Pod/Classes/Objective-C/Chameleon.h"
+- "/Users/Paulina/Desktop/My_Projects/Home Budget Planner/Pods/ChameleonFramework/Pod/Classes/Objective-C/ChameleonEnums.h"
+- "/Users/Paulina/Desktop/My_Projects/Home Budget Planner/Pods/ChameleonFramework/Pod/Classes/Objective-C/ChameleonMacros.h"
+- "/Users/Paulina/Desktop/My_Projects/Home Budget Planner/Pods/ChameleonFramework/Pod/Classes/Objective-C/ChameleonConstants.h"
+- "/Users/Paulina/Desktop/My_Projects/Home Budget Planner/Pods/ChameleonFramework/Pod/Classes/Objective-C/UIAppearance+Swift.h"
+- "/Users/Paulina/Desktop/My_Projects/Home Budget Planner/DerivedData/Home Budget Planner/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ChameleonFramework.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "7422315868e038bd60b9df35a89942be"

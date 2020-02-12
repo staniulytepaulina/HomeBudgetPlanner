@@ -1,0 +1,4 @@
+
+protocol ImagePickerDelegate {
+    func pickImage()
+}

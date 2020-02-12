@@ -1,0 +1,823 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		169B9F1C868D539B132D1908 /* Pods_Home_Budget_PlannerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 180771123AB8EDA04BF5A405 /* Pods_Home_Budget_PlannerTests.framework */; };
+		402782BE23F05B2400E4DBFF /* ItemsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 402782BD23F05B2400E4DBFF /* ItemsTableViewController.swift */; };
+		402782C223F068EC00E4DBFF /* ImagePickerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 402782C123F068EC00E4DBFF /* ImagePickerDelegate.swift */; };
+		4064CFE623D32382006188F8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4064CFE523D32382006188F8 /* AppDelegate.swift */; };
+		4064CFE823D32382006188F8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4064CFE723D32382006188F8 /* SceneDelegate.swift */; };
+		4064CFEA23D32382006188F8 /* ItemsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4064CFE923D32382006188F8 /* ItemsViewController.swift */; };
+		4064CFED23D32382006188F8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4064CFEB23D32382006188F8 /* Main.storyboard */; };
+		4064CFF223D32388006188F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4064CFF123D32388006188F8 /* Assets.xcassets */; };
+		4064CFF523D32388006188F8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4064CFF323D32388006188F8 /* LaunchScreen.storyboard */; };
+		4064D00023D32388006188F8 /* Home_Budget_PlannerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4064CFFF23D32388006188F8 /* Home_Budget_PlannerTests.swift */; };
+		4064D00B23D32388006188F8 /* Home_Budget_PlannerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4064D00A23D32388006188F8 /* Home_Budget_PlannerUITests.swift */; };
+		4064D01F23D3426A006188F8 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4064D01E23D3426A006188F8 /* Item.swift */; };
+		4064D02123D34290006188F8 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4064D02023D34290006188F8 /* Category.swift */; };
+		4064D02323D3468C006188F8 /* CategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4064D02223D3468C006188F8 /* CategoryViewController.swift */; };
+		4064D02523D367F0006188F8 /* SwipeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4064D02423D367F0006188F8 /* SwipeTableViewController.swift */; };
+		4064D02723D38555006188F8 /* RoomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4064D02623D38555006188F8 /* RoomViewController.swift */; };
+		4064D02923D3856D006188F8 /* HouseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4064D02823D3856D006188F8 /* HouseViewController.swift */; };
+		4064D02B23D38689006188F8 /* Room.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4064D02A23D38689006188F8 /* Room.swift */; };
+		4064D02D23D3869C006188F8 /* House.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4064D02C23D3869C006188F8 /* House.swift */; };
+		40676DFA23F038C1001456F8 /* ItemsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40676DF823F038C1001456F8 /* ItemsCell.swift */; };
+		40676DFB23F038C1001456F8 /* ItemsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40676DF923F038C1001456F8 /* ItemsCell.xib */; };
+		93B2414DE17E01EB1B398EA5 /* Pods_Home_Budget_Planner.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C90E77B6F6FB714B5B03C39F /* Pods_Home_Budget_Planner.framework */; };
+		AF663AAB2B836AAFD96F2AE9 /* Pods_Home_Budget_Planner_Home_Budget_PlannerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEBCB52CA4E84978586B632D /* Pods_Home_Budget_Planner_Home_Budget_PlannerUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4064CFFC23D32388006188F8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4064CFDA23D32382006188F8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4064CFE123D32382006188F8;
+			remoteInfo = "Home Budget Planner";
+		};
+		4064D00723D32388006188F8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4064CFDA23D32382006188F8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4064CFE123D32382006188F8;
+			remoteInfo = "Home Budget Planner";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0637757770D31FDE829002E0 /* Pods-Home Budget Planner-Home Budget PlannerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Home Budget Planner-Home Budget PlannerUITests.debug.xcconfig"; path = "Target Support Files/Pods-Home Budget Planner-Home Budget PlannerUITests/Pods-Home Budget Planner-Home Budget PlannerUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		180771123AB8EDA04BF5A405 /* Pods_Home_Budget_PlannerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Home_Budget_PlannerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		402782BD23F05B2400E4DBFF /* ItemsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemsTableViewController.swift; sourceTree = "<group>"; };
+		402782C123F068EC00E4DBFF /* ImagePickerDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePickerDelegate.swift; sourceTree = "<group>"; };
+		4064CFE223D32382006188F8 /* Home Budget Planner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Home Budget Planner.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4064CFE523D32382006188F8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4064CFE723D32382006188F8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		4064CFE923D32382006188F8 /* ItemsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemsViewController.swift; sourceTree = "<group>"; };
+		4064CFEC23D32382006188F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4064CFF123D32388006188F8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4064CFF423D32388006188F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4064CFF623D32388006188F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4064CFFB23D32388006188F8 /* Home Budget PlannerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Home Budget PlannerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4064CFFF23D32388006188F8 /* Home_Budget_PlannerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home_Budget_PlannerTests.swift; sourceTree = "<group>"; };
+		4064D00123D32388006188F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4064D00623D32388006188F8 /* Home Budget PlannerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Home Budget PlannerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4064D00A23D32388006188F8 /* Home_Budget_PlannerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home_Budget_PlannerUITests.swift; sourceTree = "<group>"; };
+		4064D00C23D32388006188F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4064D01E23D3426A006188F8 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		4064D02023D34290006188F8 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		4064D02223D3468C006188F8 /* CategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryViewController.swift; sourceTree = "<group>"; };
+		4064D02423D367F0006188F8 /* SwipeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeTableViewController.swift; sourceTree = "<group>"; };
+		4064D02623D38555006188F8 /* RoomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomViewController.swift; sourceTree = "<group>"; };
+		4064D02823D3856D006188F8 /* HouseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseViewController.swift; sourceTree = "<group>"; };
+		4064D02A23D38689006188F8 /* Room.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Room.swift; sourceTree = "<group>"; };
+		4064D02C23D3869C006188F8 /* House.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = House.swift; sourceTree = "<group>"; };
+		40676DF823F038C1001456F8 /* ItemsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemsCell.swift; sourceTree = "<group>"; };
+		40676DF923F038C1001456F8 /* ItemsCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ItemsCell.xib; sourceTree = "<group>"; };
+		651168562EDC13CE7CD9CED4 /* Pods-Home Budget PlannerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Home Budget PlannerTests.debug.xcconfig"; path = "Target Support Files/Pods-Home Budget PlannerTests/Pods-Home Budget PlannerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B066CC5A0595511ADE69EE08 /* Pods-Home Budget Planner.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Home Budget Planner.debug.xcconfig"; path = "Target Support Files/Pods-Home Budget Planner/Pods-Home Budget Planner.debug.xcconfig"; sourceTree = "<group>"; };
+		BEBCB52CA4E84978586B632D /* Pods_Home_Budget_Planner_Home_Budget_PlannerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Home_Budget_Planner_Home_Budget_PlannerUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C90E77B6F6FB714B5B03C39F /* Pods_Home_Budget_Planner.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Home_Budget_Planner.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD48C7ABB946823122D18F48 /* Pods-Home Budget Planner.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Home Budget Planner.release.xcconfig"; path = "Target Support Files/Pods-Home Budget Planner/Pods-Home Budget Planner.release.xcconfig"; sourceTree = "<group>"; };
+		DEE81D4C8E44FA62AAE87A99 /* Pods-Home Budget Planner-Home Budget PlannerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Home Budget Planner-Home Budget PlannerUITests.release.xcconfig"; path = "Target Support Files/Pods-Home Budget Planner-Home Budget PlannerUITests/Pods-Home Budget Planner-Home Budget PlannerUITests.release.xcconfig"; sourceTree = "<group>"; };
+		FA9A009B5C490B52AED62B6D /* Pods-Home Budget PlannerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Home Budget PlannerTests.release.xcconfig"; path = "Target Support Files/Pods-Home Budget PlannerTests/Pods-Home Budget PlannerTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4064CFDF23D32382006188F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93B2414DE17E01EB1B398EA5 /* Pods_Home_Budget_Planner.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4064CFF823D32388006188F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				169B9F1C868D539B132D1908 /* Pods_Home_Budget_PlannerTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4064D00323D32388006188F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF663AAB2B836AAFD96F2AE9 /* Pods_Home_Budget_Planner_Home_Budget_PlannerUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		21E0E9F222EA464DCE8C9199 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C90E77B6F6FB714B5B03C39F /* Pods_Home_Budget_Planner.framework */,
+				BEBCB52CA4E84978586B632D /* Pods_Home_Budget_Planner_Home_Budget_PlannerUITests.framework */,
+				180771123AB8EDA04BF5A405 /* Pods_Home_Budget_PlannerTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3AF321DF961F9120F277835F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B066CC5A0595511ADE69EE08 /* Pods-Home Budget Planner.debug.xcconfig */,
+				CD48C7ABB946823122D18F48 /* Pods-Home Budget Planner.release.xcconfig */,
+				0637757770D31FDE829002E0 /* Pods-Home Budget Planner-Home Budget PlannerUITests.debug.xcconfig */,
+				DEE81D4C8E44FA62AAE87A99 /* Pods-Home Budget Planner-Home Budget PlannerUITests.release.xcconfig */,
+				651168562EDC13CE7CD9CED4 /* Pods-Home Budget PlannerTests.debug.xcconfig */,
+				FA9A009B5C490B52AED62B6D /* Pods-Home Budget PlannerTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		4064CFD923D32382006188F8 = {
+			isa = PBXGroup;
+			children = (
+				4064CFE423D32382006188F8 /* Home Budget Planner */,
+				4064CFFE23D32388006188F8 /* Home Budget PlannerTests */,
+				4064D00923D32388006188F8 /* Home Budget PlannerUITests */,
+				4064CFE323D32382006188F8 /* Products */,
+				3AF321DF961F9120F277835F /* Pods */,
+				21E0E9F222EA464DCE8C9199 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4064CFE323D32382006188F8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4064CFE223D32382006188F8 /* Home Budget Planner.app */,
+				4064CFFB23D32388006188F8 /* Home Budget PlannerTests.xctest */,
+				4064D00623D32388006188F8 /* Home Budget PlannerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4064CFE423D32382006188F8 /* Home Budget Planner */ = {
+			isa = PBXGroup;
+			children = (
+				4064CFE523D32382006188F8 /* AppDelegate.swift */,
+				4064CFE723D32382006188F8 /* SceneDelegate.swift */,
+				4064D01B23D33EF5006188F8 /* Controllers */,
+				4064D01A23D33EE6006188F8 /* Data Model */,
+				4064D01823D33EC8006188F8 /* Views */,
+				4064D01923D33ED8006188F8 /* Supporting Files */,
+				4064CFF623D32388006188F8 /* Info.plist */,
+			);
+			path = "Home Budget Planner";
+			sourceTree = "<group>";
+		};
+		4064CFFE23D32388006188F8 /* Home Budget PlannerTests */ = {
+			isa = PBXGroup;
+			children = (
+				4064CFFF23D32388006188F8 /* Home_Budget_PlannerTests.swift */,
+				4064D00123D32388006188F8 /* Info.plist */,
+			);
+			path = "Home Budget PlannerTests";
+			sourceTree = "<group>";
+		};
+		4064D00923D32388006188F8 /* Home Budget PlannerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4064D00A23D32388006188F8 /* Home_Budget_PlannerUITests.swift */,
+				4064D00C23D32388006188F8 /* Info.plist */,
+			);
+			path = "Home Budget PlannerUITests";
+			sourceTree = "<group>";
+		};
+		4064D01823D33EC8006188F8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4064CFEB23D32382006188F8 /* Main.storyboard */,
+				40676DF823F038C1001456F8 /* ItemsCell.swift */,
+				40676DF923F038C1001456F8 /* ItemsCell.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		4064D01923D33ED8006188F8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4064CFF123D32388006188F8 /* Assets.xcassets */,
+				4064CFF323D32388006188F8 /* LaunchScreen.storyboard */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4064D01A23D33EE6006188F8 /* Data Model */ = {
+			isa = PBXGroup;
+			children = (
+				4064D02C23D3869C006188F8 /* House.swift */,
+				4064D02A23D38689006188F8 /* Room.swift */,
+				4064D02023D34290006188F8 /* Category.swift */,
+				4064D01E23D3426A006188F8 /* Item.swift */,
+			);
+			path = "Data Model";
+			sourceTree = "<group>";
+		};
+		4064D01B23D33EF5006188F8 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				4064D02823D3856D006188F8 /* HouseViewController.swift */,
+				4064D02623D38555006188F8 /* RoomViewController.swift */,
+				4064D02223D3468C006188F8 /* CategoryViewController.swift */,
+				4064CFE923D32382006188F8 /* ItemsViewController.swift */,
+				4064D02423D367F0006188F8 /* SwipeTableViewController.swift */,
+				402782BD23F05B2400E4DBFF /* ItemsTableViewController.swift */,
+				402782C123F068EC00E4DBFF /* ImagePickerDelegate.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4064CFE123D32382006188F8 /* Home Budget Planner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4064D00F23D32388006188F8 /* Build configuration list for PBXNativeTarget "Home Budget Planner" */;
+			buildPhases = (
+				56A6E3BFBF9CEA3B51B47DA7 /* [CP] Check Pods Manifest.lock */,
+				4064CFDE23D32382006188F8 /* Sources */,
+				4064CFDF23D32382006188F8 /* Frameworks */,
+				4064CFE023D32382006188F8 /* Resources */,
+				4C876A3A0E9A92EFB63AC319 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Home Budget Planner";
+			productName = "Home Budget Planner";
+			productReference = 4064CFE223D32382006188F8 /* Home Budget Planner.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4064CFFA23D32388006188F8 /* Home Budget PlannerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4064D01223D32388006188F8 /* Build configuration list for PBXNativeTarget "Home Budget PlannerTests" */;
+			buildPhases = (
+				B1BC94FDD467C5CBE88039C1 /* [CP] Check Pods Manifest.lock */,
+				4064CFF723D32388006188F8 /* Sources */,
+				4064CFF823D32388006188F8 /* Frameworks */,
+				4064CFF923D32388006188F8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4064CFFD23D32388006188F8 /* PBXTargetDependency */,
+			);
+			name = "Home Budget PlannerTests";
+			productName = "Home Budget PlannerTests";
+			productReference = 4064CFFB23D32388006188F8 /* Home Budget PlannerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4064D00523D32388006188F8 /* Home Budget PlannerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4064D01523D32388006188F8 /* Build configuration list for PBXNativeTarget "Home Budget PlannerUITests" */;
+			buildPhases = (
+				8C03119F6FF3740D82C94470 /* [CP] Check Pods Manifest.lock */,
+				4064D00223D32388006188F8 /* Sources */,
+				4064D00323D32388006188F8 /* Frameworks */,
+				4064D00423D32388006188F8 /* Resources */,
+				5E547405794A3AA666C2E027 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4064D00823D32388006188F8 /* PBXTargetDependency */,
+			);
+			name = "Home Budget PlannerUITests";
+			productName = "Home Budget PlannerUITests";
+			productReference = 4064D00623D32388006188F8 /* Home Budget PlannerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4064CFDA23D32382006188F8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = Paulina;
+				TargetAttributes = {
+					4064CFE123D32382006188F8 = {
+						CreatedOnToolsVersion = 11.3;
+					};
+					4064CFFA23D32388006188F8 = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = 4064CFE123D32382006188F8;
+					};
+					4064D00523D32388006188F8 = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = 4064CFE123D32382006188F8;
+					};
+				};
+			};
+			buildConfigurationList = 4064CFDD23D32382006188F8 /* Build configuration list for PBXProject "Home Budget Planner" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4064CFD923D32382006188F8;
+			productRefGroup = 4064CFE323D32382006188F8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4064CFE123D32382006188F8 /* Home Budget Planner */,
+				4064CFFA23D32388006188F8 /* Home Budget PlannerTests */,
+				4064D00523D32388006188F8 /* Home Budget PlannerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4064CFE023D32382006188F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40676DFB23F038C1001456F8 /* ItemsCell.xib in Resources */,
+				4064CFF523D32388006188F8 /* LaunchScreen.storyboard in Resources */,
+				4064CFF223D32388006188F8 /* Assets.xcassets in Resources */,
+				4064CFED23D32382006188F8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4064CFF923D32388006188F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4064D00423D32388006188F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4C876A3A0E9A92EFB63AC319 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Home Budget Planner/Pods-Home Budget Planner-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Home Budget Planner/Pods-Home Budget Planner-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Home Budget Planner/Pods-Home Budget Planner-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		56A6E3BFBF9CEA3B51B47DA7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Home Budget Planner-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5E547405794A3AA666C2E027 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Home Budget Planner-Home Budget PlannerUITests/Pods-Home Budget Planner-Home Budget PlannerUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Home Budget Planner-Home Budget PlannerUITests/Pods-Home Budget Planner-Home Budget PlannerUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Home Budget Planner-Home Budget PlannerUITests/Pods-Home Budget Planner-Home Budget PlannerUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8C03119F6FF3740D82C94470 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Home Budget Planner-Home Budget PlannerUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B1BC94FDD467C5CBE88039C1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Home Budget PlannerTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4064CFDE23D32382006188F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				402782C223F068EC00E4DBFF /* ImagePickerDelegate.swift in Sources */,
+				4064D01F23D3426A006188F8 /* Item.swift in Sources */,
+				4064D02923D3856D006188F8 /* HouseViewController.swift in Sources */,
+				4064D02D23D3869C006188F8 /* House.swift in Sources */,
+				4064CFEA23D32382006188F8 /* ItemsViewController.swift in Sources */,
+				4064CFE623D32382006188F8 /* AppDelegate.swift in Sources */,
+				4064D02B23D38689006188F8 /* Room.swift in Sources */,
+				4064D02523D367F0006188F8 /* SwipeTableViewController.swift in Sources */,
+				4064CFE823D32382006188F8 /* SceneDelegate.swift in Sources */,
+				402782BE23F05B2400E4DBFF /* ItemsTableViewController.swift in Sources */,
+				40676DFA23F038C1001456F8 /* ItemsCell.swift in Sources */,
+				4064D02323D3468C006188F8 /* CategoryViewController.swift in Sources */,
+				4064D02123D34290006188F8 /* Category.swift in Sources */,
+				4064D02723D38555006188F8 /* RoomViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4064CFF723D32388006188F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4064D00023D32388006188F8 /* Home_Budget_PlannerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4064D00223D32388006188F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4064D00B23D32388006188F8 /* Home_Budget_PlannerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4064CFFD23D32388006188F8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4064CFE123D32382006188F8 /* Home Budget Planner */;
+			targetProxy = 4064CFFC23D32388006188F8 /* PBXContainerItemProxy */;
+		};
+		4064D00823D32388006188F8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4064CFE123D32382006188F8 /* Home Budget Planner */;
+			targetProxy = 4064D00723D32388006188F8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4064CFEB23D32382006188F8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4064CFEC23D32382006188F8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4064CFF323D32388006188F8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4064CFF423D32388006188F8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4064D00D23D32388006188F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4064D00E23D32388006188F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4064D01023D32388006188F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B066CC5A0595511ADE69EE08 /* Pods-Home Budget Planner.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Home Budget Planner/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "pstaniulyte.Home-Budget-Planner";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		4064D01123D32388006188F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD48C7ABB946823122D18F48 /* Pods-Home Budget Planner.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Home Budget Planner/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "pstaniulyte.Home-Budget-Planner";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		4064D01323D32388006188F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 651168562EDC13CE7CD9CED4 /* Pods-Home Budget PlannerTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Home Budget PlannerTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "pstaniulyte.Home-Budget-PlannerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Home Budget Planner.app/Home Budget Planner";
+			};
+			name = Debug;
+		};
+		4064D01423D32388006188F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA9A009B5C490B52AED62B6D /* Pods-Home Budget PlannerTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Home Budget PlannerTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "pstaniulyte.Home-Budget-PlannerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Home Budget Planner.app/Home Budget Planner";
+			};
+			name = Release;
+		};
+		4064D01623D32388006188F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0637757770D31FDE829002E0 /* Pods-Home Budget Planner-Home Budget PlannerUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Home Budget PlannerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "pstaniulyte.Home-Budget-PlannerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Home Budget Planner";
+			};
+			name = Debug;
+		};
+		4064D01723D32388006188F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DEE81D4C8E44FA62AAE87A99 /* Pods-Home Budget Planner-Home Budget PlannerUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Home Budget PlannerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "pstaniulyte.Home-Budget-PlannerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Home Budget Planner";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4064CFDD23D32382006188F8 /* Build configuration list for PBXProject "Home Budget Planner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4064D00D23D32388006188F8 /* Debug */,
+				4064D00E23D32388006188F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4064D00F23D32388006188F8 /* Build configuration list for PBXNativeTarget "Home Budget Planner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4064D01023D32388006188F8 /* Debug */,
+				4064D01123D32388006188F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4064D01223D32388006188F8 /* Build configuration list for PBXNativeTarget "Home Budget PlannerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4064D01323D32388006188F8 /* Debug */,
+				4064D01423D32388006188F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4064D01523D32388006188F8 /* Build configuration list for PBXNativeTarget "Home Budget PlannerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4064D01623D32388006188F8 /* Debug */,
+				4064D01723D32388006188F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4064CFDA23D32382006188F8 /* Project object */;
+}
